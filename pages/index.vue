@@ -74,6 +74,12 @@
   </div>
 </template>
 
+<script setup land="ts">
+definePageMeta({
+  auth: false
+})
+</script>
+
 <style scoped>
   * {
     margin: 0;
