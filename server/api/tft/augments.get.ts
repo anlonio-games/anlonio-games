@@ -1,4 +1,4 @@
 export default eventHandler(async (event) => {
-  const augments = await event.context.prisma.tft_augments.findMany()
+  const augments = await event.context.prisma.tftAugments.findMany()
   return augments
 })

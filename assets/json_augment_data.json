@@ -1,0 +1,2940 @@
+{
+    "6Diversify1": {
+        "id": 23,
+        "effects": {
+            "AD": 0.015,
+            "AP": 1.5
+        },
+        "name": "Stand United I",
+        "rank": 1
+    },
+    "6Diversify2": {
+        "id": 24,
+        "effects": {
+            "AD": 0.025,
+            "AP": 2.5
+        },
+        "name": "Stand United II",
+        "rank": 2
+    },
+    "6Diversify3": {
+        "id": 25,
+        "effects": {
+            "AD": 0.035,
+            "AP": 3.5
+        },
+        "name": "Stand United III",
+        "rank": 3
+    },
+    "6TargetDummies": {
+        "id": 63,
+        "effects": {
+            "{aec10c49}": 2
+        },
+        "name": "Phony Frontline",
+        "rank": 2
+    },
+    "6Distancing2": {
+        "id": 22,
+        "effects": {
+            "{4e39b1d2}": 35,
+            "ShieldDuration": 10
+        },
+        "name": "Exiles II",
+        "rank": 2
+    },
+    "6TrueTwos": {
+        "id": 79,
+        "effects": {},
+        "name": "True Twos",
+        "rank": 2
+    },
+    "6ThrillOfTheHunt2": {
+        "id": 68,
+        "effects": {
+            "{043ce1d5}": 550
+        },
+        "name": "Thrill of the Hunt II",
+        "rank": 2
+    },
+    "6ThrillOfTheHunt1": {
+        "id": 67,
+        "effects": {
+            "{043ce1d5}": 350
+        },
+        "name": "Thrill of the Hunt I",
+        "rank": 1
+    },
+    "6Ascension": {
+        "id": 0,
+        "effects": {
+            "{4ed1f1d8}": 15,
+            "DamageAmp": 50
+        },
+        "name": "Ascension",
+        "rank": 2
+    },
+    "6WindfallPlus": {
+        "id": 85,
+        "effects": {
+            "{45e02ace}": 35
+        },
+        "name": "Windfall+",
+        "rank": 3
+    },
+    "6SlowAndSteady": {
+        "id": 61,
+        "effects": {
+            "EXP": 4
+        },
+        "name": "March of Progress",
+        "rank": 3
+    },
+    "6VerdantVeil": {
+        "id": 83,
+        "effects": {
+            "Duration": 20,
+            "BonusAS": 0.15
+        },
+        "name": "Verdant Veil",
+        "rank": 3
+    },
+    "6PandorasItems": {
+        "id": 52,
+        "effects": {},
+        "name": "Pandora's Items",
+        "rank": 1
+    },
+    "6ItemGrabBag1": {
+        "id": 39,
+        "effects": {
+            "{6c216145}": 1
+        },
+        "name": "Item Grab Bag I",
+        "rank": 1
+    },
+    "6ItemGrabBag2": {
+        "id": 40,
+        "effects": {
+            "{6c216145}": 2,
+            "{24acadb2}": 2
+        },
+        "name": "Item Grab Bag II",
+        "rank": 3
+    },
+    "6ForceOfNature": {
+        "id": 33,
+        "effects": {
+            "{ec9a04d1}": 1
+        },
+        "name": "New Recruit",
+        "rank": 3
+    },
+    "6MaxLevel10": {
+        "id": 47,
+        "effects": {
+            "{516374d5}": 3
+        },
+        "name": "Level Up!",
+        "rank": 3
+    },
+    "6GachaAddict": {
+        "id": 36,
+        "effects": {
+            "{c43e4438}": 50
+        },
+        "name": "Golden Ticket",
+        "rank": 3
+    },
+    "6MakeshiftArmor2": {
+        "id": 46,
+        "effects": {
+            "Resists": 45
+        },
+        "name": "Makeshift Armor II",
+        "rank": 2
+    },
+    "6Windfall": {
+        "id": 84,
+        "effects": {
+            "{45e02ace}": 25
+        },
+        "name": "Windfall",
+        "rank": 3
+    },
+    "6MakeshiftArmor1": {
+        "id": 45,
+        "effects": {
+            "Resists": 30
+        },
+        "name": "Makeshift Armor I",
+        "rank": 1
+    },
+    "6Battlemage3": {
+        "id": 4,
+        "effects": {
+            "AP": 35,
+            "Armor": 35
+        },
+        "name": "Battlemage III",
+        "rank": 3
+    },
+    "6Battlemage2": {
+        "id": 3,
+        "effects": {
+            "AP": 25,
+            "Armor": 25
+        },
+        "name": "Battlemage II",
+        "rank": 2
+    },
+    "6Battlemage1": {
+        "id": 2,
+        "effects": {
+            "AP": 15,
+            "Armor": 15
+        },
+        "name": "Battlemage I",
+        "rank": 1
+    },
+    "6BandOfThieves2": {
+        "id": 1,
+        "effects": {
+            "{1c1b4e2d}": 2
+        },
+        "name": "Band of Thieves II",
+        "rank": 3
+    },
+    "6WindfallPlusPlus": {
+        "id": 86,
+        "effects": {
+            "{45e02ace}": 45
+        },
+        "name": "Windfall++",
+        "rank": 3
+    },
+    "6SecondWind1": {
+        "id": 59,
+        "effects": {
+            "{4ed1f1d8}": 10,
+            "HealPercent": 40
+        },
+        "name": "Second Wind I",
+        "rank": 1
+    },
+    "6TinyTitans": {
+        "id": 69,
+        "effects": {
+            "Heal": 30,
+            "{4bff7d1c}": 130
+        },
+        "name": "Tiny Titans",
+        "rank": 1
+    },
+    "6SecondWind2": {
+        "id": 60,
+        "effects": {
+            "{4ed1f1d8}": 10,
+            "HealPercent": 60
+        },
+        "name": "Second Wind II",
+        "rank": 2
+    },
+    "6Recombobulator": {
+        "id": 55,
+        "effects": {
+            "{65358e6c}": 2
+        },
+        "name": "Recombobulator",
+        "rank": 1
+    },
+    "6CyberneticUplink2": {
+        "id": 19,
+        "effects": {
+            "Health": 120,
+            "{d8f646f3}": 2.5
+        },
+        "name": "Cybernetic Uplink II",
+        "rank": 2
+    },
+    "6CyberneticUplink3": {
+        "id": 20,
+        "effects": {
+            "Health": 200,
+            "{d8f646f3}": 3.5
+        },
+        "name": "Cybernetic Uplink III",
+        "rank": 3
+    },
+    "6CyberneticUplink1": {
+        "id": 18,
+        "effects": {
+            "Health": 80,
+            "{d8f646f3}": 2
+        },
+        "name": "Cybernetic Uplink I",
+        "rank": 1
+    },
+    "6WoodlandCharm": {
+        "id": 87,
+        "effects": {},
+        "name": "Woodland Charm",
+        "rank": 3
+    },
+    "6CelestialBlessing2": {
+        "id": 8,
+        "effects": {
+            "{ad16f688}": 15,
+            "MaxShield": 300
+        },
+        "name": "Celestial Blessing II",
+        "rank": 2
+    },
+    "6Featherweights3": {
+        "id": 31,
+        "effects": {
+            "AttackSpeed": 50,
+            "MoveSpeed": 700
+        },
+        "name": "Featherweights III",
+        "rank": 3
+    },
+    "6CelestialBlessing3": {
+        "id": 9,
+        "effects": {
+            "{ad16f688}": 25,
+            "MaxShield": 400
+        },
+        "name": "Celestial Blessing III",
+        "rank": 3
+    },
+    "6Featherweights2": {
+        "id": 30,
+        "effects": {
+            "AttackSpeed": 30,
+            "MoveSpeed": 550
+        },
+        "name": "Featherweights II",
+        "rank": 2
+    },
+    "6Featherweights1": {
+        "id": 29,
+        "effects": {
+            "AttackSpeed": 20,
+            "MoveSpeed": 350
+        },
+        "name": "Featherweights I",
+        "rank": 1
+    },
+    "6CelestialBlessing1": {
+        "id": 7,
+        "effects": {
+            "{ad16f688}": 10,
+            "MaxShield": 200
+        },
+        "name": "Celestial Blessing I",
+        "rank": 1
+    },
+    "6HighEndShopping": {
+        "id": 37,
+        "effects": {
+            "Gold": 3
+        },
+        "name": "High End Shopping",
+        "rank": 3
+    },
+    "6ComponentGrabBag": {
+        "id": 11,
+        "effects": {
+            "{5cc08b27}": 3
+        },
+        "name": "Component Grab Bag",
+        "rank": 2
+    },
+    "6Traitless1": {
+        "id": 73,
+        "effects": {
+            "{33991a3c}": 200,
+            "{36991ef5}": 225,
+            "{35991d62}": 250,
+            "{30991583}": 300,
+            "{f07287f4}": 25,
+            "{f3728cad}": 35,
+            "{f2728b1a}": 45,
+            "{ed72833b}": 55
+        },
+        "name": "Built Different I",
+        "rank": 1
+    },
+    "6FuturePeepers": {
+        "id": 34,
+        "effects": {},
+        "name": "Future Sight I",
+        "rank": 1
+    },
+    "6Traitless2": {
+        "id": 74,
+        "effects": {
+            "{33991a3c}": 190,
+            "{36991ef5}": 245,
+            "{35991d62}": 300,
+            "{30991583}": 355,
+            "{f07287f4}": 40,
+            "{f3728cad}": 50,
+            "{f2728b1a}": 60,
+            "{ed72833b}": 70
+        },
+        "name": "Built Different II",
+        "rank": 2
+    },
+    "6Traitless3": {
+        "id": 75,
+        "effects": {
+            "{33991a3c}": 270,
+            "{36991ef5}": 380,
+            "{35991d62}": 490,
+            "{30991583}": 600,
+            "{f07287f4}": 50,
+            "{f3728cad}": 60,
+            "{f2728b1a}": 70,
+            "{ed72833b}": 80
+        },
+        "name": "Built Different III",
+        "rank": 3
+    },
+    "6ThreesCompany": {
+        "id": 65,
+        "effects": {
+            "{78bc82ef}": 4
+        },
+        "name": "Three's Company",
+        "rank": 2
+    },
+    "6ThriftShop": {
+        "id": 66,
+        "effects": {
+            "{516374d5}": 2
+        },
+        "name": "Wise Spending",
+        "rank": 3
+    },
+    "6HyperRoll": {
+        "id": 38,
+        "effects": {
+            "Gold": 3
+        },
+        "name": "Hustler",
+        "rank": 2
+    },
+    "6LudensEcho1": {
+        "id": 42,
+        "effects": {
+            "{57271994}": 35,
+            "{5a271e4d}": 50,
+            "{59271cba}": 65,
+            "{542714db}": 80,
+            "{26a9a9b1}": 1
+        },
+        "name": "Luden's Echo I",
+        "rank": 1
+    },
+    "6LudensEcho3": {
+        "id": 44,
+        "effects": {
+            "{57271994}": 90,
+            "{5a271e4d}": 130,
+            "{59271cba}": 170,
+            "{542714db}": 210,
+            "{26a9a9b1}": 1
+        },
+        "name": "Luden's Echo III",
+        "rank": 3
+    },
+    "6LudensEcho2": {
+        "id": 43,
+        "effects": {
+            "{57271994}": 50,
+            "{5a271e4d}": 70,
+            "{59271cba}": 90,
+            "{542714db}": 110,
+            "{26a9a9b1}": 1
+        },
+        "name": "Luden's Echo II",
+        "rank": 2
+    },
+    "6BinaryAirdrop": {
+        "id": 5,
+        "effects": {
+            "{e345adb2}": 1
+        },
+        "name": "Binary Airdrop",
+        "rank": 3
+    },
+    "6TomeOfTraits1": {
+        "id": 70,
+        "effects": {
+            "{e3d58c55}": 1,
+            "Gold": 4
+        },
+        "name": "Ancient Archives I",
+        "rank": 2
+    },
+    "6JeweledLotus": {
+        "id": 41,
+        "effects": {
+            "CritChance": 20
+        },
+        "name": "Jeweled Lotus",
+        "rank": 2
+    },
+    "6MetabolicAccelerator": {
+        "id": 51,
+        "effects": {
+            "Heal": 2
+        },
+        "name": "Metabolic Accelerator",
+        "rank": 2
+    },
+    "6TheGoldenEgg": {
+        "id": 64,
+        "effects": {
+            "{ecb4463d}": null,
+            "{a13cb3fa}": 11
+        },
+        "name": "The Golden Egg",
+        "rank": 3
+    },
+    "6MeleeStarBlade1": {
+        "id": 48,
+        "effects": {
+            "{d9291863}": 0.25
+        },
+        "name": "Knife's Edge I",
+        "rank": 1
+    },
+    "6MeleeStarBlade3": {
+        "id": 50,
+        "effects": {
+            "{d9291863}": 0.55
+        },
+        "name": "Knife's Edge III",
+        "rank": 3
+    },
+    "6MeleeStarBlade2": {
+        "id": 49,
+        "effects": {
+            "{d9291863}": 0.35
+        },
+        "name": "Knife's Edge II",
+        "rank": 2
+    },
+    "6SunfireBoard": {
+        "id": 62,
+        "effects": {
+            "{4f70b3d1}": 10,
+            "Duration": 20,
+            "{2161bfa2}": 33
+        },
+        "name": "Sunfire Board",
+        "rank": 2
+    },
+    "6TriForce3": {
+        "id": 78,
+        "effects": {
+            "Health": 200,
+            "Mana": 25,
+            "AttackSpeed": 25
+        },
+        "name": "Tri Force III",
+        "rank": 3
+    },
+    "6TriForce2": {
+        "id": 77,
+        "effects": {
+            "Health": 125,
+            "Mana": 15,
+            "AttackSpeed": 15
+        },
+        "name": "Tri Force II",
+        "rank": 2
+    },
+    "6TriForce1": {
+        "id": 76,
+        "effects": {
+            "Health": 75,
+            "Mana": 10,
+            "AttackSpeed": 10
+        },
+        "name": "Tri Force I",
+        "rank": 1
+    },
+    "6RichGetRicher": {
+        "id": 56,
+        "effects": {
+            "Gold": 12,
+            "{9e368069}": 7
+        },
+        "name": "Rich Get Richer",
+        "rank": 2
+    },
+    "6RadiantRelics": {
+        "id": 54,
+        "effects": {
+            "{b300068b}": 5
+        },
+        "name": "Radiant Relics",
+        "rank": 3
+    },
+    "6PortableForge": {
+        "id": 53,
+        "effects": {
+            "{b300068b}": 3
+        },
+        "name": "Portable Forge",
+        "rank": 2
+    },
+    "6CalculatedLoss": {
+        "id": 6,
+        "effects": {
+            "Gold": 2
+        },
+        "name": "Calculated Loss",
+        "rank": 2
+    },
+    "6FirstAidKit": {
+        "id": 32,
+        "effects": {
+            "{0b39c7c2}": 0.25
+        },
+        "name": "First Aid Kit I",
+        "rank": 1
+    },
+    "6Electrocharge1": {
+        "id": 26,
+        "effects": {
+            "{fb4355e3}": 30,
+            "{fc435776}": 50,
+            "{fd435909}": 70,
+            "{fe435a9c}": 90,
+            "ICD": 1
+        },
+        "name": "Electrocharge I",
+        "rank": 1
+    },
+    "6Electrocharge3": {
+        "id": 28,
+        "effects": {
+            "{fb4355e3}": 115,
+            "{fc435776}": 155,
+            "{fd435909}": 195,
+            "{fe435a9c}": 235,
+            "ICD": 1
+        },
+        "name": "Electrocharge III",
+        "rank": 3
+    },
+    "6Electrocharge2": {
+        "id": 27,
+        "effects": {
+            "{fb4355e3}": 50,
+            "{fc435776}": 70,
+            "{fd435909}": 90,
+            "{fe435a9c}": 110,
+            "ICD": 1
+        },
+        "name": "Electrocharge II",
+        "rank": 2
+    },
+    "6Twins2": {
+        "id": 81,
+        "effects": {
+            "{83e12d6f}": 30
+        },
+        "name": "Double Trouble II",
+        "rank": 2
+    },
+    "6Twins3": {
+        "id": 82,
+        "effects": {
+            "{83e12d6f}": 40
+        },
+        "name": "Double Trouble III",
+        "rank": 3
+    },
+    "6CyberneticImplants3": {
+        "id": 14,
+        "effects": {
+            "{513ad265}": 200,
+            "AD": 0.3
+        },
+        "name": "Cybernetic Implants III",
+        "rank": 3
+    },
+    "6Twins1": {
+        "id": 80,
+        "effects": {
+            "{83e12d6f}": 25
+        },
+        "name": "Double Trouble I",
+        "rank": 1
+    },
+    "6CyberneticImplants2": {
+        "id": 13,
+        "effects": {
+            "{513ad265}": 120,
+            "AD": 0.2
+        },
+        "name": "Cybernetic Implants II",
+        "rank": 2
+    },
+    "6CyberneticImplants1": {
+        "id": 12,
+        "effects": {
+            "{513ad265}": 80,
+            "AD": 0.1
+        },
+        "name": "Cybernetic Implants I",
+        "rank": 1
+    },
+    "6Distancing": {
+        "id": 21,
+        "effects": {
+            "{4e39b1d2}": 25,
+            "ShieldDuration": 10
+        },
+        "name": "Exiles I",
+        "rank": 1
+    },
+    "6TradeSector": {
+        "id": 71,
+        "effects": {},
+        "name": "Trade Sector",
+        "rank": 2
+    },
+    "6TradeSectorPlus": {
+        "id": 72,
+        "effects": {
+            "Gold": 10
+        },
+        "name": "Trade Sector+",
+        "rank": 2
+    },
+    "6SalvageBin": {
+        "id": 58,
+        "effects": {
+            "{2a0d265e}": 7
+        },
+        "name": "Salvage Bin",
+        "rank": 2
+    },
+    "6RichGetRicherPlus": {
+        "id": 57,
+        "effects": {
+            "Gold": 20,
+            "{9e368069}": 7
+        },
+        "name": "Rich Get Richer+",
+        "rank": 2
+    },
+    "6FuturePeepers2": {
+        "id": 35,
+        "effects": {},
+        "name": "Future Sight II",
+        "rank": 3
+    },
+    "6CyberneticShell3": {
+        "id": 17,
+        "effects": {
+            "Resists": 60,
+            "Health": 200
+        },
+        "name": "Cybernetic Shell III",
+        "rank": 3
+    },
+    "6CyberneticShell2": {
+        "id": 16,
+        "effects": {
+            "Resists": 40,
+            "Health": 120
+        },
+        "name": "Cybernetic Shell II",
+        "rank": 2
+    },
+    "6CyberneticShell1": {
+        "id": 15,
+        "effects": {
+            "Resists": 30,
+            "Health": 80
+        },
+        "name": "Cybernetic Shell I",
+        "rank": 1
+    },
+    "6ClearMind": {
+        "id": 10,
+        "effects": {
+            "{516374d5}": 3
+        },
+        "name": "Clear Mind",
+        "rank": 2
+    },
+    "8_5JaxSupport": {
+        "id": 238,
+        "effects": {
+            "Armor": 20,
+            "AS": 15
+        },
+        "name": "Grandmaster's Training",
+        "rank": 1,
+        "hero": [
+            "TFT8_Jax",
+            "support"
+        ]
+    },
+    "8InterPolarisTrait": {
+        "id": 151,
+        "effects": {},
+        "name": "LaserCorps Heart",
+        "rank": 2
+    },
+    "8JinxSupport": {
+        "id": 218,
+        "effects": {
+            "BonusAS": 0.09
+        },
+        "name": "Everyone Goes BOOM!",
+        "rank": 1,
+        "hero": [
+            "TFT8_Jinx",
+            "support"
+        ]
+    },
+    "8_5EzrealFutureCarry": {
+        "id": 215,
+        "effects": {
+            "{57706a69}": 2
+        },
+        "name": "Temporal Disruption",
+        "rank": 1,
+        "hero": [
+            "TFT8_EzrealFuture",
+            "carry"
+        ]
+    },
+    "8DuelistEmblem2": {
+        "id": 137,
+        "effects": {},
+        "name": "Duelist Crown",
+        "rank": 3
+    },
+    "8LeBlancSupport": {
+        "id": 242,
+        "effects": {
+            "HealthPercent": 75
+        },
+        "name": "Mirror Image",
+        "rank": 1,
+        "hero": [
+            "TFT8_Leblanc",
+            "support"
+        ]
+    },
+    "8_5VexCarry": {
+        "id": 259,
+        "effects": {
+            "{ad16f688}": 0.22
+        },
+        "name": "Joy Siphon",
+        "rank": 1,
+        "hero": [
+            "TFT8_Vex",
+            "carry"
+        ]
+    },
+    "8RiftwalkerEmblem2": {
+        "id": 299,
+        "effects": {},
+        "name": "Riftwalker Crown",
+        "rank": 3
+    },
+    "8LeBlancGlitch": {
+        "id": 243,
+        "effects": {
+            "{cd83dc7e}": 3
+        },
+        "name": "Aim Assist",
+        "rank": 1,
+        "hero": [
+            "TFT8_Leblanc",
+            "carry"
+        ]
+    },
+    "8EzrealCarry": {
+        "id": 213,
+        "effects": {
+            "{83e12d6f}": 16
+        },
+        "name": "Rising Spell Force",
+        "rank": 1,
+        "hero": [
+            "TFT8_Ezreal",
+            "carry"
+        ]
+    },
+    "8AsheSupport": {
+        "id": 180,
+        "effects": {
+            "BonusAS": 15
+        },
+        "name": "Corps Focus",
+        "rank": 1,
+        "hero": [
+            "TFT8_Ashe",
+            "support"
+        ]
+    },
+    "8DefenderEmblem": {
+        "id": 133,
+        "effects": {},
+        "name": "Defender Crest",
+        "rank": 2
+    },
+    "8KaisaStarCrossed": {
+        "id": 240,
+        "effects": {
+            "CritChance": 0.4,
+            "{79a51d61}": 2
+        },
+        "name": "Reconnasiance Team",
+        "rank": 1,
+        "hero": [
+            "TFT8_Kaisa",
+            "support"
+        ]
+    },
+    "8SonaExile": {
+        "id": 255,
+        "effects": {
+            "{d49caf5d}": 10,
+            "AdditionalTargets": 1
+        },
+        "name": "Power Grid",
+        "rank": 1,
+        "hero": [
+            "TFT8_Sona",
+            "carry"
+        ]
+    },
+    "8_5PantheonSupport": {
+        "id": 196,
+        "effects": {
+            "DamageReduction": 0.7,
+            "Duration": 6,
+            "{79a51d61}": 4
+        },
+        "name": "Chronic Hallucinations",
+        "rank": 1,
+        "hero": [
+            "TFT8_Pantheon",
+            "support"
+        ]
+    },
+    "8MalphiteCarry": {
+        "id": 223,
+        "effects": {
+            "{abfc283d}": 1.3,
+            "Duration": 4
+        },
+        "name": "Rock Solid",
+        "rank": 1,
+        "hero": [
+            "TFT8_Malphite",
+            "carry"
+        ]
+    },
+    "8AnimaSquadTrait": {
+        "id": 123,
+        "effects": {},
+        "name": "Anima Squad Heart",
+        "rank": 1
+    },
+    "8ADMINTrait": {
+        "id": 117,
+        "effects": {},
+        "name": "A.D.M.I.N. Heart",
+        "rank": 1
+    },
+    "8LuxCarry": {
+        "id": 193,
+        "effects": {
+            "{aa04fb6b}": 2,
+            "{d50b4559}": 1.2
+        },
+        "name": "Illuminating Singularity",
+        "rank": 1,
+        "hero": [
+            "TFT8_Lux",
+            "carry"
+        ]
+    },
+    "8AceEmblem": {
+        "id": 113,
+        "effects": {
+            "Gold": 2
+        },
+        "name": "Ace Crest",
+        "rank": 2
+    },
+    "8QuickdrawTrait": {
+        "id": 175,
+        "effects": {},
+        "name": "Quickdraw Heart",
+        "rank": 2
+    },
+    "8LeeSinSupport": {
+        "id": 220,
+        "effects": {
+            "BonusAS": 20,
+            "Duration": 4
+        },
+        "name": "Invigorate",
+        "rank": 1,
+        "hero": [
+            "TFT8_LeeSin",
+            "support"
+        ]
+    },
+    "8DuelistEmblem": {
+        "id": 136,
+        "effects": {},
+        "name": "Duelist Crest",
+        "rank": 2
+    },
+    "8QuickdrawTrait2": {
+        "id": 176,
+        "effects": {},
+        "name": "Quickdraw Soul",
+        "rank": 3
+    },
+    "8InfiniteamEmblem": {
+        "id": 178,
+        "effects": {},
+        "name": "Infiniteam Crest",
+        "rank": 2
+    },
+    "8JinxCarry": {
+        "id": 219,
+        "effects": {
+            "{4eebf7ef}": 0.35,
+            "Duration": 7
+        },
+        "name": "Get Excited!",
+        "rank": 1,
+        "hero": [
+            "TFT8_Jinx",
+            "carry"
+        ]
+    },
+    "8FioraCarry": {
+        "id": 216,
+        "effects": {
+            "PercentHealthDamage": 20,
+            "PercentHealthHeal": 9
+        },
+        "name": "Grand Challenge",
+        "rank": 1,
+        "hero": [
+            "TFT8_Fiora",
+            "carry"
+        ]
+    },
+    "8OxForceTrait": {
+        "id": 158,
+        "effects": {},
+        "name": "Ox Force Heart",
+        "rank": 1
+    },
+    "8AnimaSquadEmblem2": {
+        "id": 122,
+        "effects": {},
+        "name": "Anima Squad Crown",
+        "rank": 3
+    },
+    "8RenegadeEmblem2": {
+        "id": 162,
+        "effects": {},
+        "name": "Renegade Crown",
+        "rank": 3
+    },
+    "8MordekaiserCarry": {
+        "id": 292,
+        "effects": {
+            "{bfb90928}": 20,
+            "{2fb31c01}": 4
+        },
+        "name": "Not So Heavy Metal",
+        "rank": 1,
+        "hero": [
+            "TFT8_Mordekaiser",
+            "carry"
+        ]
+    },
+    "8_5JhinSupport": {
+        "id": 270,
+        "effects": {
+            "BonusDamage": 0.16
+        },
+        "name": "Wrath of the Rift",
+        "rank": 1,
+        "hero": [
+            "TFT8_Jhin",
+            "support"
+        ]
+    },
+    "8BlitzcrankCarry": {
+        "id": 182,
+        "effects": {
+            "{75fd67f5}": 2,
+            "{f443fa66}": 1
+        },
+        "name": "Dynamic Defenses",
+        "rank": 1,
+        "hero": [
+            "TFT8_Blitzcrank",
+            "carry"
+        ]
+    },
+    "8GenAETrait2": {
+        "id": 144,
+        "effects": {},
+        "name": "Gadgeteen Soul",
+        "rank": 3
+    },
+    "8BelVethVoidmother": {
+        "id": 264,
+        "effects": {
+            "HealthPercent": 60
+        },
+        "name": "Voidmother",
+        "rank": 1,
+        "hero": [
+            "TFT8_BelVeth",
+            "support"
+        ]
+    },
+    "8_5ShenCarry": {
+        "id": 253,
+        "effects": {
+            "{9ee66d29}": 6,
+            "BonusDamage": 0.33
+        },
+        "name": "Anomolous Amplification",
+        "rank": 1,
+        "hero": [
+            "TFT8_Shen",
+            "carry"
+        ]
+    },
+    "8LuluCarry": {
+        "id": 191,
+        "effects": {
+            "BonusHealth": 100,
+            "{d49caf5d}": 18
+        },
+        "name": "Growth Spurt",
+        "rank": 1,
+        "hero": [
+            "TFT8_Lulu",
+            "carry"
+        ]
+    },
+    "8StarGuardianEmblem": {
+        "id": 164,
+        "effects": {},
+        "name": "Star Guardian Crest",
+        "rank": 2
+    },
+    "8_5EzrealFutureSupport": {
+        "id": 214,
+        "effects": {
+            "{12e39573}": 8
+        },
+        "name": "Accelerated Mentorship",
+        "rank": 1,
+        "hero": [
+            "TFT8_EzrealFuture",
+            "support"
+        ]
+    },
+    "8PoppySupport": {
+        "id": 198,
+        "effects": {
+            "ShieldAmount": 325
+        },
+        "name": "Steadfast Presence",
+        "rank": 1,
+        "hero": [
+            "TFT8_Poppy",
+            "support"
+        ]
+    },
+    "8_5WarwickCarry2": {
+        "id": 284,
+        "effects": {
+            "BonusHealth": 1,
+            "StartingHealth": 140,
+            "{6fc21adc}": 2
+        },
+        "name": "Well Fed+",
+        "rank": 1,
+        "hero": [
+            "TFT8_Warwick",
+            "carry"
+        ]
+    },
+    "8ViSupport": {
+        "id": 230,
+        "effects": {
+            "BonusHealth": 180
+        },
+        "name": "Boxing Lessons",
+        "rank": 1,
+        "hero": [
+            "TFT8_Vi",
+            "support"
+        ]
+    },
+    "8SylasSupport": {
+        "id": 202,
+        "effects": {
+            "{1a97299e}": 30,
+            "{ffea5c28}": 35
+        },
+        "name": "Petricite Chains",
+        "rank": 1,
+        "hero": [
+            "TFT8_Sylas",
+            "support"
+        ]
+    },
+    "8_5GarenCarry": {
+        "id": 269,
+        "effects": {
+            "ADScaling": 0.8,
+            "{7ccd3647}": 40
+        },
+        "name": "Full Power to Sword",
+        "rank": 1,
+        "hero": [
+            "TFT8_Garen",
+            "carry"
+        ]
+    },
+    "8_5SivirCarry": {
+        "id": 229,
+        "effects": {
+            "Gold": 1,
+            "{94b55f9b}": 42
+        },
+        "name": "Time and a Half",
+        "rank": 1,
+        "hero": [
+            "TFT8b_Sivir",
+            "carry"
+        ]
+    },
+    "8ExoPrimeEmblem2": {
+        "id": 140,
+        "effects": {},
+        "name": "Mecha: PRIME Crown",
+        "rank": 3
+    },
+    "8HackerEmblem2": {
+        "id": 146,
+        "effects": {},
+        "name": "Hacker Crown",
+        "rank": 3
+    },
+    "8EkkoCarry": {
+        "id": 267,
+        "effects": {
+            "DamageAmp": 2.2,
+            "Range": 2
+        },
+        "name": "Destructive Resonance",
+        "rank": 1,
+        "hero": [
+            "TFT8_Ekko",
+            "carry"
+        ]
+    },
+    "8NunuCarry": {
+        "id": 294,
+        "effects": {
+            "{d49caf5d}": 25,
+            "{8d2da66c}": 350
+        },
+        "name": "They See Me Rolling",
+        "rank": 1,
+        "hero": [
+            "TFT8_Nunu",
+            "carry"
+        ]
+    },
+    "8NasusSupport": {
+        "id": 194,
+        "effects": {
+            "Heal": 300
+        },
+        "name": "Soul Eater",
+        "rank": 1,
+        "hero": [
+            "TFT8_Nasus",
+            "support"
+        ]
+    },
+    "8DeadeyeEmblem2": {
+        "id": 131,
+        "effects": {},
+        "name": "Sureshot Crown",
+        "rank": 3
+    },
+    "8BrawlerEmblem2": {
+        "id": 125,
+        "effects": {},
+        "name": "Brawler Crown",
+        "rank": 3
+    },
+    "8ViegoCarry": {
+        "id": 281,
+        "effects": {
+            "{d49caf5d}": 10,
+            "{7911d2bb}": 0.5
+        },
+        "name": "Heartstopper",
+        "rank": 1,
+        "hero": [
+            "TFT8_Viego",
+            "carry"
+        ]
+    },
+    "8_5AatroxCarry": {
+        "id": 261,
+        "effects": {
+            "{19a9e858}": 0.12
+        },
+        "name": "Deathbringer",
+        "rank": 1,
+        "hero": [
+            "TFT8_Aatrox",
+            "carry"
+        ]
+    },
+    "8PranksterEmblem2": {
+        "id": 160,
+        "effects": {},
+        "name": "Prankster Crown",
+        "rank": 3
+    },
+    "8OxForceEmblem": {
+        "id": 156,
+        "effects": {},
+        "name": "Ox Force Crest",
+        "rank": 2
+    },
+    "8RenektonCarry": {
+        "id": 201,
+        "effects": {
+            "AS": 4,
+            "{27c79872}": 100,
+            "{2acb3e58}": 40
+        },
+        "name": "Reign of Anger",
+        "rank": 1,
+        "hero": [
+            "TFT8_Renekton",
+            "carry"
+        ]
+    },
+    "8AnnieSupport": {
+        "id": 206,
+        "effects": {
+            "{d49caf5d}": 15,
+            "HealthThreshold": 0.5
+        },
+        "name": "Burning Spirit",
+        "rank": 1,
+        "hero": [
+            "TFT8_Annie",
+            "support"
+        ]
+    },
+    "8LeonaCarry": {
+        "id": 290,
+        "effects": {
+            "{d49caf5d}": 30,
+            "{80330413}": 30
+        },
+        "name": "Perfected Solar Flare",
+        "rank": 1,
+        "hero": [
+            "TFT8_Leona",
+            "carry"
+        ]
+    },
+    "8_5GarenSupport": {
+        "id": 268,
+        "effects": {
+            "{6c9ae388}": 0.15,
+            "ShieldDuration": 6
+        },
+        "name": "My Sword is Your Shield",
+        "rank": 1,
+        "hero": [
+            "TFT8_Garen",
+            "support"
+        ]
+    },
+    "8EzrealSupport": {
+        "id": 212,
+        "effects": {
+            "Gold": null
+        },
+        "name": "Raider's Spoils",
+        "rank": 1,
+        "hero": [
+            "TFT8_Ezreal",
+            "support"
+        ]
+    },
+    "8StarGuardianEmblem2": {
+        "id": 165,
+        "effects": {},
+        "name": "Star Guardian Crown",
+        "rank": 3
+    },
+    "8NilahReflection": {
+        "id": 247,
+        "effects": {
+            "{d49caf5d}": 45
+        },
+        "name": "Gifted",
+        "rank": 1,
+        "hero": [
+            "TFT8_Nilah",
+            "carry"
+        ]
+    },
+    "8_5NeekoCarry": {
+        "id": 275,
+        "effects": {
+            "{7f1304b2}": 15
+        },
+        "name": "Starlight Resonance",
+        "rank": 1,
+        "hero": [
+            "TFT8_Neeko",
+            "carry"
+        ]
+    },
+    "8KaisaCarry": {
+        "id": 241,
+        "effects": {
+            "Attacks": 2
+        },
+        "name": "Multi-Shot",
+        "rank": 1,
+        "hero": [
+            "TFT8_Kaisa",
+            "carry"
+        ]
+    },
+    "8MascotEmblem2": {
+        "id": 154,
+        "effects": {},
+        "name": "Mascot Crown",
+        "rank": 3
+    },
+    "8SalvageBinPlus": {
+        "id": 300,
+        "effects": {
+            "{2a0d265e}": 4
+        },
+        "name": "Salvage Bin+",
+        "rank": 2
+    },
+    "8RivenReverberation": {
+        "id": 251,
+        "effects": {
+            "AP": 15
+        },
+        "name": "Reverberation",
+        "rank": 1,
+        "hero": [
+            "TFT8_Riven",
+            "carry"
+        ]
+    },
+    "8LuxSupport": {
+        "id": 192,
+        "effects": {
+            "ShieldAmount": 500,
+            "ShieldDuration": 60,
+            "{79a51d61}": 2,
+            "AP": 35
+        },
+        "name": "Lucent Barrier",
+        "rank": 1,
+        "hero": [
+            "TFT8_Lux",
+            "support"
+        ]
+    },
+    "8MordekaiserSupport": {
+        "id": 291,
+        "effects": {
+            "{deec2708}": 20
+        },
+        "name": "Obliterate",
+        "rank": 1,
+        "hero": [
+            "TFT8_Mordekaiser",
+            "support"
+        ]
+    },
+    "8PranksterEmblem": {
+        "id": 159,
+        "effects": {},
+        "name": "Prankster Crest",
+        "rank": 2
+    },
+    "8_5GnarSupport": {
+        "id": 236,
+        "effects": {
+            "{d5176d02}": 10,
+            "{0bdb083e}": 20
+        },
+        "name": "Temper Tantrum",
+        "rank": 1,
+        "hero": [
+            "TFT8_GnarBig",
+            "support"
+        ]
+    },
+    "8JannaSupport": {
+        "id": 287,
+        "effects": {
+            "{bdd99658}": 1
+        },
+        "name": "Exaggerated Reporting",
+        "rank": 1,
+        "hero": [
+            "TFT8_Janna",
+            "support"
+        ]
+    },
+    "8BlitzcrankSupport": {
+        "id": 183,
+        "effects": {
+            "{f0f10b3f}": 1,
+            "StunDuration": 1.5,
+            "BonusHealth": 400
+        },
+        "name": "Rocket Grab",
+        "rank": 1,
+        "hero": [
+            "TFT8_Blitzcrank",
+            "support"
+        ]
+    },
+    "8AegisEmblem": {
+        "id": 118,
+        "effects": {},
+        "name": "Aegis Crest",
+        "rank": 2
+    },
+    "8BrawlerTrait": {
+        "id": 126,
+        "effects": {},
+        "name": "Brawler Heart",
+        "rank": 1
+    },
+    "8MissFortuneCarry": {
+        "id": 273,
+        "effects": {
+            "ShieldAmount": 200,
+            "ShieldDuration": 2
+        },
+        "name": "Bunny Mercenary",
+        "rank": 1,
+        "hero": [
+            "TFT8_MissFortune",
+            "carry"
+        ]
+    },
+    "8MissFortuneSupport": {
+        "id": 272,
+        "effects": {
+            "{cc06ab16}": 3,
+            "{c7e57406}": 8,
+            "{c6e57273}": 20
+        },
+        "name": "Make It Rain",
+        "rank": 1,
+        "hero": [
+            "TFT8_MissFortune",
+            "support"
+        ]
+    },
+    "8SyndraCarry": {
+        "id": 296,
+        "effects": {
+            "{1a97299e}": 30,
+            "{be2843da}": 40
+        },
+        "name": "Not In Vain",
+        "rank": 1,
+        "hero": [
+            "TFT8_Syndra",
+            "carry"
+        ]
+    },
+    "8ADMINEmblem2": {
+        "id": 116,
+        "effects": {},
+        "name": "A.D.M.I.N. Crown",
+        "rank": 3
+    },
+    "8MascotTrait": {
+        "id": 155,
+        "effects": {},
+        "name": "Mascot Heart",
+        "rank": 1
+    },
+    "8KayleSupport": {
+        "id": 186,
+        "effects": {
+            "{0c712be9}": 2,
+            "AttackSpeed": 0.25,
+            "{79a51d61}": 2
+        },
+        "name": "Righteous Range",
+        "rank": 1,
+        "hero": [
+            "TFT8_Kayle",
+            "support"
+        ]
+    },
+    "8ThreatMaxHealth": {
+        "id": 169,
+        "effects": {
+            "{20cc7fa3}": 66
+        },
+        "name": "Threat Level: Maximum",
+        "rank": 2
+    },
+    "8RellCarry": {
+        "id": 227,
+        "effects": {
+            "AP": 80,
+            "DamageReduction": 35
+        },
+        "name": "Hold the Line",
+        "rank": 1,
+        "hero": [
+            "TFT8_Rell",
+            "carry"
+        ]
+    },
+    "8KayleCarry": {
+        "id": 187,
+        "effects": {
+            "AttackSpeed": 0.4,
+            "{0c712be9}": 3,
+            "{28313999}": 2,
+            "{75d84d1b}": 0.5
+        },
+        "name": "Divine Ascent",
+        "rank": 1,
+        "hero": [
+            "TFT8_Kayle",
+            "carry"
+        ]
+    },
+    "8HeartEmblem": {
+        "id": 148,
+        "effects": {},
+        "name": "Heart Crest",
+        "rank": 2
+    },
+    "8UrgotCarry": {
+        "id": 298,
+        "effects": {
+            "{0cdbab74}": 0.25
+        },
+        "name": "Shiny",
+        "rank": 1,
+        "hero": [
+            "TFT8_Urgot",
+            "carry"
+        ]
+    },
+    "8SylasCarry": {
+        "id": 203,
+        "effects": {
+            "BonusDamage": 0.35,
+            "HPMultiplier": 0.25
+        },
+        "name": "Kingslayer",
+        "rank": 1,
+        "hero": [
+            "TFT8_Sylas",
+            "carry"
+        ]
+    },
+    "8FiddlesticksCarry": {
+        "id": 286,
+        "effects": {
+            "{4ed1f1d8}": 8
+        },
+        "name": "Scarier-crow",
+        "rank": 1,
+        "hero": [
+            "TFT8_Fiddlesticks",
+            "carry"
+        ]
+    },
+    "8AsheCarry": {
+        "id": 181,
+        "effects": {
+            "AS": 50
+        },
+        "name": "Laser Focus",
+        "rank": 1,
+        "hero": [
+            "TFT8_Ashe",
+            "carry"
+        ]
+    },
+    "8EkkoSupport": {
+        "id": 266,
+        "effects": {
+            "StunDuration": 2,
+            "{4ed1f1d8}": 10
+        },
+        "name": "Chronobreak",
+        "rank": 1,
+        "hero": [
+            "TFT8_Ekko",
+            "support"
+        ]
+    },
+    "8_5SivirSupport": {
+        "id": 228,
+        "effects": {
+            "BonusAD": 0.15,
+            "{b3b8f644}": 0.05
+        },
+        "name": "Mana Tempering",
+        "rank": 1,
+        "hero": [
+            "TFT8b_Sivir",
+            "support"
+        ]
+    },
+    "8_5AatroxSupport": {
+        "id": 260,
+        "effects": {
+            "{ee37daec}": 0.5,
+            "{0bc5955f}": 3
+        },
+        "name": "Darkin Assimilation",
+        "rank": 1,
+        "hero": [
+            "TFT8_Aatrox",
+            "support"
+        ]
+    },
+    "8NasusCarry": {
+        "id": 195,
+        "effects": {
+            "{b3b8f644}": 2,
+            "{9c6a27a4}": 15
+        },
+        "name": "Stacks on Stacks",
+        "rank": 1,
+        "hero": [
+            "TFT8_Nasus",
+            "carry"
+        ]
+    },
+    "8UndergroundTheTrait2": {
+        "id": 171,
+        "effects": {},
+        "name": "Underground Soul",
+        "rank": 3
+    },
+    "8HeartTrait": {
+        "id": 150,
+        "effects": {},
+        "name": "Heart Heart",
+        "rank": 1
+    },
+    "8DravenCarry": {
+        "id": 211,
+        "effects": {
+            "BonusAD": 25,
+            "{2dd33743}": 35
+        },
+        "name": "League of Draven",
+        "rank": 1,
+        "hero": [
+            "TFT8_Draven",
+            "carry"
+        ]
+    },
+    "8SyndraSupport": {
+        "id": 295,
+        "effects": {
+            "{d49caf5d}": 5
+        },
+        "name": "Empowered Reserves",
+        "rank": 1,
+        "hero": [
+            "TFT8_Syndra",
+            "support"
+        ]
+    },
+    "8RenegadePartners": {
+        "id": 280,
+        "effects": {
+            "{ad16f688}": 12
+        },
+        "name": "Partners in Crime",
+        "rank": 1,
+        "hero": [
+            "TFT8_Viego",
+            "support"
+        ]
+    },
+    "8_5PykeCarry": {
+        "id": 225,
+        "effects": {
+            "{e5c8ad60}": 2,
+            "{b1ee9bb7}": 1
+        },
+        "name": "Your Cut",
+        "rank": 1,
+        "hero": [
+            "TFT8_Pyke",
+            "carry"
+        ]
+    },
+    "8AurelionSolImpact": {
+        "id": 262,
+        "effects": {
+            "StunDuration": 1.75
+        },
+        "name": "Impact Velocity",
+        "rank": 1,
+        "hero": [
+            "TFT8_AurelionSol",
+            "support"
+        ]
+    },
+    "8HackerTrait": {
+        "id": 147,
+        "effects": {
+            "Gold": 2
+        },
+        "name": "Hacker Heart",
+        "rank": 1
+    },
+    "8MalphiteSupport": {
+        "id": 222,
+        "effects": {
+            "HealPercent": 20
+        },
+        "name": "Guardian Spirit",
+        "rank": 1,
+        "hero": [
+            "TFT8_Malphite",
+            "support"
+        ]
+    },
+    "8VayneSupport": {
+        "id": 256,
+        "effects": {
+            "AS": 35
+        },
+        "name": "Into The Night",
+        "rank": 1,
+        "hero": [
+            "TFT8_Vayne",
+            "support"
+        ]
+    },
+    "8ADMINEmblem": {
+        "id": 115,
+        "effects": {},
+        "name": "A.D.M.I.N. Crest",
+        "rank": 2
+    },
+    "8CamilleCarry": {
+        "id": 209,
+        "effects": {
+            "ADScaling": 5,
+            "BonusAD": 20,
+            "HealthThreshold": 0.5
+        },
+        "name": "Adaptive Defensives",
+        "rank": 1,
+        "hero": [
+            "TFT8_Camille",
+            "carry"
+        ]
+    },
+    "8GenAEEmblem2": {
+        "id": 142,
+        "effects": {},
+        "name": "Gadgeteen Crown",
+        "rank": 3
+    },
+    "8_5JhinCarry": {
+        "id": 271,
+        "effects": {
+            "{6611a3fc}": 4,
+            "{20569db9}": 2,
+            "Gold": 6,
+            "{ea6108de}": 10
+        },
+        "name": "Rule of Four",
+        "rank": 1,
+        "hero": [
+            "TFT8_Jhin",
+            "carry"
+        ]
+    },
+    "8BrawlerEmblem": {
+        "id": 124,
+        "effects": {},
+        "name": "Brawler Crest",
+        "rank": 2
+    },
+    "8GangplankCarry": {
+        "id": 185,
+        "effects": {
+            "DamagePercent": 80
+        },
+        "name": "Flaming Ricochet",
+        "rank": 1,
+        "hero": [
+            "TFT8_Gangplank",
+            "carry"
+        ]
+    },
+    "8RenektonSupport": {
+        "id": 200,
+        "effects": {
+            "DamageAmp": 8,
+            "HPPercent": 50
+        },
+        "name": "Cull the Meek",
+        "rank": 1,
+        "hero": [
+            "TFT8_Renekton",
+            "support"
+        ]
+    },
+    "8MascotEmblem": {
+        "id": 153,
+        "effects": {},
+        "name": "Mascot Crest",
+        "rank": 2
+    },
+    "8ChannelerEmblem": {
+        "id": 127,
+        "effects": {},
+        "name": "Spellslinger Crest",
+        "rank": 2
+    },
+    "8YasuoSupport": {
+        "id": 232,
+        "effects": {
+            "BonusAS": 0.22
+        },
+        "name": "Spirit of the Exile",
+        "rank": 1,
+        "hero": [
+            "TFT8_Yasuo",
+            "support"
+        ]
+    },
+    "8HeartEmblem2": {
+        "id": 149,
+        "effects": {},
+        "name": "Heart Crown",
+        "rank": 3
+    },
+    "8ChannelerTrait": {
+        "id": 129,
+        "effects": {},
+        "name": "Spellslinger Heart",
+        "rank": 1
+    },
+    "8DefenderTrait": {
+        "id": 135,
+        "effects": {},
+        "name": "Defender Heart",
+        "rank": 1
+    },
+    "8DravenSupport": {
+        "id": 210,
+        "effects": {
+            "CritChance": 75
+        },
+        "name": "Ruthless Blades",
+        "rank": 1,
+        "hero": [
+            "TFT8_Draven",
+            "support"
+        ]
+    },
+    "8UndergroundTheTrait": {
+        "id": 170,
+        "effects": {},
+        "name": "Underground Heart",
+        "rank": 2
+    },
+    "8_5TwistedFateSupport": {
+        "id": 278,
+        "effects": {
+            "BonusAS": 0.12
+        },
+        "name": "Gear Shift",
+        "rank": 1,
+        "hero": [
+            "TFT8_TwistedFate",
+            "support"
+        ]
+    },
+    "8BelVethCarry": {
+        "id": 265,
+        "effects": {
+            "{f0746a29}": 0.25,
+            "{bb5fb1b0}": 0.75,
+            "HealthThreshold": 0.5
+        },
+        "name": "Back for Blood",
+        "rank": 1,
+        "hero": [
+            "TFT8_BelVeth",
+            "carry"
+        ]
+    },
+    "8ChannelerEmblem2": {
+        "id": 128,
+        "effects": {},
+        "name": "Spellslinger Crown",
+        "rank": 3
+    },
+    "8GangplankSupport": {
+        "id": 184,
+        "effects": {
+            "{2dd33743}": 50,
+            "{d5fb325a}": 1
+        },
+        "name": "Get Paid",
+        "rank": 1,
+        "hero": [
+            "TFT8_Gangplank",
+            "support"
+        ]
+    },
+    "8RiftwalkerEmblem": {
+        "id": 173,
+        "effects": {},
+        "name": "Riftwalker Crest",
+        "rank": 2
+    },
+    "8SupersTrait": {
+        "id": 167,
+        "effects": {},
+        "name": "Supers Heart",
+        "rank": 2
+    },
+    "8RellSupport": {
+        "id": 226,
+        "effects": {
+            "{861cdd9e}": 20,
+            "{da858795}": 5
+        },
+        "name": "Channeled Ferromancy",
+        "rank": 1,
+        "hero": [
+            "TFT8_Rell",
+            "support"
+        ]
+    },
+    "8_5ShenSupport": {
+        "id": 252,
+        "effects": {
+            "DamageReduction": 0.08,
+            "Duration": 4
+        },
+        "name": "Recursion Matrix",
+        "rank": 1,
+        "hero": [
+            "TFT8_Shen",
+            "support"
+        ]
+    },
+    "8PoppyCarry": {
+        "id": 199,
+        "effects": {
+            "BonusArmor": 180
+        },
+        "name": "Bigger, Better Buckler",
+        "rank": 1,
+        "hero": [
+            "TFT8_Poppy",
+            "carry"
+        ]
+    },
+    "8GenAETrait": {
+        "id": 143,
+        "effects": {},
+        "name": "Gadgeteen Heart",
+        "rank": 1
+    },
+    "8AegisTrait": {
+        "id": 120,
+        "effects": {},
+        "name": "Aegis Heart",
+        "rank": 1
+    },
+    "8_5YasuoCarry": {
+        "id": 233,
+        "effects": {
+            "BonusDamage": 20
+        },
+        "name": "Winds of the Wanderer",
+        "rank": 1,
+        "hero": [
+            "TFT8_Yasuo",
+            "carry"
+        ]
+    },
+    "8DefenderEmblem2": {
+        "id": 134,
+        "effects": {},
+        "name": "Defender Crown",
+        "rank": 3
+    },
+    "8_5MorganaCarry": {
+        "id": 245,
+        "effects": {
+            "{1514d9ef}": 1,
+            "{08ca6c1c}": 1
+        },
+        "name": "Fear is Freedom",
+        "rank": 1,
+        "hero": [
+            "TFT8_Morgana",
+            "carry"
+        ]
+    },
+    "8InfiniteamEmblem2": {
+        "id": 179,
+        "effects": {},
+        "name": "Infiniteam Crown",
+        "rank": 3
+    },
+    "8DeadeyeTrait": {
+        "id": 132,
+        "effects": {},
+        "name": "Sureshot Heart",
+        "rank": 1
+    },
+    "8OxForceEmblem2": {
+        "id": 157,
+        "effects": {},
+        "name": "Ox Force Crown",
+        "rank": 3
+    },
+    "8_5PantheonCarry": {
+        "id": 197,
+        "effects": {
+            "{d49caf5d}": 50,
+            "BonusMR": 100
+        },
+        "name": "The Best Offense",
+        "rank": 1,
+        "hero": [
+            "TFT8_Pantheon",
+            "carry"
+        ]
+    },
+    "8DeadeyeEmblem": {
+        "id": 130,
+        "effects": {},
+        "name": "Sureshot Crest",
+        "rank": 2
+    },
+    "8InterPolarisTrait2": {
+        "id": 152,
+        "effects": {},
+        "name": "LaserCorps Soul",
+        "rank": 3
+    },
+    "8SamiraSupport": {
+        "id": 276,
+        "effects": {
+            "Health": 10,
+            "AttackSpeed": 0.035
+        },
+        "name": "Daredevil",
+        "rank": 1,
+        "hero": [
+            "TFT8_Samira",
+            "support"
+        ]
+    },
+    "8DuelistTrait": {
+        "id": 138,
+        "effects": {},
+        "name": "Duelist Heart",
+        "rank": 1
+    },
+    "8RammusCarry": {
+        "id": 249,
+        "effects": {
+            "{abfc283d}": 150,
+            "ICD": 2
+        },
+        "name": "Spiked Shell",
+        "rank": 1,
+        "hero": [
+            "TFT8_Rammus",
+            "carry"
+        ]
+    },
+    "8UrgotSupport": {
+        "id": 297,
+        "effects": {
+            "BonusAS": 0.3
+        },
+        "name": "Rising Tide",
+        "rank": 1,
+        "hero": [
+            "TFT8_Urgot",
+            "support"
+        ]
+    },
+    "8AceEmblem2": {
+        "id": 114,
+        "effects": {
+            "Gold": 2
+        },
+        "name": "Ace Crown",
+        "rank": 3
+    },
+    "8_5AlistarCarry": {
+        "id": 235,
+        "effects": {
+            "BonusHealth": 350,
+            "PercentHealth": 25,
+            "{5cc52ba8}": 1
+        },
+        "name": "The Behemoth",
+        "rank": 1,
+        "hero": [
+            "TFT8_Alistar",
+            "carry"
+        ]
+    },
+    "8_5GnarCarry": {
+        "id": 237,
+        "effects": {
+            "{861cdd9e}": 25,
+            "{0923f4b1}": 5
+        },
+        "name": "Synchronous Plating",
+        "rank": 1,
+        "hero": [
+            "TFT8_GnarBig",
+            "carry"
+        ]
+    },
+    "8LuluSupport": {
+        "id": 190,
+        "effects": {
+            "{d49caf5d}": 40
+        },
+        "name": "Foster Growth",
+        "rank": 1,
+        "hero": [
+            "TFT8_Lulu",
+            "support"
+        ]
+    },
+    "8FioraSupport": {
+        "id": 217,
+        "effects": {
+            "HealPercent": 0.25,
+            "{773fa97b}": 10
+        },
+        "name": "Vitality of the Ox",
+        "rank": 1,
+        "hero": [
+            "TFT8_Fiora",
+            "support"
+        ]
+    },
+    "8_5WarwickSupport": {
+        "id": 282,
+        "effects": {
+            "{be50e58c}": 0.75,
+            "{f85976ea}": 100
+        },
+        "name": "Big Data",
+        "rank": 1,
+        "hero": [
+            "TFT8_Warwick",
+            "support"
+        ]
+    },
+    "8VayneCarry": {
+        "id": 257,
+        "effects": {
+            "{f0f10b3f}": 2,
+            "DamagePercent": 50
+        },
+        "name": "Spread Shot",
+        "rank": 1,
+        "hero": [
+            "TFT8_Vayne",
+            "carry"
+        ]
+    },
+    "8WukongSupport": {
+        "id": 204,
+        "effects": {
+            "ManaRestore": 50
+        },
+        "name": "Re-Energize",
+        "rank": 1,
+        "hero": [
+            "TFT8_WuKong",
+            "support"
+        ]
+    },
+    "8AnimaSquadEmblem": {
+        "id": 121,
+        "effects": {},
+        "name": "Anima Squad Crest",
+        "rank": 2
+    },
+    "8RenegadeTrait": {
+        "id": 163,
+        "effects": {},
+        "name": "Renegade Heart",
+        "rank": 1
+    },
+    "8JannaCarry": {
+        "id": 288,
+        "effects": {
+            "{d49caf5d}": 10
+        },
+        "name": "Category Five",
+        "rank": 1,
+        "hero": [
+            "TFT8_Janna",
+            "carry"
+        ]
+    },
+    "8_5PykeSupport": {
+        "id": 224,
+        "effects": {
+            "BonusDamage": 0.25,
+            "HealthThreshold": 1400,
+            "BaseDamage": 0.1
+        },
+        "name": "Small Game Hunter",
+        "rank": 1,
+        "hero": [
+            "TFT8_Pyke",
+            "support"
+        ]
+    },
+    "8_5TwistedFateCarry": {
+        "id": 279,
+        "effects": {
+            "{8ae99e9c}": 10,
+            "{614a3ad3}": 20,
+            "Gold": 1
+        },
+        "name": "Ante Up",
+        "rank": 1,
+        "hero": [
+            "TFT8_TwistedFate",
+            "carry"
+        ]
+    },
+    "8WukongCarry": {
+        "id": 205,
+        "effects": {
+            "AP": 10
+        },
+        "name": "Cyclone",
+        "rank": 1,
+        "hero": [
+            "TFT8_WuKong",
+            "carry"
+        ]
+    },
+    "8ExoPrimeEmblem": {
+        "id": 139,
+        "effects": {},
+        "name": "Mecha: PRIME Crest",
+        "rank": 2
+    },
+    "8RiftwalkerTrait": {
+        "id": 172,
+        "effects": {},
+        "name": "Riftwalker Heart",
+        "rank": 1
+    },
+    "8_5MorganaSupport": {
+        "id": 244,
+        "effects": {
+            "BonusDamage": 0.3,
+            "HealthThreshold": 1600
+        },
+        "name": "Gas Giant Slayer",
+        "rank": 1,
+        "hero": [
+            "TFT8_Morgana",
+            "support"
+        ]
+    },
+    "8LeeSinCarry": {
+        "id": 221,
+        "effects": {
+            "{7ccd3647}": 30,
+            "HealPercent": 0.18
+        },
+        "name": "Cleansing Safeguard",
+        "rank": 1,
+        "hero": [
+            "TFT8_LeeSin",
+            "carry"
+        ]
+    },
+    "8StarGuardianTrait": {
+        "id": 166,
+        "effects": {},
+        "name": "Star Guardian Heart",
+        "rank": 1
+    },
+    "8RivenSupport": {
+        "id": 250,
+        "effects": {
+            "{f12d8928}": 40,
+            "ShieldDuration": 15
+        },
+        "name": "Triumphant Return",
+        "rank": 1,
+        "hero": [
+            "TFT8_Riven",
+            "support"
+        ]
+    },
+    "8_5NeekoSupport": {
+        "id": 274,
+        "effects": {
+            "{d49caf5d}": 35
+        },
+        "name": "Easy Being Green",
+        "rank": 1,
+        "hero": [
+            "TFT8_Neeko",
+            "support"
+        ]
+    },
+    "8RenegadeEmblem": {
+        "id": 161,
+        "effects": {},
+        "name": "Renegade Crest",
+        "rank": 2
+    },
+    "8SamiraCarry": {
+        "id": 277,
+        "effects": {
+            "BonusAD": 30,
+            "{009085db}": 30
+        },
+        "name": "Style & Flair",
+        "rank": 1,
+        "hero": [
+            "TFT8_Samira",
+            "carry"
+        ]
+    },
+    "8AnnieCarry": {
+        "id": 207,
+        "effects": {
+            "StunDuration": 1.5,
+            "{3b80b1b4}": 1
+        },
+        "name": "Pyromania",
+        "rank": 1,
+        "hero": [
+            "TFT8_Annie",
+            "carry"
+        ]
+    },
+    "8FiddlesticksSupport": {
+        "id": 285,
+        "effects": {
+            "{d49caf5d}": 30
+        },
+        "name": "Absolute Corruption",
+        "rank": 1,
+        "hero": [
+            "TFT8_Fiddlesticks",
+            "support"
+        ]
+    },
+    "8LeonaSupport": {
+        "id": 289,
+        "effects": {
+            "DamageReduction": 20
+        },
+        "name": "Eclipse Prime",
+        "rank": 1,
+        "hero": [
+            "TFT8_Leona",
+            "support"
+        ]
+    },
+    "8NunuSupport": {
+        "id": 293,
+        "effects": {
+            "{d49caf5d}": 15,
+            "{bfb90928}": 10,
+            "{2fb31c01}": 5
+        },
+        "name": "Contagious Laughter",
+        "rank": 1,
+        "hero": [
+            "TFT8_Nunu",
+            "support"
+        ]
+    },
+    "8ViCarry": {
+        "id": 231,
+        "effects": {
+            "{83e12d6f}": 3,
+            "{9396f00d}": 25
+        },
+        "name": "Unrelenting Force",
+        "rank": 1,
+        "hero": [
+            "TFT8_Vi",
+            "carry"
+        ]
+    },
+    "8_5LucianSupport": {
+        "id": 188,
+        "effects": {
+            "{d49caf5d}": 20,
+            "{bfb90928}": 2
+        },
+        "name": "Enchanted Ammunition",
+        "rank": 1,
+        "hero": [
+            "TFT8_Lucian",
+            "support"
+        ]
+    },
+    "8_5WarwickCarry": {
+        "id": 283,
+        "effects": {
+            "BonusHealth": 1,
+            "StartingHealth": 50,
+            "{6fc21adc}": 2
+        },
+        "name": "Well Fed",
+        "rank": 1,
+        "hero": [
+            "TFT8_Warwick",
+            "carry"
+        ]
+    },
+    "8HackerEmblem": {
+        "id": 145,
+        "effects": {
+            "Gold": 2
+        },
+        "name": "Hacker Crest",
+        "rank": 2
+    },
+    "8JaxASCarry": {
+        "id": 239,
+        "effects": {
+            "BonusAS": 0.12
+        },
+        "name": "Relentless Assault",
+        "rank": 1,
+        "hero": [
+            "TFT8_Jax",
+            "carry"
+        ]
+    },
+    "8NilahSupport": {
+        "id": 246,
+        "effects": {
+            "Duration": 30,
+            "{79a51d61}": 5
+        },
+        "name": "Jubilant Veil",
+        "rank": 1,
+        "hero": [
+            "TFT8_Nilah",
+            "support"
+        ]
+    },
+    "8RammusArmor": {
+        "id": 248,
+        "effects": {
+            "BonusArmor": 35
+        },
+        "name": "Armored-dillo",
+        "rank": 1,
+        "hero": [
+            "TFT8_Rammus",
+            "support"
+        ]
+    },
+    "8SupersTrait2": {
+        "id": 168,
+        "effects": {},
+        "name": "Supers Soul",
+        "rank": 3
+    },
+    "8CamilleSupport": {
+        "id": 208,
+        "effects": {
+            "BonusDamage": 0.05,
+            "BaseDamage": 0.08
+        },
+        "name": "Hextech Retribution",
+        "rank": 1,
+        "hero": [
+            "TFT8_Camille",
+            "support"
+        ]
+    },
+    "8_5AlistarSupport": {
+        "id": 234,
+        "effects": {
+            "{a8d6e8b5}": 50
+        },
+        "name": "Stubborn",
+        "rank": 1,
+        "hero": [
+            "TFT8_Alistar",
+            "support"
+        ]
+    },
+    "8AurelionSolCarry": {
+        "id": 263,
+        "effects": {
+            "{d49caf5d}": 15
+        },
+        "name": "Extinction Event",
+        "rank": 1,
+        "hero": [
+            "TFT8_AurelionSol",
+            "carry"
+        ]
+    },
+    "8InfiniteamTrait": {
+        "id": 177,
+        "effects": {},
+        "name": "Infiniteam Heart",
+        "rank": 1
+    },
+    "8_5LucianCarry": {
+        "id": 189,
+        "effects": {
+            "{44969da7}": 1,
+            "{e5c8ad60}": 2
+        },
+        "name": "Hyperbolic Time Chamber",
+        "rank": 1,
+        "hero": [
+            "TFT8_Lucian",
+            "carry"
+        ]
+    },
+    "8AegisEmblem2": {
+        "id": 119,
+        "effects": {},
+        "name": "Aegis Crown",
+        "rank": 3
+    },
+    "8GenAEEmblem": {
+        "id": 141,
+        "effects": {},
+        "name": "Gadgeteen Crest",
+        "rank": 2
+    },
+    "8SonaSupport": {
+        "id": 254,
+        "effects": {
+            "ManaRestore": 50,
+            "{79a51d61}": 3
+        },
+        "name": "Undercurrent",
+        "rank": 1,
+        "hero": [
+            "TFT8_Sona",
+            "support"
+        ]
+    },
+    "8_5VexSupport": {
+        "id": 258,
+        "effects": {
+            "{d49caf5d}": 20,
+            "{bfb90928}": 5
+        },
+        "name": "Endless Darkness",
+        "rank": 1,
+        "hero": [
+            "TFT8_Vex",
+            "support"
+        ]
+    },
+    "7Bloodlust1": {
+        "id": 94,
+        "effects": {
+            "AD": 0.01,
+            "{9c6a27a4}": 0.08
+        },
+        "name": "Combat Training",
+        "rank": 2
+    },
+    "7BandOfThieves1": {
+        "id": 90,
+        "effects": {
+            "{1c1b4e2d}": 1
+        },
+        "name": "Band of Thieves I",
+        "rank": 1
+    },
+    "7BigFriend2": {
+        "id": 92,
+        "effects": {
+            "{5064373e}": 10,
+            "{ddd2dfa6}": 1600
+        },
+        "name": "Big Friend II",
+        "rank": 2
+    },
+    "7CursedCrown": {
+        "id": 97,
+        "effects": {
+            "{ec9a04d1}": 2,
+            "{74408181}": 100
+        },
+        "name": "Cursed Crown",
+        "rank": 3
+    },
+    "7ThinkFast": {
+        "id": 110,
+        "effects": {
+            "Gold": 3
+        },
+        "name": "Think Fast",
+        "rank": 3
+    },
+    "7MikaelsGift": {
+        "id": 103,
+        "effects": {
+            "{6172c4df}": 0.33
+        },
+        "name": "Better Together",
+        "rank": 2
+    },
+    "7AxiomArc2": {
+        "id": 89,
+        "effects": {
+            "{7e875f0d}": 30
+        },
+        "name": "Axiom Arc II",
+        "rank": 2
+    },
+    "7ClutteredMind": {
+        "id": 95,
+        "effects": {
+            "{516374d5}": 3,
+            "{c918a49c}": 4
+        },
+        "name": "Cluttered Mind",
+        "rank": 2
+    },
+    "7Consistency": {
+        "id": 96,
+        "effects": {},
+        "name": "Consistency",
+        "rank": 1
+    },
+    "7LuckyGloves": {
+        "id": 102,
+        "effects": {
+            "{1c1b4e2d}": 2
+        },
+        "name": "Lucky Gloves",
+        "rank": 3
+    },
+    "7UrfsGrabBag2": {
+        "id": 112,
+        "effects": {
+            "{eb702324}": 1,
+            "{5cc08b27}": 3
+        },
+        "name": "Urf's Grab Bag II",
+        "rank": 3
+    },
+    "7LategameSpecialist": {
+        "id": 100,
+        "effects": {
+            "{ae55da3b}": 9,
+            "Gold": 40
+        },
+        "name": "Lategame Specialist",
+        "rank": 1
+    },
+    "7BirthdayPresents": {
+        "id": 93,
+        "effects": {
+            "Gold": null
+        },
+        "name": "Birthday Present",
+        "rank": 3
+    },
+    "7SacrificialPact": {
+        "id": 108,
+        "effects": {
+            "{6c043596}": 6,
+            "Heal": 3
+        },
+        "name": "Cruel Pact",
+        "rank": 3
+    },
+    "7Preparation2": {
+        "id": 106,
+        "effects": {
+            "{6a311cec}": 4,
+            "MaxStacks": 4,
+            "{9c718664}": 35,
+            "{ad68ce80}": 1
+        },
+        "name": "Preparation II",
+        "rank": 2
+    },
+    "7Preparation3": {
+        "id": 107,
+        "effects": {
+            "{6a311cec}": 7,
+            "MaxStacks": 4,
+            "{9c718664}": 50,
+            "{ad68ce80}": 1
+        },
+        "name": "Preparation III",
+        "rank": 3
+    },
+    "7PandorasBench": {
+        "id": 104,
+        "effects": {
+            "Gold": 2,
+            "{396fb56a}": 3
+        },
+        "name": "Pandora's Bench",
+        "rank": 1
+    },
+    "7FirstAidKit2": {
+        "id": 98,
+        "effects": {
+            "{0b39c7c2}": 0.35
+        },
+        "name": "First Aid Kit II",
+        "rank": 2
+    },
+    "7LivingForge": {
+        "id": 101,
+        "effects": {
+            "{ec71edd2}": 10
+        },
+        "name": "Living Forge",
+        "rank": 3
+    },
+    "7AFK": {
+        "id": 88,
+        "effects": {
+            "Gold": 18,
+            "{90a3817e}": 3
+        },
+        "name": "AFK",
+        "rank": 1
+    },
+    "7Preparation": {
+        "id": 105,
+        "effects": {
+            "{6a311cec}": 3,
+            "MaxStacks": 4,
+            "{9c718664}": 25,
+            "{ad68ce80}": 1
+        },
+        "name": "Preparation I",
+        "rank": 1
+    },
+    "7ScopedWeapons1": {
+        "id": 109,
+        "effects": {
+            "{16394c87}": 2,
+            "AS": 0.1
+        },
+        "name": "Scoped Weapons I",
+        "rank": 2
+    },
+    "7TomeOfTraits2": {
+        "id": 111,
+        "effects": {
+            "{e3d58c55}": 2,
+            "Gold": 8
+        },
+        "name": "Ancient Archives II",
+        "rank": 3
+    },
+    "7BigFriend": {
+        "id": 91,
+        "effects": {
+            "{5064373e}": 7,
+            "{ddd2dfa6}": 1600
+        },
+        "name": "Big Friend I",
+        "rank": 1
+    },
+    "7LastStand": {
+        "id": 99,
+        "effects": {
+            "Health": 180,
+            "Resists": 18,
+            "{ad16f688}": 18
+        },
+        "name": "Last Stand",
+        "rank": 2
+    }
+}
