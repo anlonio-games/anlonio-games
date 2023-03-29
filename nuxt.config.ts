@@ -1,11 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    baseURL: process.env.ORIGIN || 'http://localhost:3000',
     head: {
       title: 'Anlonio Games',
       meta: [
-        { charset: 'utf-8' },
+        { name: 'charset', content: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { hid: 'description', name: 'description', content: 'A nova era das lives de TFT' }
       ]
