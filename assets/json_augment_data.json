@@ -2294,7 +2294,8 @@
         "id": 282,
         "effects": {
             "{be50e58c}": 0.75,
-            "{f85976ea}": 100
+            "{f85976ea}": 100,
+            "TFTUnitProperty.trait:TFT8_5_WarwickCarryAugment_Health": 0
         },
         "name": "Big Data",
         "rank": 1,

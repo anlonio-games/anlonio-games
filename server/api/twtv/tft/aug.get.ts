@@ -40,10 +40,12 @@ export default eventHandler(async (event) => {
     augment.name = getAugmentName(augment.nameSlug)
     const effects: any = {}
     for (const [key, value] of Object.entries(JSON.parse(augment.effects?.toString() as string))) {
-      if (augment.desciption.includes(key + '*100')) {
-        effects[key.toLowerCase()] = ((value as number) * 100).toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 2 })
+      const effect = getEffectName(key).toLocaleLowerCase()
+      const descAux = augment.desciption.toLocaleLowerCase()
+      if (descAux.includes(effect + '*100')) {
+        effects[effect] = ((value as number) * 100).toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 2 })
       } else {
-        effects[key.toLowerCase()] = value
+        effects[effect] = value
       }
     }
     const desc = augment.desciption.replace('*100', '').replace(/@[^@]+@/g, function (match) {
@@ -56,7 +58,7 @@ export default eventHandler(async (event) => {
       3: 'Prismático'
     }
     const isHero = augment.aliases?.includes('carry') ? 'Carry' : augment.aliases?.includes('support') ? 'Support' : false
-    let rank = isHero ?? ranks[augment.rank]
+    let rank = isHero || ranks[augment.rank]
     augment.name = augment.name.toUpperCase()
     if (isHero) {
       const heroName: any = augment.aliases.split(', ').find((alias: string) => alias.includes('_'))?.split('_')?.[1]
