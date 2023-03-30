@@ -3,6 +3,11 @@ import Mustache from 'mustache'
 export default eventHandler(async (event) => {
   const { type, search } : { type?: string, search?: string} = getQuery(event)
 
+  
+  if (type === 'help') {
+    return 'Para o usar o comando digite <tipo> <text-de-pesquisa>. Atualmente somente o tipo "aug" está disponível.'
+  }
+  
   if (type === 'aug') {
     const augment = await event.context.prisma.tftAugments.findFirst({
       where: {
@@ -10,7 +15,6 @@ export default eventHandler(async (event) => {
           { name: { contains: search, mode: 'insensitive' } },
           { aliases: { contains: search, mode: 'insensitive' } },
           { nameSlug: { contains: search, mode: 'insensitive' } },
-          { desciption: { contains: search, mode: 'insensitive' } }
         ]
       }
     })
@@ -28,16 +32,8 @@ export default eventHandler(async (event) => {
 
       return `${response}`
     } else {
-      throw createError({
-        statusCode: 404,
-        statusMessage: 'augment not found'
-      })
+      return 'Aprimoramento não encontrado'
     }
   }
-
-  throw createError({
-    statusCode: 404,
-    statusMessage: 'type not found'
-  })
-  return null
+  return 'Tipo de busca não encontrado. Atualmente só "aug" está disponível'
 })
