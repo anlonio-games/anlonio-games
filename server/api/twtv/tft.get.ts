@@ -3,18 +3,17 @@ import Mustache from 'mustache'
 export default eventHandler(async (event) => {
   const { type, search } : { type?: string, search?: string} = getQuery(event)
 
-  
   if (type === 'help') {
     return 'Para o usar o comando digite <tipo> <text-de-pesquisa>. Atualmente somente o tipo "aug" está disponível.'
   }
-  
+
   if (type === 'aug') {
     const augment = await event.context.prisma.tftAugments.findFirst({
       where: {
         OR: [
           { name: { contains: search, mode: 'insensitive' } },
           { aliases: { contains: search, mode: 'insensitive' } },
-          { nameSlug: { contains: search, mode: 'insensitive' } },
+          { nameSlug: { contains: search, mode: 'insensitive' } }
         ]
       }
     })
