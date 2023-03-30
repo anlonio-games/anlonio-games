@@ -68,7 +68,7 @@ export default eventHandler(async (event) => {
         const heroName: any = augment.aliases.split(', ').find((alias: string) => alias.includes('_'))?.split('_')?.[1]
         rank = `${heroName} ${rank}`
       }
-      response += `${augment.name} (${rank}) -> ${description} ${last ? '' : ' | '}}`
+      response += `${augment.name} (${rank}) -> ${description} ${last ? '' : ' | '}`
     }
     if (response) {
       return response
