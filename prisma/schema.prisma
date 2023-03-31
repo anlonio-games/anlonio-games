@@ -9,14 +9,56 @@ datasource db {
 
 model tftAugments {
   id         BigInt    @id @default(autoincrement())
-  created_at DateTime? @default(now()) @db.Timestamptz(6)
-  updated_at DateTime? @default(now()) @db.Timestamptz(6)
-  name       String    @db.VarChar
-  rank       Int       @db.Integer
-  nameSlug   String    @unique @db.VarChar
-  desciption String    @db.VarChar
-  effects    Json      @default("{}") @db.Json
+  createdAt  DateTime? @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt  DateTime? @default(now()) @map("updated_at") @db.Timestamptz(6)
+  name       String
+  nameSlug   String    @unique(map: "tft_augments_nameSlug_key") @map("name_slug")
+  rank       Int
+  externalId BigInt?   @map("external_id")
+  effects    Json      @db.Json
+  heroName   String?   @map("hero_name")
+  heroType   String?   @map("hero_type")
   aliases    String    @default("")
 
   @@map("tft_augments")
+}
+
+model tftItems {
+  id         BigInt    @id @default(autoincrement())
+  createdAt  DateTime? @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedat  DateTime? @default(now()) @map("updated_at") @db.Timestamptz(6)
+  externalId BigInt    @map("external_id")
+  name       String
+  effects    Json      @db.Json
+  from       Json      @db.Json
+  nameSlug   String?   @unique(map: "tft_items_nameSlug_key") @map("name_slug")
+  aliases    String    @default("")
+
+  @@map("tft_items")
+}
+
+model tftTraits {
+  id        BigInt    @id @default(autoincrement())
+  createdAt DateTime? @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime? @default(now()) @map("updated_at") @db.Timestamptz(6)
+  name      String    @default("")
+  effects   Json      @default("{}") @db.Json
+  aliases   String    @default("")
+  nameSlug  String?   @unique @map("name_slug")
+
+  @@map("tft_traits")
+}
+
+model tftUnits {
+  id        BigInt    @id(map: "tft_unit_pkey") @default(autoincrement())
+  createdAt DateTime? @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime? @default(now()) @map("updated_at") @db.Timestamptz(6)
+  name      String
+  cost      Int       @db.SmallInt
+  stats     Json      @db.Json
+  ability   Json      @db.Json
+  nameSlug  String    @unique(map: "tft_units_nameSlug_key") @map("name_slug")
+  aliases   String    @default("")
+
+  @@map("tft_units")
 }

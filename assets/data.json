@@ -2,6 +2,7 @@
   "units": {
       "TFT8_Fiddlesticks": {
           "name": "Fiddlesticks",
+          "cost": 5,
           "stats": {
               "hp": 1200,
               "mana": 66,
@@ -101,6 +102,7 @@
       },
       "TFT8_Ezreal": {
           "name": "Ezreal",
+          "cost": 2,
           "stats": {
               "hp": 550,
               "mana": 55,
@@ -160,6 +162,7 @@
       },
       "TFT8_Draven": {
           "name": "Draven",
+          "cost": 2,
           "stats": {
               "hp": 600,
               "mana": 140,
@@ -209,6 +212,7 @@
       },
       "TFT8_Viego": {
           "name": "Viego",
+          "cost": 4,
           "stats": {
               "hp": 950,
               "mana": 45,
@@ -258,6 +262,7 @@
       },
       "TFT8_Sylas": {
           "name": "Sylas",
+          "cost": 1,
           "stats": {
               "hp": 700,
               "mana": 80,
@@ -297,6 +302,7 @@
       },
       "TFT8_Sivir": {
           "name": "Sivir",
+          "cost": 2,
           "stats": {
               "hp": 600,
               "mana": 70,
@@ -346,6 +352,7 @@
       },
       "TFT8_Kaisa": {
           "name": "Kai'Sa",
+          "cost": 3,
           "stats": {
               "hp": 650,
               "mana": 105,
@@ -405,6 +412,7 @@
       },
       "TFT8_Annie": {
           "name": "Annie",
+          "cost": 2,
           "stats": {
               "hp": 750,
               "mana": 90,
@@ -454,6 +462,7 @@
       },
       "TFT8_Gangplank": {
           "name": "Gangplank",
+          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 50,
@@ -503,6 +512,7 @@
       },
       "TFT8_Alistar": {
           "name": "Alistar",
+          "cost": 3,
           "stats": {
               "hp": 800,
               "mana": 175,
@@ -562,6 +572,7 @@
       },
       "TFT8_Fiora": {
           "name": "Fiora",
+          "cost": 2,
           "stats": {
               "hp": 800,
               "mana": 80,
@@ -621,6 +632,7 @@
       },
       "TFT8_Lulu": {
           "name": "Lulu",
+          "cost": 1,
           "stats": {
               "hp": 500,
               "mana": 50,
@@ -660,6 +672,7 @@
       },
       "TFT8_Vayne": {
           "name": "Vayne",
+          "cost": 3,
           "stats": {
               "hp": 600,
               "mana": 40,
@@ -699,6 +712,7 @@
       },
       "TFT8_BelVeth": {
           "name": "Bel'Veth",
+          "cost": 4,
           "stats": {
               "hp": 1000,
               "mana": 40,
@@ -788,6 +802,7 @@
       },
       "TFT8_Kayle": {
           "name": "Kayle",
+          "cost": 1,
           "stats": {
               "hp": 500,
               "mana": 30,
@@ -837,6 +852,7 @@
       },
       "TFT8_Vi": {
           "name": "Vi",
+          "cost": 2,
           "stats": {
               "hp": 700,
               "mana": 80,
@@ -906,6 +922,7 @@
       },
       "TFT8_Nunu": {
           "name": "Nunu & Willump",
+          "cost": 5,
           "stats": {
               "hp": 1337,
               "mana": 90,
@@ -995,6 +1012,7 @@
       },
       "TFT8_Urgot": {
           "name": "Urgot",
+          "cost": 5,
           "stats": {
               "hp": 1000,
               "mana": 175,
@@ -1124,6 +1142,7 @@
       },
       "TFT8_Camille": {
           "name": "Camille",
+          "cost": 2,
           "stats": {
               "hp": 750,
               "mana": 70,
@@ -1193,6 +1212,7 @@
       },
       "TFT8_Mordekaiser": {
           "name": "Mordekaiser",
+          "cost": 5,
           "stats": {
               "hp": 1200,
               "mana": 150,
@@ -1242,6 +1262,7 @@
       },
       "TFT8_Renekton": {
           "name": "Renekton",
+          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 50,
@@ -1291,6 +1312,7 @@
       },
       "TFT8_Malphite": {
           "name": "Malphite",
+          "cost": 2,
           "stats": {
               "hp": 800,
               "mana": 80,
@@ -1340,6 +1362,7 @@
       },
       "TFT8_Leblanc": {
           "name": "LeBlanc",
+          "cost": 3,
           "stats": {
               "hp": 650,
               "mana": 60,
@@ -1389,6 +1412,7 @@
       },
       "TFT8_Yasuo": {
           "name": "Yasuo",
+          "cost": 2,
           "stats": {
               "hp": 750,
               "mana": 70,
@@ -1428,6 +1452,7 @@
       },
       "TFT8_AurelionSol": {
           "name": "Aurelion Sol",
+          "cost": 4,
           "stats": {
               "hp": 850,
               "mana": 90,
@@ -1497,6 +1522,7 @@
       },
       "TFT8_WuKong": {
           "name": "Wukong",
+          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 100,
@@ -1546,6 +1572,7 @@
       },
       "TFT8_Nilah": {
           "name": "Nilah",
+          "cost": 3,
           "stats": {
               "hp": 800,
               "mana": 125,
@@ -1615,6 +1642,7 @@
       },
       "TFT8_Rell": {
           "name": "Rell",
+          "cost": 2,
           "stats": {
               "hp": 800,
               "mana": 150,
@@ -1664,6 +1692,7 @@
       },
       "TFT8_Syndra": {
           "name": "Syndra",
+          "cost": 5,
           "stats": {
               "hp": 850,
               "mana": 125,
@@ -1713,6 +1742,7 @@
       },
       "TFT8_Sona": {
           "name": "Sona",
+          "cost": 3,
           "stats": {
               "hp": 650,
               "mana": 40,
@@ -1782,6 +1812,7 @@
       },
       "TFT8_Riven": {
           "name": "Riven",
+          "cost": 3,
           "stats": {
               "hp": 700,
               "mana": 90,
@@ -1851,6 +1882,7 @@
       },
       "TFT8_Leona": {
           "name": "Leona",
+          "cost": 5,
           "stats": {
               "hp": 1100,
               "mana": 75,
@@ -1890,6 +1922,7 @@
       },
       "TFT8_Samira": {
           "name": "Samira",
+          "cost": 4,
           "stats": {
               "hp": 700,
               "mana": 75,
@@ -1959,6 +1992,7 @@
       },
       "TFT8_Nasus": {
           "name": "Nasus",
+          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 60,
@@ -2018,6 +2052,7 @@
       },
       "TFT8_Poppy": {
           "name": "Poppy",
+          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 80,
@@ -2067,6 +2102,7 @@
       },
       "TFT8_Hecarim": {
           "name": "Hackerim",
+          "cost": 0,
           "stats": {
               "hp": 650,
               "mana": 0,
@@ -2116,6 +2152,7 @@
       },
       "TFT8_Janna": {
           "name": "Janna",
+          "cost": 5,
           "stats": {
               "hp": 800,
               "mana": 120,
@@ -2185,6 +2222,7 @@
       },
       "TFT8_LeeSin": {
           "name": "Lee Sin",
+          "cost": 2,
           "stats": {
               "hp": 700,
               "mana": 70,
@@ -2234,6 +2272,7 @@
       },
       "TFT8_Jax": {
           "name": "Jax",
+          "cost": 3,
           "stats": {
               "hp": 800,
               "mana": 0,
@@ -2283,6 +2322,7 @@
       },
       "TFT8_Ekko": {
           "name": "Ekko",
+          "cost": 4,
           "stats": {
               "hp": 1000,
               "mana": 140,
@@ -2352,6 +2392,7 @@
       },
       "TFT8_Ashe": {
           "name": "Ashe",
+          "cost": 1,
           "stats": {
               "hp": 500,
               "mana": 50,
@@ -2401,6 +2442,7 @@
       },
       "TFT8_Rammus": {
           "name": "Rammus",
+          "cost": 3,
           "stats": {
               "hp": 950,
               "mana": 120,
@@ -2480,6 +2522,7 @@
       },
       "TFT8_Jinx": {
           "name": "Jinx",
+          "cost": 2,
           "stats": {
               "hp": 550,
               "mana": 80,
@@ -2519,6 +2562,7 @@
       },
       "TFT8_Blitzcrank": {
           "name": "Blitzcrank",
+          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 80,
@@ -2558,6 +2602,7 @@
       },
       "TFT8_Lux": {
           "name": "Lux",
+          "cost": 1,
           "stats": {
               "hp": 500,
               "mana": 70,
@@ -2607,6 +2652,7 @@
       },
       "TFT8_Jhin": {
           "name": "Jhin",
+          "cost": 4,
           "stats": {
               "hp": 744,
               "mana": 4,
@@ -2676,6 +2722,7 @@
       },
       "TFT8_GnarBig": {
           "name": "Gnar",
+          "cost": 3,
           "stats": {
               "hp": 800,
               "mana": 80,
@@ -2725,6 +2772,7 @@
       },
       "TFT8_Morgana": {
           "name": "Morgana",
+          "cost": 3,
           "stats": {
               "hp": 850,
               "mana": 100,
@@ -2794,6 +2842,7 @@
       },
       "TFT8b_Sivir": {
           "name": "Sivir",
+          "cost": 2,
           "stats": {
               "hp": 550,
               "mana": 50,
@@ -2853,6 +2902,7 @@
       },
       "TFT8_Garen": {
           "name": "Garen",
+          "cost": 4,
           "stats": {
               "hp": 1000,
               "mana": 200,
@@ -2922,6 +2972,7 @@
       },
       "TFT8_Pyke": {
           "name": "Pyke",
+          "cost": 2,
           "stats": {
               "hp": 700,
               "mana": 120,
@@ -2981,6 +3032,7 @@
       },
       "TFT8_Shen": {
           "name": "Shen",
+          "cost": 3,
           "stats": {
               "hp": 750,
               "mana": 100,
@@ -3020,6 +3072,7 @@
       },
       "TFT8_MissFortune": {
           "name": "Miss Fortune",
+          "cost": 4,
           "stats": {
               "hp": 750,
               "mana": 120,
@@ -3079,6 +3132,7 @@
       },
       "TFT8_Warwick": {
           "name": "Warwick",
+          "cost": 4,
           "stats": {
               "hp": 950,
               "mana": 90,
@@ -3148,6 +3202,7 @@
       },
       "TFT8_TwistedFate": {
           "name": "Twisted Fate",
+          "cost": 4,
           "stats": {
               "hp": 750,
               "mana": 30,
@@ -3237,6 +3292,7 @@
       },
       "TFT8_EzrealFuture": {
           "name": "Ultimate Ezreal",
+          "cost": 5,
           "stats": {
               "hp": 800,
               "mana": 150,
@@ -3286,6 +3342,7 @@
       },
       "TFT8_Neeko": {
           "name": "Neeko",
+          "cost": 4,
           "stats": {
               "hp": 750,
               "mana": 80,
@@ -3335,6 +3392,7 @@
       },
       "TFT8_Lucian": {
           "name": "Lucian",
+          "cost": 1,
           "stats": {
               "hp": 500,
               "mana": 40,
@@ -3394,6 +3452,7 @@
       },
       "TFT8_Pantheon": {
           "name": "Pantheon",
+          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 60,
@@ -3453,6 +3512,7 @@
       },
       "TFT8_Vex": {
           "name": "Vex",
+          "cost": 3,
           "stats": {
               "hp": 650,
               "mana": 40,
@@ -3492,6 +3552,7 @@
       },
       "TFT8_Aatrox": {
           "name": "Aatrox",
+          "cost": 4,
           "stats": {
               "hp": 1100,
               "mana": 75,

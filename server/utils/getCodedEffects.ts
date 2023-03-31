@@ -1,5 +1,5 @@
-import jsonAugment from '~~/assets/pt/aguments.json'
-import jsonData from '~~/assets/pt/data.json'
+import jsonAugment from '~~/assets/pt/augments.json'
+import jsonData from '~~/assets/data.json'
 
 export const getCodedEffects = () => {
   // const augments = []
