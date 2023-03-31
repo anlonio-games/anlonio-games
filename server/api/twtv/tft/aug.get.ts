@@ -6,6 +6,8 @@ import UnitsJSON from '~~/assets/pt/units.json'
 export default cachedEventHandler(async (event) => {
   const { search } : { search?: string} = getQuery(event)
 
+  console.info('search', search)
+
   if (!search || search === 'help') {
     return 'Digite !aug [nome do aprimoramento] para obter informações sobre o aprimoramento.'
   }
