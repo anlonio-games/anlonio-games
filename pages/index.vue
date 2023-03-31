@@ -71,6 +71,22 @@
         </p>
       </div>
     </div>
+    <div class="social_buttons">
+      <a target="_blank" href="https://www.paypal.com/donate/?business=875MJNLF8SEXY&no_recurring=1&item_name=Me+pague+um+caf%C3%A9&currency_code=BRL">
+        <span>
+          Me pague um café ☕
+          <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate">
+        </span>
+      </a>
+      <div class="float-right">
+        <a href="mailto:contato@anlonio.games" target="_blank">
+          <img src="https://img.shields.io/badge/contato%40anlonio.games-Contact%20me-blue" alt="Contact me">
+        </a>
+        <a href="https://twitter.com/oanlonio" target="_blank" class="pl-3">
+          <img src="https://img.shields.io/twitter/follow/oanlonio?style=social" alt="Twitter Follow">
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -80,11 +96,13 @@ definePageMeta({
 })
 </script>
 
-<style scoped>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+<style scoped lang="scss">
+  .social_buttons {
+    margin-top: 30px;
+
+    img {
+      display: inline-block;
+    }
   }
 
   body {
