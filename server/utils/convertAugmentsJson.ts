@@ -1,5 +1,5 @@
-import jsonAugment from '~~/assets/json_agument.json'
-import jsonAugmentData from '~~/assets/json_augment_data.json'
+import jsonAugment from '~~/assets/pt/aguments.json'
+import jsonData from '~~/assets/pt/data.json'
 
 export const convertAugmentsJson = () => {
   const augments = []
@@ -19,6 +19,7 @@ export const convertAugmentsJson = () => {
       })
     }
   }
+  const jsonAugmentData = jsonData.augments
 
   for (const [key, value] of Object.entries(jsonAugmentData)) {
     const desc = onlyDescriptions.find(desc => desc.key === `${key}_desc`)

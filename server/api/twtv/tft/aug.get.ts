@@ -31,7 +31,7 @@ export default eventHandler(async (event) => {
   })
 
   if (!augment) {
-    return 'Nenhum aprimoramento foi encontrado'
+    return 'Nenhum aprimoramento foi encontrado.'
   }
 
   augment.name = getAugmentName(augment.nameSlug)
@@ -61,5 +61,5 @@ export default eventHandler(async (event) => {
     const heroName: any = augment.aliases.split(', ').find((alias: string) => alias.includes('_'))?.split('_')?.[1]
     rank = `${heroName} ${rank}`
   }
-  return `${augment.name} (${rank}) -> ${description}}`
+  return `${augment.name} (${rank}) -> ${description}`
 })

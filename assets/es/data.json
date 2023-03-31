@@ -1,0 +1,1483 @@
+{
+  "RabadonsDeathcap": {
+      "id": 24,
+      "name": "Rabadon's Deathcap",
+      "effects": {
+          "AP": 70
+      },
+      "from": [
+          3,
+          3
+      ]
+  },
+  "InfinityEdge": {
+      "id": 16,
+      "name": "Infinity Edge",
+      "effects": {
+          "AD": 0.3,
+          "CritChance": 35
+      },
+      "from": [
+          1,
+          8
+      ]
+  },
+  "5DragonsClawRadiant": {
+      "id": 86,
+      "name": "Dragon's Will",
+      "effects": {
+          "MagicResist": 140,
+          "{8f854a28}": 2,
+          "{52358605}": 1.5,
+          "ICD": 0.5,
+          "PercentHealthDamage": 8
+      },
+      "from": []
+  },
+  "5TrapClawRadiant": {
+      "id": 90,
+      "name": "Willbreaker",
+      "effects": {
+          "Health": 150,
+          "AD": 0.4,
+          "AP": 40,
+          "{6689e9ad}": 70,
+          "Duration": 3,
+          "CritChance": 20
+      },
+      "from": []
+  },
+  "5IonicSparkRadiant": {
+      "id": 74,
+      "name": "Covalent Spark",
+      "effects": {
+          "AP": 10,
+          "MagicResist": 20,
+          "{9b1e8f37}": 3,
+          "{df6f64b9}": 250,
+          "{fe079f34}": 50,
+          "{8f854a28}": 1,
+          "{52358605}": 1
+      },
+      "from": []
+  },
+  "5QuicksilverRadiant": {
+      "id": 88,
+      "name": "Quickestsilver",
+      "effects": {
+          "MagicResist": 20,
+          "{a2b76524}": 30,
+          "AS": 70,
+          "CritChance": 20
+      },
+      "from": []
+  },
+  "5HextechGunbladeRadiant": {
+      "id": 58,
+      "name": "Hextech Lifeblade",
+      "effects": {
+          "{ad16f688}": 35,
+          "AD": 0.1,
+          "AP": 40
+      },
+      "from": []
+  },
+  "5StatikkShivRadiant": {
+      "id": 66,
+      "name": "Statikk's Favor",
+      "effects": {
+          "Mana": 15,
+          "Damage": 75,
+          "{440f813d}": 8,
+          "{12a15e9e}": 8,
+          "{79e2ec7b}": 8,
+          "{15144cec}": 8,
+          "{fe079f34}": 50,
+          "{b223097c}": 5,
+          "AP": 40,
+          "AS": 10
+      },
+      "from": []
+  },
+  "5FrozenHeartRadiant": {
+      "id": 78,
+      "name": "Bulwark's Oath",
+      "effects": {
+          "Mana": 45,
+          "HealthThreshold": 40,
+          "{0034a6ef}": 50,
+          "ShieldDuration": 10,
+          "{6a311cec}": 70,
+          "Armor": 20
+      },
+      "from": []
+  },
+  "5BlueBuffRadiant": {
+      "id": 77,
+      "name": "Blue Blessing",
+      "effects": {
+          "Mana": 40,
+          "{0cea77dc}": 20,
+          "AP": 50,
+          "{7ccd3647}": 10,
+          "{2a5b6a9f}": 3
+      },
+      "from": []
+  },
+  "5ArchangelsStaffRadiant": {
+      "id": 72,
+      "name": "Urf-Angel's Staff",
+      "effects": {
+          "Mana": 30,
+          "{a7db7345}": 4,
+          "{5deb4eb2}": 30,
+          "AP": 50
+      },
+      "from": []
+  },
+  "5MorellonomiconRadiant": {
+      "id": 75,
+      "name": "More More-ellonomicon",
+      "effects": {
+          "Health": 150,
+          "AP": 45,
+          "{57706a69}": 60,
+          "TicksPerSecond": 1,
+          "MonsterCap": 150,
+          "{97e52ce8}": 30,
+          "{2161bfa2}": 33
+      },
+      "from": []
+  },
+  "5BrambleVestRadiant": {
+      "id": 82,
+      "name": "Rosethorn Vest",
+      "effects": {
+          "Armor": 120,
+          "{1ee760be}": 125,
+          "{a3b999e9}": 175,
+          "{156febb8}": 225,
+          "{b5c2a66b}": 400,
+          "ICD": 1.5,
+          "{79a4455a}": 1
+      },
+      "from": []
+  },
+  "5ZzRotPortalRadiant": {
+      "id": 69,
+      "name": "Zz'Rots Invitation",
+      "effects": {
+          "Health": 150,
+          "{7ff4f3b6}": 25,
+          "{50a0dbb5}": 1.8,
+          "{ef0bb7c2}": 1.5,
+          "AS": 10
+      },
+      "from": []
+  },
+  "5ShroudOfStillnessRadiant": {
+      "id": 85,
+      "name": "Shroud of Reverence",
+      "effects": {
+          "{4516a18d}": 60,
+          "{a861afa0}": 50,
+          "{ba272485}": 15,
+          "Health": 250,
+          "Armor": 20,
+          "CritChance": 20
+      },
+      "from": []
+  },
+  "5RunaansHurricaneRadiant": {
+      "id": 68,
+      "name": "Runaan's Tempest",
+      "effects": {
+          "AdditionalTargets": 1,
+          "{276ba2c8}": 100,
+          "AD": 0.2,
+          "MagicResist": 20,
+          "AS": 20
+      },
+      "from": []
+  },
+  "5ZephyrRadiant": {
+      "id": 87,
+      "name": "Mistral",
+      "effects": {
+          "{510fdb6a}": 8,
+          "Health": 150,
+          "MagicResist": 20,
+          "{c67a1046}": 15,
+          "AS": 20
+      },
+      "from": []
+  },
+  "5GuinsoosRagebladeRadiant": {
+      "id": 65,
+      "name": "Guinsoo's Reckoning",
+      "effects": {
+          "AttackSpeedPerStack": 10,
+          "AP": 10,
+          "AS": 25
+      },
+      "from": []
+  },
+  "5HandOfJusticeRadiant": {
+      "id": 81,
+      "name": "Fist of Fairness",
+      "effects": {
+          "Mana": 15,
+          "{ae49cc70}": 30,
+          "{a3814259}": 0.5,
+          "{6bac277d}": 50,
+          "CritChance": 20
+      },
+      "from": []
+  },
+  "5SunfireCapeRadiant": {
+      "id": 84,
+      "name": "Sunlight Cape",
+      "effects": {
+          "Health": 350,
+          "Armor": 20,
+          "{57706a69}": 60,
+          "{97e52ce8}": 30,
+          "MonsterCap": 150,
+          "{2161bfa2}": 33,
+          "ICD": 1.5,
+          "{9b1e8f37}": 3,
+          "{8f854a28}": null,
+          "{52358605}": null
+      },
+      "from": []
+  },
+  "5ZekesHeraldRadiant": {
+      "id": 62,
+      "name": "Zeke's Harmony",
+      "effects": {
+          "AttackSpeed": 50,
+          "{9b1e8f37}": 1,
+          "Health": 150,
+          "LifeSteal": 10,
+          "AD": 0.1
+      },
+      "from": []
+  },
+  "5LastWhisperRadiant": {
+      "id": 70,
+      "name": "Eternal Whisper",
+      "effects": {
+          "{5079c7a2}": 50,
+          "{cc9fefa7}": 50,
+          "AD": 0.35,
+          "AS": 10,
+          "CritChance": 55
+      },
+      "from": []
+  },
+  "5LocketOfTheIronSolariRadiant": {
+      "id": 73,
+      "name": "Locket of Targon Prime",
+      "effects": {
+          "AP": 10,
+          "Armor": 20,
+          "{6fb9af6a}": 400,
+          "{0d46330d}": 500,
+          "{829e6cec}": 600,
+          "{c78af25f}": 900,
+          "ShieldDuration": 60,
+          "{9b1e8f37}": 3,
+          "{940ca598}": 200
+      },
+      "from": []
+  },
+  "5ThiefsGlovesRadiant": {
+      "id": 91,
+      "name": "Rascal's Gloves",
+      "effects": {
+          "CritChance": 40
+      },
+      "from": []
+  },
+  "5WarmogsArmorRadiant": {
+      "id": 89,
+      "name": "Warmog's Pride",
+      "effects": {
+          "Health": 1300,
+          "{8f854a28}": 1,
+          "{52358605}": 1
+      },
+      "from": []
+  },
+  "5RedemptionRadiant": {
+      "id": 80,
+      "name": "Absolution",
+      "effects": {
+          "Health": 300,
+          "Mana": 15,
+          "{5cc52ba8}": 2,
+          "{7b6cc2f7}": 25,
+          "{c9f222c0}": 5,
+          "{033de552}": 25,
+          "MaxHeal": 2000
+      },
+      "from": []
+  },
+  "5GuardianAngelRadiant": {
+      "id": 60,
+      "name": "Brink of Dawn",
+      "effects": {
+          "AD": 0.1,
+          "Armor": 20,
+          "{b1442c34}": 1,
+          "DamageReduction": 100,
+          "HealthThreshold": 60,
+          "AttackSpeed": 40,
+          "{c8e44ba8}": 30
+      },
+      "from": []
+  },
+  "5RapidFirecannonRadiant": {
+      "id": 64,
+      "name": "Rapid Lightcannon",
+      "effects": {
+          "AS": 99,
+          "{16394c87}": 2
+      },
+      "from": []
+  },
+  "5TitansResolveRadiant": {
+      "id": 67,
+      "name": "Titan's Vow",
+      "effects": {
+          "Armor": 30,
+          "{9396f00d}": 25,
+          "{b55019fa}": 50,
+          "{b3b8f644}": 0.03,
+          "{cb9689ca}": 3,
+          "AS": 30
+      },
+      "from": []
+  },
+  "5GiantSlayerRadiant": {
+      "id": 57,
+      "name": "Demonslayer",
+      "effects": {
+          "AD": 0.5,
+          "{b8ae7546}": 70,
+          "AP": 40,
+          "HealthThreshold": 1600,
+          "AS": 10
+      },
+      "from": []
+  },
+  "5BloodthirsterRadiant": {
+      "id": 61,
+      "name": "Blessed Bloodthirster",
+      "effects": {
+          "AD": 0.4,
+          "MagicResist": 20,
+          "LifeSteal": 40,
+          "HealthThreshold": 40,
+          "{0034a6ef}": 40,
+          "ShieldDuration": 5
+      },
+      "from": []
+  },
+  "5RabadonsDeathcapRadiant": {
+      "id": 71,
+      "name": "Rabadon's Ascended Deathcap",
+      "effects": {
+          "AP": 125
+      },
+      "from": []
+  },
+  "5JeweledGauntletRadiant": {
+      "id": 76,
+      "name": "Glamorous Gauntlet",
+      "effects": {
+          "AP": 50,
+          "CritChance": 75
+      },
+      "from": []
+  },
+  "5GargoyleStoneplateRadiant": {
+      "id": 83,
+      "name": "Dvarapala Stoneplate",
+      "effects": {
+          "Armor": 20,
+          "MagicResist": 20,
+          "{7c694b41}": 30,
+          "{7ba8c0e3}": 30,
+          "{8f854a28}": 2,
+          "{52358605}": 1
+      },
+      "from": []
+  },
+  "5ChaliceOfPowerRadiant": {
+      "id": 79,
+      "name": "Chalice of Charity",
+      "effects": {
+          "Mana": 15,
+          "{9b1e8f37}": 1,
+          "{8f0882cf}": 45,
+          "{67741d01}": 10,
+          "MagicResist": 20
+      },
+      "from": []
+  },
+  "5SpearOfShojinRadiant": {
+      "id": 59,
+      "name": "Spear of Hirana",
+      "effects": {
+          "Mana": 15,
+          "{4b9a3b61}": 40,
+          "AD": 0.1,
+          "AP": 50
+      },
+      "from": []
+  },
+  "5InfinityEdgeRadiant": {
+      "id": 63,
+      "name": "Zenith Edge",
+      "effects": {
+          "AD": 0.55,
+          "CritChance": 75
+      },
+      "from": []
+  },
+  "5DeathbladeRadiant": {
+      "id": 56,
+      "name": "Luminous Deathblade",
+      "effects": {
+          "AD": 1.2
+      },
+      "from": []
+  },
+  "FrozenHeart": {
+      "id": 31,
+      "name": "Protector's Vow",
+      "effects": {
+          "Mana": 45,
+          "HealthThreshold": 40,
+          "{0034a6ef}": 25,
+          "ShieldDuration": 5,
+          "{6a311cec}": 35,
+          "Armor": 20
+      },
+      "from": [
+          4,
+          5
+      ]
+  },
+  "8OxForceEmblemItem": {
+      "id": 96,
+      "name": "Ox Force Emblem",
+      "effects": {
+          "Armor": 20
+      },
+      "from": [
+          5,
+          9
+      ]
+  },
+  "8RiftwalkerEmblemItem": {
+      "id": 113,
+      "name": "Riftwalker Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8UndergroundTheEmblemItem": {
+      "id": 112,
+      "name": "The Underground Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8BrawlerEmblemItem": {
+      "id": 102,
+      "name": "Brawler Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8ADMINEmblemItem": {
+      "id": 97,
+      "name": "A.D.M.I.N. Emblem",
+      "effects": {
+          "MagicResist": 20
+      },
+      "from": [
+          6,
+          9
+      ]
+  },
+  "8HackerEmblemItem": {
+      "id": 105,
+      "name": "Hacker Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8InfiniteamEmblemItem": {
+      "id": 92,
+      "name": "InfiniTeam Emblem",
+      "effects": {
+          "AD": 0.1
+      },
+      "from": [
+          1,
+          9
+      ]
+  },
+  "8DeadeyeEmblemItem": {
+      "id": 111,
+      "name": "Sureshot Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8GenAEEmblemItem": {
+      "id": 104,
+      "name": "Gadgeteen Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8ExoPrimeEmblemItem": {
+      "id": 107,
+      "name": "Mecha: PRIME Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8StarGuardianEmblemItem": {
+      "id": 110,
+      "name": "Star Guardian Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8AnimaSquadEmblemItem": {
+      "id": 94,
+      "name": "Anima Squad Emblem",
+      "effects": {
+          "AP": 0.1
+      },
+      "from": [
+          3,
+          9
+      ]
+  },
+  "8HeartEmblemItem": {
+      "id": 95,
+      "name": "Heart Emblem",
+      "effects": {
+          "Mana": 15
+      },
+      "from": [
+          4,
+          9
+      ]
+  },
+  "8AegisEmblemItem": {
+      "id": 101,
+      "name": "Aegis Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8InterPolarisEmblemItem": {
+      "id": 106,
+      "name": "LaserCorps Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8AceEmblemItem": {
+      "id": 100,
+      "name": "Ace Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8ChannelerEmblemItem": {
+      "id": 109,
+      "name": "Spellslinger Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8MascotEmblemItem": {
+      "id": 98,
+      "name": "Mascot Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": [
+          7,
+          9
+      ]
+  },
+  "8DefenderEmblemItem": {
+      "id": 103,
+      "name": "Defender Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8RenegadeEmblemItem": {
+      "id": 99,
+      "name": "Renegade Emblem",
+      "effects": {
+          "CritChance": 20
+      },
+      "from": [
+          8,
+          9
+      ]
+  },
+  "8PranksterEmblemItem": {
+      "id": 108,
+      "name": "Prankster Emblem",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "8DuelistEmblemItem": {
+      "id": 93,
+      "name": "Duelist Emblem",
+      "effects": {
+          "AS": 10
+      },
+      "from": [
+          2,
+          9
+      ]
+  },
+  "Shroud": {
+      "id": 38,
+      "name": "Shroud of Stillness",
+      "effects": {
+          "{4516a18d}": 60,
+          "{a861afa0}": 35,
+          "Health": 250,
+          "Armor": 20,
+          "CritChance": 20
+      },
+      "from": [
+          5,
+          8
+      ]
+  },
+  "Redemption": {
+      "id": 33,
+      "name": "Redemption",
+      "effects": {
+          "Health": 150,
+          "Mana": 15,
+          "{5cc52ba8}": 1,
+          "{7b6cc2f7}": 15,
+          "{c9f222c0}": 5,
+          "{033de552}": 25,
+          "MaxHeal": 1000
+      },
+      "from": [
+          4,
+          7
+      ]
+  },
+  "8Shroud_GenAE": {
+      "id": 119,
+      "name": "Shroud of Even Still-erness",
+      "effects": {
+          "{4516a18d}": 60,
+          "{a861afa0}": 35,
+          "{c1c481b8}": 20,
+          "{a98f7b85}": 3,
+          "Health": 250,
+          "Armor": 20,
+          "CritChance": 20
+      },
+      "from": []
+  },
+  "8Shojin_GenAE": {
+      "id": 118,
+      "name": "Jump-Started Spear of Shojin",
+      "effects": {
+          "Mana": 45,
+          "{4b9a3b61}": 20,
+          "AD": 0.1,
+          "AP": 20
+      },
+      "from": []
+  },
+  "8HandOfJustice_GenAE": {
+      "id": 116,
+      "name": "Hand of Nondeterministic Justice",
+      "effects": {
+          "Mana": 15,
+          "BaseHeal": 20,
+          "{a3814259}": 0.25,
+          "{6bac277d}": 25,
+          "CritChance": 20
+      },
+      "from": []
+  },
+  "8IonicSpark_GenAE": {
+      "id": 117,
+      "name": "Magnetized Ionic Spark",
+      "effects": {
+          "{f80ce8e6}": 4,
+          "{9b1e8f37}": 2,
+          "Damage": 250,
+          "AP": 10,
+          "MagicResist": 20,
+          "{df6f64b9}": 250,
+          "{fe079f34}": 50
+      },
+      "from": []
+  },
+  "8TitansResolve_GenAE": {
+      "id": 121,
+      "name": "Gadgeteen Titan's Resolve",
+      "effects": {
+          "Armor": 20,
+          "{9396f00d}": 30,
+          "{b55019fa}": 30,
+          "{b3b8f644}": 0.02,
+          "{cb9689ca}": 2,
+          "AS": 10,
+          "{c2b90de1}": 0.02
+      },
+      "from": []
+  },
+  "8GiantSlayer_GenAE": {
+      "id": 115,
+      "name": "OVERFLOW_ERROR // Giant Slayer ",
+      "effects": {
+          "AD": 0.3,
+          "{b8ae7546}": 30,
+          "HealthThreshold": 1,
+          "AP": 20,
+          "AS": 10
+      },
+      "from": []
+  },
+  "8Warmogs_GenAE": {
+      "id": 122,
+      "name": "Induction-Powered Warmog's Armor",
+      "effects": {
+          "Health": 900,
+          "{8f854a28}": 0.5,
+          "{52358605}": 1
+      },
+      "from": []
+  },
+  "8Sunfire_GenAE": {
+      "id": 120,
+      "name": "Overclocked Sunfire Cape",
+      "effects": {
+          "Health": 300,
+          "Armor": 20,
+          "{57706a69}": 10,
+          "{97e52ce8}": 10,
+          "MonsterCap": 100,
+          "{2161bfa2}": 33,
+          "{9b1e8f37}": 3,
+          "ICD": 1
+      },
+      "from": []
+  },
+  "8Bloodthirster_GenAE": {
+      "id": 114,
+      "name": "Chainsword Bloodthirster",
+      "effects": {
+          "AD": 0.3,
+          "MagicResist": 20,
+          "LifeSteal": 25,
+          "HealthThreshold": 40,
+          "{0034a6ef}": 25,
+          "ShieldDuration": 8,
+          "{f6564b98}": 0.5
+      },
+      "from": []
+  },
+  "Zephyr": {
+      "id": 40,
+      "name": "Zephyr",
+      "effects": {
+          "{510fdb6a}": 5,
+          "Health": 150,
+          "MagicResist": 20,
+          "AS": 15
+      },
+      "from": [
+          6,
+          7
+      ]
+  },
+  "4OrnnMuramana": {
+      "id": 50,
+      "name": "Manazane",
+      "effects": {
+          "Mana": 30,
+          "ManaRestore": 120,
+          "{c8d95a76}": 5,
+          "AD": 0.15,
+          "AS": 15
+      },
+      "from": []
+  },
+  "ZekesHerald": {
+      "id": 15,
+      "name": "Zeke's Herald",
+      "effects": {
+          "AttackSpeed": 20,
+          "{9b1e8f37}": 1,
+          "Health": 250,
+          "AD": 0.1
+      },
+      "from": [
+          1,
+          7
+      ]
+  },
+  "ThiefsGloves": {
+      "id": 44,
+      "name": "Thief's Gloves",
+      "effects": {
+          "CritChance": 40
+      },
+      "from": [
+          8,
+          8
+      ]
+  },
+  "GuinsoosRageblade": {
+      "id": 18,
+      "name": "Guinsoo's Rageblade",
+      "effects": {
+          "AttackSpeedPerStack": 5,
+          "AP": 10,
+          "AS": 10
+      },
+      "from": [
+          2,
+          3
+      ]
+  },
+  "IonicSpark": {
+      "id": 27,
+      "name": "Ionic Spark",
+      "effects": {
+          "Damage": 250,
+          "AP": 10,
+          "MagicResist": 20,
+          "{9b1e8f37}": 2,
+          "{df6f64b9}": 185,
+          "{fe079f34}": 50
+      },
+      "from": [
+          3,
+          6
+      ]
+  },
+  "DragonsClaw": {
+      "id": 39,
+      "name": "Dragon's Claw",
+      "effects": {
+          "MagicResist": 70,
+          "ICD": 0.5,
+          "PercentHealthDamage": 4,
+          "{52358605}": 2
+      },
+      "from": [
+          6,
+          6
+      ]
+  },
+  "PowerGauntlet": {
+      "id": 43,
+      "name": "Guardbreaker",
+      "effects": {
+          "{6689e9ad}": 30,
+          "Health": 150,
+          "AD": 0.2,
+          "AP": 20,
+          "Duration": 3,
+          "CritChance": 20
+      },
+      "from": [
+          7,
+          8
+      ]
+  },
+  "4OrnnAnimaVisage": {
+      "id": 46,
+      "name": "Anima Visage",
+      "effects": {
+          "Health": 250,
+          "MagicResist": 25,
+          "{3b3af019}": 2.5
+      },
+      "from": []
+  },
+  "GargoyleStoneplate": {
+      "id": 36,
+      "name": "Gargoyle Stoneplate",
+      "effects": {
+          "Armor": 30,
+          "MagicResist": 30,
+          "{7c694b41}": 15,
+          "{7ba8c0e3}": 15
+      },
+      "from": [
+          5,
+          6
+      ]
+  },
+  "BrambleVest": {
+      "id": 35,
+      "name": "Bramble Vest",
+      "effects": {
+          "{6688a0d5}": 100,
+          "{1ee760be}": 75,
+          "ICD": 2.5,
+          "Armor": 70,
+          "{a3b999e9}": 100,
+          "{156febb8}": 150,
+          "{b5c2a66b}": 200,
+          "{79a4455a}": 0.75
+      },
+      "from": [
+          5,
+          5
+      ]
+  },
+  "ChainVest": {
+      "id": 4,
+      "name": "Chain Vest",
+      "effects": {
+          "Armor": 20
+      },
+      "from": []
+  },
+  "4OrnnRocketPropelledFist": {
+      "id": 53,
+      "name": "Rocket-Propelled Fist",
+      "effects": {
+          "Health": 150,
+          "StunDuration": 1.5,
+          "Mana": 15,
+          "Armor": 25
+      },
+      "from": []
+  },
+  "4OrnnEternalWinter": {
+      "id": 48,
+      "name": "Eternal Winter",
+      "effects": {
+          "Health": 150,
+          "Armor": 25,
+          "SlowDuration": 1.5,
+          "{aaa03dde}": 1.5,
+          "{e8bc18e0}": 7,
+          "{22302443}": 15,
+          "{0f0fd3a2}": 20
+      },
+      "from": []
+  },
+  "RecurveBow": {
+      "id": 1,
+      "name": "Recurve Bow",
+      "effects": {
+          "AS": 10
+      },
+      "from": []
+  },
+  "MadredsBloodrazor": {
+      "id": 10,
+      "name": "Giant Slayer",
+      "effects": {
+          "AD": 0.3,
+          "AP": 20,
+          "HealthThreshold": 1600,
+          "{b8ae7546}": 25,
+          "AS": 10
+      },
+      "from": [
+          1,
+          2
+      ]
+  },
+  "4OrnnObsidianCleaver": {
+      "id": 51,
+      "name": "Obsidian Cleaver",
+      "effects": {
+          "Health": 150,
+          "AD": 0.2,
+          "Duration": 5,
+          "{a8d6e8b5}": 50
+      },
+      "from": []
+  },
+  "RedBuff": {
+      "id": 37,
+      "name": "Sunfire Cape",
+      "effects": {
+          "Health": 250,
+          "Armor": 20,
+          "{57706a69}": 10,
+          "{97e52ce8}": 10,
+          "MonsterCap": 100,
+          "{2161bfa2}": 33,
+          "ICD": 2,
+          "{9b1e8f37}": 2
+      },
+      "from": [
+          5,
+          7
+      ]
+  },
+  "UnstableConcoction": {
+      "id": 34,
+      "name": "Hand Of Justice",
+      "effects": {
+          "{a60806db}": 66.667,
+          "Mana": 15,
+          "{693a77ae}": 0.15,
+          "{c0c9af7f}": 15,
+          "{41cb628d}": 0.15,
+          "{19a89153}": 15,
+          "BaseHeal": 15,
+          "CritChance": 20
+      },
+      "from": [
+          4,
+          8
+      ]
+  },
+  "GuardianAngel": {
+      "id": 13,
+      "name": "Edge of Night",
+      "effects": {
+          "HealthThreshold": 60,
+          "AttackSpeed": 15,
+          "AD": 0.1,
+          "Armor": 20,
+          "{b1442c34}": 1,
+          "DamageReduction": 100
+      },
+      "from": [
+          1,
+          5
+      ]
+  },
+  "SeraphsEmbrace": {
+      "id": 30,
+      "name": "Blue Buff",
+      "effects": {
+          "{7ccd3647}": 10,
+          "Mana": 40,
+          "AP": 10,
+          "{0cea77dc}": 10,
+          "{2a5b6a9f}": 3
+      },
+      "from": [
+          4,
+          4
+      ]
+  },
+  "TearOfTheGoddess": {
+      "id": 3,
+      "name": "Tear of the Goddess",
+      "effects": {
+          "Mana": 15
+      },
+      "from": []
+  },
+  "4OrnnZhonyasParadox": {
+      "id": 55,
+      "name": "Zhonya's Paradox",
+      "effects": {
+          "AP": 40,
+          "Armor": 40,
+          "MagicResist": 40,
+          "{046e3023}": 40,
+          "{69247755}": 3
+      },
+      "from": []
+  },
+  "NegatronCloak": {
+      "id": 5,
+      "name": "Negatron Cloak",
+      "effects": {
+          "MagicResist": 20
+      },
+      "from": []
+  },
+  "TitansResolve": {
+      "id": 20,
+      "name": "Titan's Resolve",
+      "effects": {
+          "Armor": 20,
+          "{9396f00d}": 25,
+          "{b55019fa}": 25,
+          "{b3b8f644}": 0.02,
+          "{cb9689ca}": 2,
+          "AS": 10
+      },
+      "from": [
+          2,
+          5
+      ]
+  },
+  "RunaansHurricane": {
+      "id": 21,
+      "name": "Runaan's Hurricane",
+      "effects": {
+          "AdditionalTargets": 1,
+          "{276ba2c8}": 50,
+          "AD": 0.2,
+          "MagicResist": 20,
+          "AS": 10
+      },
+      "from": [
+          2,
+          6
+      ]
+  },
+  "SparringGloves": {
+      "id": 7,
+      "name": "Sparring Gloves",
+      "effects": {
+          "CritChance": 20
+      },
+      "from": []
+  },
+  "Bloodthirster": {
+      "id": 14,
+      "name": "Bloodthirster",
+      "effects": {
+          "AD": 0.2,
+          "MagicResist": 20,
+          "LifeSteal": 20,
+          "HealthThreshold": 40,
+          "{0034a6ef}": 25,
+          "ShieldDuration": 5
+      },
+      "from": [
+          1,
+          6
+      ]
+  },
+  "ArchangelsStaff": {
+      "id": 25,
+      "name": "Archangel's Staff",
+      "effects": {
+          "Mana": 30,
+          "{a7db7345}": 5,
+          "{5deb4eb2}": 20,
+          "AP": 20
+      },
+      "from": [
+          3,
+          4
+      ]
+  },
+  "TitanicHydra": {
+      "id": 22,
+      "name": "Zz'Rot Portal",
+      "effects": {
+          "Health": 150,
+          "{7ff4f3b6}": 25,
+          "AS": 10
+      },
+      "from": [
+          2,
+          7
+      ]
+  },
+  "4OrnnDeathsDefiance": {
+      "id": 47,
+      "name": "Death's Defiance",
+      "effects": {
+          "AD": 0.1,
+          "Armor": 20,
+          "{ee37daec}": 50,
+          "{0bc5955f}": 4,
+          "BaseHeal": 25,
+          "AS": 20
+      },
+      "from": []
+  },
+  "SpearOfShojin": {
+      "id": 12,
+      "name": "Spear of Shojin",
+      "effects": {
+          "Mana": 15,
+          "{4b9a3b61}": 20,
+          "AD": 0.1,
+          "AP": 15
+      },
+      "from": [
+          1,
+          4
+      ]
+  },
+  "Spatula": {
+      "id": 8,
+      "name": "Spatula",
+      "effects": {
+          "{fe9818ef}": 5
+      },
+      "from": []
+  },
+  "4OrnnInfinityForce": {
+      "id": 49,
+      "name": "Infinity Force",
+      "effects": {
+          "Health": 25,
+          "Mana": 25,
+          "AD": 0.25,
+          "AP": 25,
+          "Armor": 25,
+          "MagicResist": 25,
+          "AS": 25
+      },
+      "from": []
+  },
+  "LocketOfTheIronSolari": {
+      "id": 26,
+      "name": "Locket of the Iron Solari",
+      "effects": {
+          "{6fb9af6a}": 300,
+          "ShieldDuration": 15,
+          "{9b1e8f37}": 2,
+          "AP": 10,
+          "Armor": 20,
+          "{0d46330d}": 350,
+          "{829e6cec}": 400,
+          "{c78af25f}": 800
+      },
+      "from": [
+          3,
+          5
+      ]
+  },
+  "Morellonomicon": {
+      "id": 28,
+      "name": "Morellonomicon",
+      "effects": {
+          "{57706a69}": 10,
+          "TicksPerSecond": 1,
+          "MonsterCap": 100,
+          "{97e52ce8}": 10,
+          "Health": 150,
+          "AP": 25,
+          "{2161bfa2}": 33
+      },
+      "from": [
+          3,
+          7
+      ]
+  },
+  "RapidFireCannon": {
+      "id": 17,
+      "name": "Rapid Firecannon",
+      "effects": {
+          "AS": 55,
+          "{9f5117db}": 100,
+          "{16394c87}": 1
+      },
+      "from": [
+          2,
+          2
+      ]
+  },
+  "BFSword": {
+      "id": 0,
+      "name": "B.F. Sword",
+      "effects": {
+          "AD": 0.1
+      },
+      "from": []
+  },
+  "LastWhisper": {
+      "id": 23,
+      "name": "Last Whisper",
+      "effects": {
+          "{5079c7a2}": 50,
+          "{cc9fefa7}": 5,
+          "AD": 0.1,
+          "AS": 10,
+          "CritChance": 20
+      },
+      "from": [
+          2,
+          8
+      ]
+  },
+  "JeweledGauntlet": {
+      "id": 29,
+      "name": "Jeweled Gauntlet",
+      "effects": {
+          "AP": 25,
+          "CritChance": 35
+      },
+      "from": [
+          3,
+          8
+      ]
+  },
+  "GiantsBelt": {
+      "id": 6,
+      "name": "Giant's Belt",
+      "effects": {
+          "Health": 150
+      },
+      "from": []
+  },
+  "NeedlesslyLargeRod": {
+      "id": 2,
+      "name": "Needlessly Large Rod",
+      "effects": {
+          "AP": 10
+      },
+      "from": []
+  },
+  "4OrnnRanduinsSanctum": {
+      "id": 52,
+      "name": "Randuin's Sanctum",
+      "effects": {
+          "Armor": null,
+          "MagicResist": null,
+          "Health": 150,
+          "BonusDefense": 40
+      },
+      "from": []
+  },
+  "ForceOfNature": {
+      "id": 45,
+      "name": "Tactician's Crown",
+      "effects": {
+          "{ec9a04d1}": 1
+      },
+      "from": [
+          9,
+          9
+      ]
+  },
+  "Quicksilver": {
+      "id": 41,
+      "name": "Quicksilver",
+      "effects": {
+          "MagicResist": 30,
+          "{a2b76524}": 18,
+          "AS": 30,
+          "CritChance": 20
+      },
+      "from": [
+          6,
+          8
+      ]
+  },
+  "Deathblade": {
+      "id": 9,
+      "name": "Deathblade",
+      "effects": {
+          "AD": 0.66
+      },
+      "from": [
+          1,
+          1
+      ]
+  },
+  "Chalice": {
+      "id": 32,
+      "name": "Chalice of Power",
+      "effects": {
+          "Mana": 30,
+          "ManaRestore": 10,
+          "{9b1e8f37}": 1,
+          "{8f0882cf}": 25,
+          "{9fd37c1c}": 60,
+          "MagicResist": 20
+      },
+      "from": [
+          4,
+          6
+      ]
+  },
+  "WarmogsArmor": {
+      "id": 42,
+      "name": "Warmog's Armor",
+      "effects": {
+          "Health": 800
+      },
+      "from": [
+          7,
+          7
+      ]
+  },
+  "StatikkShiv": {
+      "id": 19,
+      "name": "Statikk Shiv",
+      "effects": {
+          "Damage": 30,
+          "{440f813d}": 4,
+          "{12a15e9e}": 4,
+          "Mana": 15,
+          "{79e2ec7b}": 4,
+          "{15144cec}": 4,
+          "{fe079f34}": 50,
+          "{b223097c}": 5,
+          "AP": 15,
+          "AS": 10
+      },
+      "from": [
+          2,
+          4
+      ]
+  },
+  "4OrnnTheCollector": {
+      "id": 54,
+      "name": "Gold Collector",
+      "effects": {
+          "AD": 0.2,
+          "CritChance": 30,
+          "{430f8969}": 12,
+          "{2dd33743}": 40
+      },
+      "from": []
+  },
+  "HextechGunblade": {
+      "id": 11,
+      "name": "Hextech Gunblade",
+      "effects": {
+          "{ad16f688}": 22,
+          "AD": 0.1,
+          "AP": 10
+      },
+      "from": [
+          1,
+          3
+      ]
+  }
+}
