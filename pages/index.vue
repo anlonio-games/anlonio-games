@@ -28,7 +28,7 @@
         <div class="chat__command__content">
           <div class="chat__command__content__message">
             <span class="chat__command__content__message__text">
-              !cmd add !aug ${urlfetch https://www.anlonio.games/api/twtv/tft/aug?search=${queryescape ${1: | help}}}
+              !cmd add !aug ${urlfetch https://anlonio.games/api/twtv/tft/aug?search=${queryescape ${1: | help}}}
             </span>
           </div>
         </div>
@@ -118,7 +118,7 @@ definePageMeta({
   auth: false
 })
 // eslint-disable-next-line no-template-curly-in-string
-const source = ref('!cmd add !aug ${urlfetch https://www.anlonio.games/api/twtv/tft/aug?search=${queryescape ${1: | help}}}')
+const source = ref('!cmd add !aug ${urlfetch https://anlonio.games/api/twtv/tft/aug?search=${queryescape ${1: | help}}}')
 const { copy, copied, isSupported } = useClipboard({ source, legacy: true })
 </script>
 
