@@ -9,7 +9,7 @@ export default cachedEventHandler(async (event) => {
   console.info('search', search)
 
   if (!search || search === 'help') {
-    return 'Digite !aug [nome do aprimoramento] para obter informações sobre o aprimoramento.'
+    return 'Digite !aug [nome do aprimoramento] para obter informações sobre o aprimoramento. Exemplo: !aug jinx carry | Essa api é mantida pelo Anlonio, para mais informações acesse: anlonio.games'
   }
 
   if (search.length < 3) {
