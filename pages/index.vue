@@ -8,83 +8,106 @@
         Em breve mais informações.
         Me siga no <a href="https://twitter.com/oanlonio" target="_blank">twitter</a> para se manter atualizado.
       </p>
-    </div>
-    <div class="cards">
-      <div class="card prisma__card">
-        <div class="card__body">
-          <h2 class="card__title">
-            Jogue com o chat
-          </h2>
-          <p>
-            Interaja com seu chat enquanto joga. Anlonio Games irá proporcionar uma experiência única para você e seus viewers.
+      <p class="heading__credits pt-5 command-text">
+        <span>Teste hoje a API de aprimoramentos do TFT! mantenha seu chat informado e ajude os jogadores iniciantes:</span>
+      </p>
+      <!-- clipboard block to get the command -->
+      <div class="text-center hide-lg">
+        <button v-if="isSupported" class="copy-button mt-3" @click="copy(source)">
+          <span v-if="copied">Comando Copiado!</span>
+          <span v-else>Copiar Comando</span>
+        </button>
+      </div>
+      <div class="chat__command text-center hide-xs">
+        <div>
+          <button v-if="isSupported" class="copy-button mr-2" @click="copy(source)">
+            <span v-if="copied">Copiado!</span>
+            <span v-else>Copiar</span>
+          </button>
+        </div>
+        <div class="chat__command__content">
+          <div class="chat__command__content__message">
+            <span class="chat__command__content__message__text">
+              !cmd add !aug ${urlfetch https://www.anlonio.games/api/twtv/tft/aug?search=${queryescape ${1: | help}}}
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card prisma__card">
+          <div class="card__body">
+            <h2 class="card__title">
+              Jogue com o chat
+            </h2>
+            <p>
+              Interaja com seu chat enquanto joga. Anlonio Games irá proporcionar uma experiência única para você e seus viewers.
+            </p>
+          </div>
+          <p class="card__action">
+            <a class="card__link" href="https://twitter.com/oanlonio" target="_blank">
+              Em breve
+            </a>
           </p>
         </div>
-        <p class="card__action">
-          <a class="card__link" href="https://twitter.com/oanlonio" target="_blank">
-            Em breve
-          </a>
-        </p>
-      </div>
-      <div class="card auth__card">
-        <div class="card__body">
-          <h2 class="card__title">
-            Comandos insanos e úteis
-          </h2>
-          <p>
-            Disponibilize informação e diversão com os comandos do Anlonio Games.
+        <div class="card auth__card">
+          <div class="card__body">
+            <h2 class="card__title">
+              Comandos insanos e úteis
+            </h2>
+            <p>
+              Disponibilize informação e diversão com os comandos do Anlonio Games.
+            </p>
+          </div>
+          <p class="card__action">
+            <a class="card__link" href="https://twitter.com/oanlonio" target="_blank">
+              Em breve
+            </a>
           </p>
         </div>
-        <p class="card__action">
-          <a class="card__link" href="https://twitter.com/oanlonio" target="_blank">
-            Em breve
-          </a>
-        </p>
-      </div>
-      <div class="card trpc__card">
-        <div class="card__body">
-          <h2 class="card__title">
-            Overlays turbinadas
-          </h2>
-          <p>
-            Use overlays incríveis para suas lives.
+        <div class="card trpc__card">
+          <div class="card__body">
+            <h2 class="card__title">
+              Overlays turbinadas
+            </h2>
+            <p>
+              Use overlays incríveis para suas lives.
+            </p>
+          </div>
+          <p class="card__action">
+            <a class="card__link" href="https://twitter.com/oanlonio" target="_blank">
+              Em breve
+            </a>
           </p>
         </div>
-        <p class="card__action">
-          <a class="card__link" href="https://twitter.com/oanlonio" target="_blank">
-            Em breve
-          </a>
-        </p>
-      </div>
-      <div class="card tailwind__card">
-        <div class="card__body">
-          <h2 class="card__title">
-            Também me siga na Twitch
-          </h2>
-          <p>
-            Além de programador, também sou streamer. Me siga na Twitch para acompanhar minhas lives.
+        <div class="card tailwind__card">
+          <div class="card__body">
+            <h2 class="card__title">
+              Também me siga na Twitch
+            </h2>
+            <p>
+              Além de programador, também sou streamer. Me siga na Twitch para acompanhar minhas lives.
+            </p>
+          </div>
+          <p class="card__action">
+            <a class="card__link" href="https://twitch.tv/oanlonio" target="_blank">
+              twitch.tv/oanlonio
+            </a>
           </p>
         </div>
-        <p class="card__action">
-          <a class="card__link" href="https://twitch.tv/oanlonio" target="_blank">
-            twitch.tv/oanlonio
-          </a>
-        </p>
       </div>
-    </div>
-    <div class="social_buttons">
-      <a target="_blank" href="https://www.paypal.com/donate/?business=875MJNLF8SEXY&no_recurring=1&item_name=Me+pague+um+caf%C3%A9&currency_code=BRL">
-        <span>
-          Me pague um café ☕
-          <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate">
+      <div class="social_buttons text-right">
+        <a target="_blank" href="https://www.paypal.com/donate/?business=875MJNLF8SEXY&no_recurring=1&item_name=Me+pague+um+caf%C3%A9&currency_code=BRL">
+          <span>
+            <span class="pr-2">
+              Me pague um café ☕
+            </span>
+            <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate">
+          </span>
+        </a>
+        <br class="hide-lg">
+        <span class="pl-3">
+          (Se preferir pix: contato@anlonio.games)
         </span>
-      </a>
-      <div class="float-right">
-        <a href="mailto:contato@anlonio.games" target="_blank">
-          <img src="https://img.shields.io/badge/contato%40anlonio.games-Contact%20me-blue" alt="Contact me">
-        </a>
-        <a href="https://twitter.com/oanlonio" target="_blank" class="pl-3">
-          <img src="https://img.shields.io/twitter/follow/oanlonio?style=social" alt="Twitter Follow">
-        </a>
       </div>
     </div>
   </div>
@@ -94,9 +117,75 @@
 definePageMeta({
   auth: false
 })
+// eslint-disable-next-line no-template-curly-in-string
+const source = ref('!cmd add !aug ${urlfetch https://www.anlonio.games/api/twtv/tft/aug?search=${queryescape ${1: | help}}}')
+const { copy, copied, isSupported } = useClipboard({ source, legacy: true })
 </script>
 
 <style scoped lang="scss">
+  .copy-button {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-left: 10px;
+
+    &:hover {
+      background-color: #e6e6e6;
+    }
+  }
+
+  .command-text {
+    color: black !important;
+  }
+  .chat__command {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    &__avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 10px;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+
+        &__username {
+          font-weight: 600;
+        }
+
+        &__timestamp {
+          font-size: 12px;
+          color: #999;
+        }
+      }
+
+      &__message {
+        display: flex;
+        align-items: center;
+
+        &__text {
+          background-color: #f2f2f2;
+          padding: 5px 10px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
   .social_buttons {
     margin-top: 30px;
 
@@ -209,11 +298,23 @@ definePageMeta({
   }
 
   /* RESPONSIVE */
+  // .hide-lg
+  @media (min-width: 800px) {
+    .hide-lg {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .hide-xs {
+      display: none;
+    }
+  }
 
   @media (max-width: 1600px) {
     .main-container {
         max-width: 100vw;
-        padding: 50px;
+        padding: 30px;
     }
 
     .cards {

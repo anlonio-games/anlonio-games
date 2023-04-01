@@ -16,6 +16,8 @@
     "@sidebase/nuxt-auth": "^0.4.3",
     "@types/mustache": "^4.2.2",
     "@types/node": "^18.11.18",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
     "eslint": "^8.33.0",
     "nuxt": "^3.2.3",
     "prisma": "^4.11.0",
