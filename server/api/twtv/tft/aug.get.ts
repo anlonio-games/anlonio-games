@@ -18,10 +18,20 @@ export default cachedEventHandler(async (event) => {
 
   const augment = await event.context.prisma.tftAugments.findFirst({
     where: {
-      aliases: {
-        contains: search.trim() + ',',
-        mode: 'insensitive'
-      }
+      OR: [
+        {
+          aliases: {
+            contains: search.trim() + ',',
+            mode: 'insensitive'
+          }
+        },
+        {
+          aliases: {
+            contains: ',' + search.trim(),
+            mode: 'insensitive'
+          }
+        }
+      ]
     }
   })
 
