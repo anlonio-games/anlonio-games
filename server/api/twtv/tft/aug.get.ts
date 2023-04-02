@@ -3,7 +3,7 @@ import AugmentsJSON from '~~/assets/pt/augments.json'
 import CommonJSON from '~~/assets/pt/common.json'
 import UnitsJSON from '~~/assets/pt/units.json'
 
-export default cachedEventHandler(async (event) => {
+export default eventHandler(async (event) => {
   const { search } : { search?: string} = getQuery(event)
 
   console.info('search', search)
@@ -92,12 +92,10 @@ export default cachedEventHandler(async (event) => {
       effects[effect] = value
     }
   }
-  const desc = descriptionTemplate.replace('*100', '').replace(/@[^@]+@/g, function (match) {
+  const desc = descriptionTemplate.replaceAll('*100', '').replace(/@[^@]+@/g, function (match) {
     return match.toLowerCase()
   })
   const description = Mustache.render(desc, effects, {}, ['@', '@'])
 
   return `${augment.name} (${rank}) -> ${description}`
-}, {
-  maxAge: 60 * 60 * 24 * 7 // 1 week
 })
