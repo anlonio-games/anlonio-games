@@ -21,7 +21,13 @@ export default cachedEventHandler(async (event) => {
       OR: [
         {
           aliases: {
-            contains: search.trim() + ',',
+            contains: ',' + search.trim() + ',',
+            mode: 'insensitive'
+          }
+        },
+        {
+          aliases: {
+            startsWith: search.trim() + ',',
             mode: 'insensitive'
           }
         },
