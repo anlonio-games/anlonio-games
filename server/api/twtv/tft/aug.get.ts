@@ -3,7 +3,7 @@ import AugmentsJSON from '~~/assets/pt/augments.json'
 import CommonJSON from '~~/assets/pt/common.json'
 import UnitsJSON from '~~/assets/pt/units.json'
 
-export default eventHandler(async (event) => {
+export default cachedEventHandler(async (event) => {
   const { search } : { search?: string} = getQuery(event)
 
   console.info('search', search)
@@ -98,4 +98,6 @@ export default eventHandler(async (event) => {
   const description = Mustache.render(desc, effects, {}, ['@', '@'])
 
   return `${augment.name} (${rank}) -> ${description}`
+}, {
+  maxAge: 60 * 60 * 24 * 7
 })
