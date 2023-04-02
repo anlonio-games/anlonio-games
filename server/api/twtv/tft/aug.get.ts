@@ -27,7 +27,7 @@ export default eventHandler(async (event) => {
         },
         {
           aliases: {
-            contains: ',' + search.trim(),
+            endsWith: ',' + search.trim(),
             mode: 'insensitive'
           }
         }
@@ -65,7 +65,7 @@ export default eventHandler(async (event) => {
         }
         return `${augment.name} (${rank})`
       }).join(', ')
-      return `Mais de um Aprimoramento encontrado, digite um deles (Sem os parênteses, caso tenha) para mais detalhes. Aprimoramentos encontrados: ${augmentsList}`
+      return `Nenhum resultado exato encontrado. digite um (Sem os parênteses, caso tenha) do(s) resultado(s) para mais detalhes: ${augmentsList}`
     }
 
     return 'Nenhum aprimoramento foi encontrado.'
