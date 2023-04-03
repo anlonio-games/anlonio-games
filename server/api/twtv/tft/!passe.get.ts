@@ -1,3 +1,6 @@
+import moment from 'moment'
+
 export default eventHandler(() => {
-  return 'O passe acaba em X dias. Saiba mais sobre as recompensas em: https://teamfighttactics.leagueoflegends.com/pt-br/news/game-updates/passe-glitch-total-e-mais/'
+  const daysLeft = moment('13/06/2023', 'DD/MM/YYYY').diff(moment().startOf('day'), 'days')
+  return `O passe acaba em ${daysLeft} dias. Saiba mais sobre as recompensas em: https://teamfighttactics.leagueoflegends.com/pt-br/news/game-updates/passe-glitch-total-e-mais/`
 })
