@@ -2,7 +2,6 @@
   "units": {
       "TFT8_Fiddlesticks": {
           "name": "Fiddlesticks",
-          "cost": 5,
           "stats": {
               "hp": 1200,
               "mana": 66,
@@ -31,8 +30,8 @@
                       "name": "Damage",
                       "value": [
                           0,
-                          85,
-                          130,
+                          90,
+                          135,
                           800,
                           0
                       ]
@@ -102,7 +101,6 @@
       },
       "TFT8_Ezreal": {
           "name": "Ezreal",
-          "cost": 2,
           "stats": {
               "hp": 550,
               "mana": 55,
@@ -162,12 +160,11 @@
       },
       "TFT8_Draven": {
           "name": "Draven",
-          "cost": 2,
           "stats": {
               "hp": 600,
               "mana": 140,
               "initialMana": 70,
-              "damage": 70,
+              "damage": 65,
               "armor": 15,
               "magicResist": 15,
               "critMultiplier": 1.4,
@@ -212,7 +209,6 @@
       },
       "TFT8_Viego": {
           "name": "Viego",
-          "cost": 4,
           "stats": {
               "hp": 950,
               "mana": 45,
@@ -262,7 +258,6 @@
       },
       "TFT8_Sylas": {
           "name": "Sylas",
-          "cost": 1,
           "stats": {
               "hp": 700,
               "mana": 80,
@@ -302,10 +297,9 @@
       },
       "TFT8_Sivir": {
           "name": "Sivir",
-          "cost": 2,
           "stats": {
               "hp": 600,
-              "mana": 70,
+              "mana": 60,
               "initialMana": 0,
               "damage": 65,
               "armor": 20,
@@ -352,12 +346,11 @@
       },
       "TFT8_Kaisa": {
           "name": "Kai'Sa",
-          "cost": 3,
           "stats": {
-              "hp": 650,
+              "hp": 600,
               "mana": 105,
               "initialMana": 20,
-              "damage": 35,
+              "damage": 25,
               "armor": 25,
               "magicResist": 25,
               "critMultiplier": 1.4,
@@ -381,9 +374,9 @@
                       "name": "Damage",
                       "value": [
                           0.15,
-                          110,
-                          150,
-                          240,
+                          165,
+                          245,
+                          405,
                           0.15
                       ]
                   },
@@ -412,7 +405,6 @@
       },
       "TFT8_Annie": {
           "name": "Annie",
-          "cost": 2,
           "stats": {
               "hp": 750,
               "mana": 90,
@@ -462,7 +454,6 @@
       },
       "TFT8_Gangplank": {
           "name": "Gangplank",
-          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 50,
@@ -481,9 +472,9 @@
                       "name": "Damage",
                       "value": [
                           0,
-                          210,
-                          315,
-                          475,
+                          230,
+                          345,
+                          515,
                           160
                       ]
                   },
@@ -512,7 +503,6 @@
       },
       "TFT8_Alistar": {
           "name": "Alistar",
-          "cost": 3,
           "stats": {
               "hp": 800,
               "mana": 175,
@@ -572,7 +562,6 @@
       },
       "TFT8_Fiora": {
           "name": "Fiora",
-          "cost": 2,
           "stats": {
               "hp": 800,
               "mana": 80,
@@ -632,7 +621,6 @@
       },
       "TFT8_Lulu": {
           "name": "Lulu",
-          "cost": 1,
           "stats": {
               "hp": 500,
               "mana": 50,
@@ -672,7 +660,6 @@
       },
       "TFT8_Vayne": {
           "name": "Vayne",
-          "cost": 3,
           "stats": {
               "hp": 600,
               "mana": 40,
@@ -712,12 +699,11 @@
       },
       "TFT8_BelVeth": {
           "name": "Bel'Veth",
-          "cost": 4,
           "stats": {
-              "hp": 1000,
+              "hp": 1050,
               "mana": 40,
               "initialMana": 0,
-              "damage": 75,
+              "damage": 80,
               "armor": 50,
               "magicResist": 50,
               "critMultiplier": 1.4,
@@ -802,7 +788,6 @@
       },
       "TFT8_Kayle": {
           "name": "Kayle",
-          "cost": 1,
           "stats": {
               "hp": 500,
               "mana": 30,
@@ -852,7 +837,6 @@
       },
       "TFT8_Vi": {
           "name": "Vi",
-          "cost": 2,
           "stats": {
               "hp": 700,
               "mana": 80,
@@ -922,7 +906,6 @@
       },
       "TFT8_Nunu": {
           "name": "Nunu & Willump",
-          "cost": 5,
           "stats": {
               "hp": 1337,
               "mana": 90,
@@ -1012,11 +995,10 @@
       },
       "TFT8_Urgot": {
           "name": "Urgot",
-          "cost": 5,
           "stats": {
               "hp": 1000,
-              "mana": 175,
-              "initialMana": 75,
+              "mana": 160,
+              "initialMana": 80,
               "damage": 65,
               "armor": 40,
               "magicResist": 40,
@@ -1142,7 +1124,6 @@
       },
       "TFT8_Camille": {
           "name": "Camille",
-          "cost": 2,
           "stats": {
               "hp": 750,
               "mana": 70,
@@ -1212,7 +1193,6 @@
       },
       "TFT8_Mordekaiser": {
           "name": "Mordekaiser",
-          "cost": 5,
           "stats": {
               "hp": 1200,
               "mana": 150,
@@ -1262,7 +1242,6 @@
       },
       "TFT8_Renekton": {
           "name": "Renekton",
-          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 50,
@@ -1312,7 +1291,6 @@
       },
       "TFT8_Malphite": {
           "name": "Malphite",
-          "cost": 2,
           "stats": {
               "hp": 800,
               "mana": 80,
@@ -1362,7 +1340,6 @@
       },
       "TFT8_Leblanc": {
           "name": "LeBlanc",
-          "cost": 3,
           "stats": {
               "hp": 650,
               "mana": 60,
@@ -1412,7 +1389,6 @@
       },
       "TFT8_Yasuo": {
           "name": "Yasuo",
-          "cost": 2,
           "stats": {
               "hp": 750,
               "mana": 70,
@@ -1452,7 +1428,6 @@
       },
       "TFT8_AurelionSol": {
           "name": "Aurelion Sol",
-          "cost": 4,
           "stats": {
               "hp": 850,
               "mana": 90,
@@ -1522,7 +1497,6 @@
       },
       "TFT8_WuKong": {
           "name": "Wukong",
-          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 100,
@@ -1572,7 +1546,6 @@
       },
       "TFT8_Nilah": {
           "name": "Nilah",
-          "cost": 3,
           "stats": {
               "hp": 800,
               "mana": 125,
@@ -1642,7 +1615,6 @@
       },
       "TFT8_Rell": {
           "name": "Rell",
-          "cost": 2,
           "stats": {
               "hp": 800,
               "mana": 150,
@@ -1692,7 +1664,6 @@
       },
       "TFT8_Syndra": {
           "name": "Syndra",
-          "cost": 5,
           "stats": {
               "hp": 850,
               "mana": 125,
@@ -1742,7 +1713,6 @@
       },
       "TFT8_Sona": {
           "name": "Sona",
-          "cost": 3,
           "stats": {
               "hp": 650,
               "mana": 40,
@@ -1812,7 +1782,6 @@
       },
       "TFT8_Riven": {
           "name": "Riven",
-          "cost": 3,
           "stats": {
               "hp": 700,
               "mana": 90,
@@ -1882,7 +1851,6 @@
       },
       "TFT8_Leona": {
           "name": "Leona",
-          "cost": 5,
           "stats": {
               "hp": 1100,
               "mana": 75,
@@ -1922,17 +1890,16 @@
       },
       "TFT8_Samira": {
           "name": "Samira",
-          "cost": 4,
           "stats": {
               "hp": 700,
-              "mana": 75,
+              "mana": 65,
               "initialMana": 0,
               "damage": 70,
               "armor": 30,
               "magicResist": 30,
               "critMultiplier": 1.4,
               "critChance": 0.25,
-              "attackSpeed": 0.75,
+              "attackSpeed": 0.8,
               "range": 4
           },
           "ability": {
@@ -1992,7 +1959,6 @@
       },
       "TFT8_Nasus": {
           "name": "Nasus",
-          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 60,
@@ -2052,7 +2018,6 @@
       },
       "TFT8_Poppy": {
           "name": "Poppy",
-          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 80,
@@ -2102,7 +2067,6 @@
       },
       "TFT8_Hecarim": {
           "name": "Hackerim",
-          "cost": 0,
           "stats": {
               "hp": 650,
               "mana": 0,
@@ -2152,7 +2116,6 @@
       },
       "TFT8_Janna": {
           "name": "Janna",
-          "cost": 5,
           "stats": {
               "hp": 800,
               "mana": 120,
@@ -2222,7 +2185,6 @@
       },
       "TFT8_LeeSin": {
           "name": "Lee Sin",
-          "cost": 2,
           "stats": {
               "hp": 700,
               "mana": 70,
@@ -2272,7 +2234,6 @@
       },
       "TFT8_Jax": {
           "name": "Jax",
-          "cost": 3,
           "stats": {
               "hp": 800,
               "mana": 0,
@@ -2322,7 +2283,6 @@
       },
       "TFT8_Ekko": {
           "name": "Ekko",
-          "cost": 4,
           "stats": {
               "hp": 1000,
               "mana": 140,
@@ -2392,7 +2352,6 @@
       },
       "TFT8_Ashe": {
           "name": "Ashe",
-          "cost": 1,
           "stats": {
               "hp": 500,
               "mana": 50,
@@ -2442,7 +2401,6 @@
       },
       "TFT8_Rammus": {
           "name": "Rammus",
-          "cost": 3,
           "stats": {
               "hp": 950,
               "mana": 120,
@@ -2522,7 +2480,6 @@
       },
       "TFT8_Jinx": {
           "name": "Jinx",
-          "cost": 2,
           "stats": {
               "hp": 550,
               "mana": 80,
@@ -2562,7 +2519,6 @@
       },
       "TFT8_Blitzcrank": {
           "name": "Blitzcrank",
-          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 80,
@@ -2602,7 +2558,6 @@
       },
       "TFT8_Lux": {
           "name": "Lux",
-          "cost": 1,
           "stats": {
               "hp": 500,
               "mana": 70,
@@ -2631,9 +2586,9 @@
                       "name": "Damage",
                       "value": [
                           0,
-                          200,
-                          300,
-                          450,
+                          220,
+                          330,
+                          500,
                           0
                       ]
                   },
@@ -2652,12 +2607,11 @@
       },
       "TFT8_Jhin": {
           "name": "Jhin",
-          "cost": 4,
           "stats": {
               "hp": 744,
               "mana": 4,
               "initialMana": 0,
-              "damage": 70,
+              "damage": 65,
               "armor": 44,
               "magicResist": 44,
               "critMultiplier": 1.4,
@@ -2722,14 +2676,13 @@
       },
       "TFT8_GnarBig": {
           "name": "Gnar",
-          "cost": 3,
           "stats": {
               "hp": 800,
               "mana": 80,
-              "initialMana": 0,
+              "initialMana": 20,
               "damage": 65,
-              "armor": 45,
-              "magicResist": 45,
+              "armor": 50,
+              "magicResist": 50,
               "critMultiplier": 1.4,
               "critChance": 0.25,
               "attackSpeed": 0.8,
@@ -2772,9 +2725,8 @@
       },
       "TFT8_Morgana": {
           "name": "Morgana",
-          "cost": 3,
           "stats": {
-              "hp": 850,
+              "hp": 900,
               "mana": 100,
               "initialMana": 50,
               "damage": 50,
@@ -2821,9 +2773,9 @@
                       "name": "Damage",
                       "value": [
                           50,
-                          200,
-                          300,
-                          495,
+                          215,
+                          325,
+                          535,
                           250
                       ]
                   },
@@ -2842,7 +2794,6 @@
       },
       "TFT8b_Sivir": {
           "name": "Sivir",
-          "cost": 2,
           "stats": {
               "hp": 550,
               "mana": 50,
@@ -2902,11 +2853,10 @@
       },
       "TFT8_Garen": {
           "name": "Garen",
-          "cost": 4,
           "stats": {
-              "hp": 1000,
-              "mana": 200,
-              "initialMana": 100,
+              "hp": 1050,
+              "mana": 180,
+              "initialMana": 90,
               "damage": 80,
               "armor": 60,
               "magicResist": 60,
@@ -2941,8 +2891,8 @@
                       "name": "StunDuration",
                       "value": [
                           0,
-                          1.75,
                           2,
+                          2.25,
                           6,
                           0
                       ]
@@ -2951,9 +2901,9 @@
                       "name": "ADRatio",
                       "value": [
                           0,
-                          1.6,
-                          1.6,
-                          3.5,
+                          1.4,
+                          1.4,
+                          3.25,
                           0
                       ]
                   },
@@ -2972,7 +2922,6 @@
       },
       "TFT8_Pyke": {
           "name": "Pyke",
-          "cost": 2,
           "stats": {
               "hp": 700,
               "mana": 120,
@@ -3032,7 +2981,6 @@
       },
       "TFT8_Shen": {
           "name": "Shen",
-          "cost": 3,
           "stats": {
               "hp": 750,
               "mana": 100,
@@ -3072,7 +3020,6 @@
       },
       "TFT8_MissFortune": {
           "name": "Miss Fortune",
-          "cost": 4,
           "stats": {
               "hp": 750,
               "mana": 120,
@@ -3132,7 +3079,6 @@
       },
       "TFT8_Warwick": {
           "name": "Warwick",
-          "cost": 4,
           "stats": {
               "hp": 950,
               "mana": 90,
@@ -3196,13 +3142,22 @@
                           10,
                           10
                       ]
+                  },
+                  {
+                      "name": "AttacksPerOnLaunchAttack",
+                      "value": [
+                          2,
+                          2,
+                          2,
+                          2,
+                          2
+                      ]
                   }
               ]
           }
       },
       "TFT8_TwistedFate": {
           "name": "Twisted Fate",
-          "cost": 4,
           "stats": {
               "hp": 750,
               "mana": 30,
@@ -3231,9 +3186,9 @@
                       "name": "BlueCardDamage",
                       "value": [
                           0,
-                          60,
-                          95,
-                          350,
+                          55,
+                          85,
+                          250,
                           0
                       ]
                   },
@@ -3241,9 +3196,9 @@
                       "name": "AOEDamage",
                       "value": [
                           0,
-                          200,
-                          300,
-                          900,
+                          190,
+                          285,
+                          800,
                           0
                       ]
                   },
@@ -3292,17 +3247,16 @@
       },
       "TFT8_EzrealFuture": {
           "name": "Ultimate Ezreal",
-          "cost": 5,
           "stats": {
               "hp": 800,
               "mana": 150,
               "initialMana": 50,
-              "damage": 60,
+              "damage": 65,
               "armor": 40,
               "magicResist": 40,
               "critMultiplier": 1.4,
               "critChance": 0.25,
-              "attackSpeed": 0.9,
+              "attackSpeed": 0.95,
               "range": 4
           },
           "ability": {
@@ -3342,7 +3296,6 @@
       },
       "TFT8_Neeko": {
           "name": "Neeko",
-          "cost": 4,
           "stats": {
               "hp": 750,
               "mana": 80,
@@ -3373,7 +3326,7 @@
                           0,
                           75,
                           110,
-                          200,
+                          300,
                           0
                       ]
                   },
@@ -3381,9 +3334,9 @@
                       "name": "BonusDamage",
                       "value": [
                           1,
-                          145,
-                          220,
-                          600,
+                          150,
+                          225,
+                          700,
                           1
                       ]
                   }
@@ -3392,7 +3345,6 @@
       },
       "TFT8_Lucian": {
           "name": "Lucian",
-          "cost": 1,
           "stats": {
               "hp": 500,
               "mana": 40,
@@ -3452,7 +3404,6 @@
       },
       "TFT8_Pantheon": {
           "name": "Pantheon",
-          "cost": 1,
           "stats": {
               "hp": 650,
               "mana": 60,
@@ -3512,7 +3463,6 @@
       },
       "TFT8_Vex": {
           "name": "Vex",
-          "cost": 3,
           "stats": {
               "hp": 650,
               "mana": 40,
@@ -3531,9 +3481,9 @@
                       "name": "Damage",
                       "value": [
                           0,
-                          240,
-                          360,
-                          600,
+                          230,
+                          345,
+                          570,
                           0
                       ]
                   },
@@ -3541,9 +3491,19 @@
                       "name": "BurstDamage",
                       "value": [
                           0,
-                          240,
-                          360,
-                          600,
+                          230,
+                          345,
+                          570,
+                          0
+                      ]
+                  },
+                  {
+                      "name": "SecondaryDamage",
+                      "value": [
+                          0,
+                          150,
+                          225,
+                          370,
                           0
                       ]
                   }
@@ -3552,7 +3512,6 @@
       },
       "TFT8_Aatrox": {
           "name": "Aatrox",
-          "cost": 4,
           "stats": {
               "hp": 1100,
               "mana": 75,
@@ -3645,7 +3604,7 @@
               {
                   "minUnits": 3,
                   "variables": {
-                      "MagicDamage": 30,
+                      "MagicDamage": 27,
                       "{59d091e2}": 1,
                       "ICD": 0.4,
                       "{1b0b983d}": 1
@@ -3654,16 +3613,17 @@
               {
                   "minUnits": 4,
                   "variables": {
-                      "MagicDamage": 50,
+                      "MagicDamage": 35,
                       "{59d091e2}": 1,
                       "ICD": 0.4,
+                      "{2ba800f8}": 1,
                       "{1b0b983d}": 1
                   }
               },
               {
                   "minUnits": 5,
                   "variables": {
-                      "MagicDamage": 60,
+                      "MagicDamage": 55,
                       "{59d091e2}": 1,
                       "ICD": 0.4,
                       "{2ba800f8}": 1,
@@ -3673,7 +3633,7 @@
               {
                   "minUnits": 6,
                   "variables": {
-                      "MagicDamage": 90,
+                      "MagicDamage": 80,
                       "{59d091e2}": 1,
                       "ICD": 0.4,
                       "{2ba800f8}": 1,
@@ -3688,21 +3648,21 @@
               {
                   "minUnits": 2,
                   "variables": {
-                      "{c9e8f369}": 0.55,
+                      "{c9e8f369}": 0.7,
                       "{f71c4cde}": 2
                   }
               },
               {
                   "minUnits": 3,
                   "variables": {
-                      "{c9e8f369}": 1.2,
+                      "{c9e8f369}": 1.4,
                       "{f71c4cde}": 2
                   }
               },
               {
                   "minUnits": 4,
                   "variables": {
-                      "{c9e8f369}": 1.85,
+                      "{c9e8f369}": 2.2,
                       "{f71c4cde}": 2
                   }
               }
@@ -3730,7 +3690,7 @@
                   "minUnits": 4,
                   "variables": {
                       "HealthThreshold": 50,
-                      "HealthRegen": 250,
+                      "HealthRegen": 350,
                       "StunDuration": 2
                   }
               }
@@ -3862,7 +3822,7 @@
                   "variables": {
                       "{66b6cdea}": 2,
                       "{d1ba07df}": 1.5,
-                      "{a576b894}": 1.5
+                      "{a576b894}": 1
                   }
               },
               {
@@ -3870,7 +3830,7 @@
                   "variables": {
                       "{66b6cdea}": 2,
                       "{d1ba07df}": 3,
-                      "{a576b894}": 1.5
+                      "{a576b894}": 1
                   }
               },
               {
@@ -3878,7 +3838,7 @@
                   "variables": {
                       "{66b6cdea}": 2,
                       "{d1ba07df}": 6,
-                      "{a576b894}": 1.5
+                      "{a576b894}": 1
                   }
               }
           ]
@@ -4044,14 +4004,14 @@
                   "minUnits": 5,
                   "variables": {
                       "{bac31d49}": 40,
-                      "{bf647962}": 25
+                      "{bf647962}": 30
                   }
               },
               {
                   "minUnits": 7,
                   "variables": {
-                      "{bac31d49}": 65,
-                      "{bf647962}": 35
+                      "{bac31d49}": 70,
+                      "{bf647962}": 40
                   }
               }
           ]
@@ -4070,7 +4030,7 @@
                   "minUnits": 5,
                   "variables": {
                       "{e3f67a80}": 2,
-                      "{7d4d3a93}": 9
+                      "{7d4d3a93}": 10
                   }
               }
           ]
@@ -4178,8 +4138,8 @@
                   "minUnits": 3,
                   "variables": {
                       "{ebe691d4}": 1,
-                      "PercentHealth": 40,
-                      "DamageReduction": 40,
+                      "PercentHealth": 50,
+                      "DamageReduction": 50,
                       "{0a967788}": 1
                   }
               },
@@ -4187,8 +4147,8 @@
                   "minUnits": 5,
                   "variables": {
                       "{ebe691d4}": 2,
-                      "PercentHealth": 55,
-                      "DamageReduction": 55,
+                      "PercentHealth": 60,
+                      "DamageReduction": 60,
                       "{0a967788}": 1
                   }
               },
@@ -4196,8 +4156,8 @@
                   "minUnits": 7,
                   "variables": {
                       "{ebe691d4}": 2,
-                      "PercentHealth": 90,
-                      "DamageReduction": 90,
+                      "PercentHealth": 95,
+                      "DamageReduction": 95,
                       "{0a967788}": 1
                   }
               }
@@ -4224,28 +4184,28 @@
               {
                   "minUnits": 2,
                   "variables": {
-                      "BonusAD": 0.06,
+                      "BonusAD": 0.07,
                       "{2fb31c01}": 4
                   }
               },
               {
                   "minUnits": 3,
                   "variables": {
-                      "BonusAD": 0.11,
+                      "BonusAD": 0.12,
                       "{2fb31c01}": 4
                   }
               },
               {
                   "minUnits": 4,
                   "variables": {
-                      "BonusAD": 0.16,
+                      "BonusAD": 0.18,
                       "{2fb31c01}": 4
                   }
               },
               {
                   "minUnits": 5,
                   "variables": {
-                      "BonusAD": 0.24,
+                      "BonusAD": 0.25,
                       "{2fb31c01}": 4
                   }
               }
@@ -4254,12 +4214,6 @@
       "Set8_Hacker": {
           "name": "Hacker",
           "effects": [
-              {
-                  "minUnits": 2,
-                  "variables": {
-                      "{ad16f688}": 0.2
-                  }
-              },
               {
                   "minUnits": 3,
                   "variables": {
@@ -5989,7 +5943,7 @@
       "6SlowAndSteady": {
           "id": 61,
           "effects": {
-              "EXP": 4
+              "EXP": 2
           },
           "name": "March of Progress",
           "rank": 3
@@ -6294,12 +6248,12 @@
       "6Traitless3": {
           "id": 75,
           "effects": {
-              "{33991a3c}": 270,
-              "{36991ef5}": 380,
-              "{35991d62}": 490,
+              "{33991a3c}": 250,
+              "{36991ef5}": 365,
+              "{35991d62}": 480,
               "{30991583}": 600,
-              "{f07287f4}": 50,
-              "{f3728cad}": 60,
+              "{f07287f4}": 45,
+              "{f3728cad}": 55,
               "{f2728b1a}": 70,
               "{ed72833b}": 80
           },
@@ -6435,7 +6389,7 @@
       "6SunfireBoard": {
           "id": 62,
           "effects": {
-              "{4f70b3d1}": 10,
+              "{4f70b3d1}": 20,
               "Duration": 20,
               "{2161bfa2}": 33
           },
@@ -6685,7 +6639,7 @@
           "id": 238,
           "effects": {
               "Armor": 20,
-              "AS": 15
+              "AS": 12
           },
           "name": "Grandmaster's Training",
           "rank": 1,
@@ -6745,7 +6699,8 @@
       "8_5VexCarry": {
           "id": 259,
           "effects": {
-              "{ad16f688}": 0.22
+              "{ad16f688}": 0.22,
+              "{79a51d61}": 2
           },
           "name": "Joy Siphon",
           "rank": 1,
@@ -6808,7 +6763,7 @@
               "CritChance": 0.4,
               "{79a51d61}": 2
           },
-          "name": "Reconnasiance Team",
+          "name": "Reconnaissance Team",
           "rank": 1,
           "hero": [
               "TFT8_Kaisa",
@@ -6845,7 +6800,7 @@
       "8MalphiteCarry": {
           "id": 223,
           "effects": {
-              "{abfc283d}": 1.3,
+              "{abfc283d}": 1.11,
               "Duration": 4
           },
           "name": "Rock Solid",
@@ -6882,9 +6837,7 @@
       },
       "8AceEmblem": {
           "id": 113,
-          "effects": {
-              "Gold": 2
-          },
+          "effects": {},
           "name": "Ace Crest",
           "rank": 2
       },
@@ -6922,14 +6875,14 @@
       "8InfiniteamEmblem": {
           "id": 178,
           "effects": {},
-          "name": "Infiniteam Crest",
+          "name": "InfiniTeam Crest",
           "rank": 2
       },
       "8JinxCarry": {
           "id": 219,
           "effects": {
               "{4eebf7ef}": 0.35,
-              "Duration": 7
+              "Duration": 6
           },
           "name": "Get Excited!",
           "rank": 1,
@@ -7028,10 +6981,11 @@
       "8_5ShenCarry": {
           "id": 253,
           "effects": {
-              "{9ee66d29}": 6,
-              "BonusDamage": 0.33
+              "{7ccd3647}": 10,
+              "{abfc283d}": 2.5,
+              "NumAttacks": 3
           },
-          "name": "Anomolous Amplification",
+          "name": "Time Knife",
           "rank": 1,
           "hero": [
               "TFT8_Shen",
@@ -7086,7 +7040,7 @@
           "effects": {
               "BonusHealth": 1,
               "StartingHealth": 140,
-              "{6fc21adc}": 2
+              "{6fc21adc}": 3
           },
           "name": "Well Fed+",
           "rank": 1,
@@ -7123,8 +7077,8 @@
       "8_5GarenCarry": {
           "id": 269,
           "effects": {
-              "ADScaling": 0.8,
-              "{7ccd3647}": 40
+              "ADScaling": 1.8,
+              "{7ccd3647}": 30
           },
           "name": "Full Power to Sword",
           "rank": 1,
@@ -7161,7 +7115,7 @@
       "8EkkoCarry": {
           "id": 267,
           "effects": {
-              "DamageAmp": 2.2,
+              "DamageAmp": 2.5,
               "Range": 2
           },
           "name": "Destructive Resonance",
@@ -7224,7 +7178,7 @@
       "8_5AatroxCarry": {
           "id": 261,
           "effects": {
-              "{19a9e858}": 0.12
+              "{19a9e858}": 0.15
           },
           "name": "Deathbringer",
           "rank": 1,
@@ -7343,7 +7297,8 @@
       "8KaisaCarry": {
           "id": 241,
           "effects": {
-              "Attacks": 2
+              "Attacks": 2,
+              "AP": 10
           },
           "name": "Multi-Shot",
           "rank": 1,
@@ -7492,8 +7447,8 @@
       "8SyndraCarry": {
           "id": 296,
           "effects": {
-              "{1a97299e}": 30,
-              "{be2843da}": 40
+              "{1a97299e}": 40,
+              "{be2843da}": 50
           },
           "name": "Not In Vain",
           "rank": 1,
@@ -7518,7 +7473,7 @@
           "id": 186,
           "effects": {
               "{0c712be9}": 2,
-              "AttackSpeed": 0.25,
+              "AttackSpeed": 0.33,
               "{79a51d61}": 2
           },
           "name": "Righteous Range",
@@ -7585,7 +7540,7 @@
       "8SylasCarry": {
           "id": 203,
           "effects": {
-              "BonusDamage": 0.35,
+              "BonusDamage": 0.3,
               "HPMultiplier": 0.25
           },
           "name": "Kingslayer",
@@ -7635,7 +7590,7 @@
       "8_5SivirSupport": {
           "id": 228,
           "effects": {
-              "BonusAD": 0.15,
+              "BonusAD": 0.2,
               "{b3b8f644}": 0.05
           },
           "name": "Mana Tempering",
@@ -7648,7 +7603,7 @@
       "8_5AatroxSupport": {
           "id": 260,
           "effects": {
-              "{ee37daec}": 0.5,
+              "{ee37daec}": 0.4,
               "{0bc5955f}": 3
           },
           "name": "Darkin Assimilation",
@@ -7723,8 +7678,9 @@
       "8_5PykeCarry": {
           "id": 225,
           "effects": {
-              "{e5c8ad60}": 2,
-              "{b1ee9bb7}": 1
+              "{e5c8ad60}": 3,
+              "{b1ee9bb7}": 1,
+              "{6dd5404f}": 1
           },
           "name": "Your Cut",
           "rank": 1,
@@ -7747,9 +7703,7 @@
       },
       "8HackerTrait": {
           "id": 147,
-          "effects": {
-              "Gold": 2
-          },
+          "effects": {},
           "name": "Hacker Heart",
           "rank": 1
       },
@@ -7808,7 +7762,7 @@
           "effects": {
               "{6611a3fc}": 4,
               "{20569db9}": 2,
-              "Gold": 6,
+              "Gold": 4,
               "{ea6108de}": 10
           },
           "name": "Rule of Four",
@@ -7956,7 +7910,9 @@
       },
       "8RiftwalkerEmblem": {
           "id": 173,
-          "effects": {},
+          "effects": {
+              "Gold": 2
+          },
           "name": "Riftwalker Crest",
           "rank": 2
       },
@@ -8050,7 +8006,7 @@
       "8InfiniteamEmblem2": {
           "id": 179,
           "effects": {},
-          "name": "Infiniteam Crown",
+          "name": "InfiniTeam Crown",
           "rank": 3
       },
       "8DeadeyeTrait": {
@@ -8125,7 +8081,7 @@
       "8UrgotSupport": {
           "id": 297,
           "effects": {
-              "BonusAS": 0.3
+              "BonusAS": 0.4
           },
           "name": "Rising Tide",
           "rank": 1,
@@ -8136,10 +8092,8 @@
       },
       "8AceEmblem2": {
           "id": 114,
-          "effects": {
-              "Gold": 2
-          },
-          "name": "Ace Crown",
+          "effects": {},
+          "name": "Ace in the Hole",
           "rank": 3
       },
       "8_5AlistarCarry": {
@@ -8159,7 +8113,7 @@
       "8_5GnarCarry": {
           "id": 237,
           "effects": {
-              "{861cdd9e}": 25,
+              "{861cdd9e}": 45,
               "{0923f4b1}": 5
           },
           "name": "Synchronous Plating",
@@ -8387,8 +8341,7 @@
       "8AnnieCarry": {
           "id": 207,
           "effects": {
-              "StunDuration": 1.5,
-              "{3b80b1b4}": 1
+              "StunDuration": 2
           },
           "name": "Pyromania",
           "rank": 1,
@@ -8465,8 +8418,8 @@
           "id": 283,
           "effects": {
               "BonusHealth": 1,
-              "StartingHealth": 50,
-              "{6fc21adc}": 2
+              "StartingHealth": 40,
+              "{6fc21adc}": 3
           },
           "name": "Well Fed",
           "rank": 1,
@@ -8477,16 +8430,14 @@
       },
       "8HackerEmblem": {
           "id": 145,
-          "effects": {
-              "Gold": 2
-          },
+          "effects": {},
           "name": "Hacker Crest",
           "rank": 2
       },
       "8JaxASCarry": {
           "id": 239,
           "effects": {
-              "BonusAS": 0.12
+              "BonusAS": 0.15
           },
           "name": "Relentless Assault",
           "rank": 1,
@@ -8566,14 +8517,14 @@
       "8InfiniteamTrait": {
           "id": 177,
           "effects": {},
-          "name": "Infiniteam Heart",
+          "name": "InfiniTeam Heart",
           "rank": 1
       },
       "8_5LucianCarry": {
           "id": 189,
           "effects": {
-              "{44969da7}": 1,
-              "{e5c8ad60}": 2
+              "{44969da7}": 2,
+              "{e5c8ad60}": 3
           },
           "name": "Hyperbolic Time Chamber",
           "rank": 1,
@@ -8715,7 +8666,7 @@
           "id": 100,
           "effects": {
               "{ae55da3b}": 9,
-              "Gold": 40
+              "Gold": 44
           },
           "name": "Lategame Specialist",
           "rank": 1
@@ -8843,6 +8794,14 @@
       }
   },
   "hrAugments": {
+      "6SalvageBinHR": {
+          "id": -1,
+          "effects": {
+              "{2a0d265e}": 3
+          },
+          "name": "Salvage Bin",
+          "rank": 2
+      },
       "6TheGoldenEggHR": {
           "id": -1,
           "effects": {
@@ -8851,6 +8810,14 @@
           },
           "name": "The Golden Egg",
           "rank": 3
+      },
+      "8SalvageBinPlusHR": {
+          "id": -1,
+          "effects": {
+              "{2a0d265e}": 2
+          },
+          "name": "Salvage Bin+",
+          "rank": 2
       },
       "7LivingForgeHR": {
           "id": -1,
