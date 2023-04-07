@@ -39,7 +39,7 @@ export default eventHandler(async (event) => {
 
   const prompt = `/me ${name} (${rank}) ->
   TOTAL:
-  Nº Partidas: ${statsData.qtd} ; Média de posição: ${statsData.avg} ; Média de Top 4: ${statsData.top4} % ; Média de vitória: ${statsData.win} % |`
+  Nº Partidas: ${statsData.qtd} ; Média de posição: ${statsData.avg} ; % Top 4: ${statsData.top4} % ; % vitória: ${statsData.win} % |`
 
   return prompt + ` Para dados completos, user !stats+. Para ver a descrição, digite !aug ${name}`
 })
