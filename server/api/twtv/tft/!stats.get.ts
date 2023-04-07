@@ -33,8 +33,8 @@ export default eventHandler(async (event) => {
   const statsData = {
     qtd: augStats.count.toLocaleString('pt-BR'),
     avg: augStats.avgPlace.toFixed(2),
-    top4: (augStats.count > 0 ? augStats.top4 / augStats.count * 100 : 0).toFixed(1),
-    win: (augStats.count > 0 ? augStats.win / augStats.count * 100 : 0).toFixed(1)
+    top4: (augStats.count > 0 ? augStats.top4 / augStats.count * 100 : 0).toFixed(2),
+    win: (augStats.count > 0 ? augStats.win / augStats.count * 100 : 0).toFixed(2)
   }
 
   const prompt = `/me ${name} (${rank}) ->

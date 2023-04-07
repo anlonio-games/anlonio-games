@@ -68,8 +68,8 @@ export default eventHandler(async (event) => {
       // count with millions separator
       qtd: augStats.pick3.count.toLocaleString('pt-BR'),
       avg: augStats.pick3.place.toFixed(2),
-      top4: (augStats.pick3.count > 0 ? augStats.pick3.top4 / augStats.pick3.count * 100 : 0).toFixed(1),
-      win: (augStats.pick3.count > 0 ? augStats.pick3.win / augStats.pick3.count * 100 : 0).toFixed(1)
+      top4: (augStats.pick3.count > 0 ? augStats.pick3.top4 / augStats.pick3.count * 100 : 0).toFixed(2),
+      win: (augStats.pick3.count > 0 ? augStats.pick3.win / augStats.pick3.count * 100 : 0).toFixed(2)
     }
     prompt += ` 3ª Opção:
   Qtd: ${pick3.qtd} Avg: ${pick3.avg} Top4: ${pick3.top4} % Win: ${pick3.win} % |`
