@@ -1,4 +1,7 @@
+import statsData from '~~/assets/stats.json'
+
 export const getAugStats = cachedFunction(async () => {
+  const stats = statsData as any
   interface PickStats {
     count: number
     place: number
@@ -17,8 +20,7 @@ export const getAugStats = cachedFunction(async () => {
     pick3: PickStats
   }
 
-  const data: any = await $fetch('https://tactics.tools/_next/data/TDwHIqTIMZ5I4W2gq0xvV/en/augments.json')
-  return data.pageProps.augsData.singles as AugStats[]
+  return stats.pageProps.augsData.singles as AugStats[]
 }, {
   maxAge: 60 * 30,
   name: 'getAugStats'
