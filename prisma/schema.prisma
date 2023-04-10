@@ -23,6 +23,25 @@ model tftAugments {
   @@map("tft_augments")
 }
 
+enum augmentRank {
+  silver
+  gold
+  prismatic
+  hero
+}
+
+model tftAugmentChances {
+  id        BigInt      @id @default(autoincrement())
+  createdAt DateTime?   @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime?   @default(now()) @map("updated_at") @db.Timestamptz(6)
+  first     augmentRank
+  second    augmentRank
+  third     augmentRank
+  chance    Float
+
+  @@map("tft_augment_chances")
+}
+
 model tftItems {
   id         BigInt    @id @default(autoincrement())
   createdAt  DateTime? @default(now()) @map("created_at") @db.Timestamptz(6)
