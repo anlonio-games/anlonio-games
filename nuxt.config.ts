@@ -16,9 +16,14 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt'
   ],
+  css: [
+    'vuetify/lib/styles/main.sass',
+    '@mdi/font/css/materialdesignicons.min.css'
+  ],
   build: {
     transpile: [
-      'trpc-nuxt'
+      'trpc-nuxt',
+      'vuetify'
     ]
   },
   auth: {
