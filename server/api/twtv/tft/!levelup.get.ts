@@ -19,5 +19,6 @@ export default eventHandler((event) => {
     return 'O custo em ouro deve ser múltiplo de 4.'
   }
 
+  // Eu dedico esse comentário ao Mourice. Como todo o meu ódio matinal
   return `/me ${gold} de ouro = ${gold / 4 * 7} de EXP com Novo Nível`
 })
