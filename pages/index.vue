@@ -105,8 +105,8 @@
       </VContainer>
     </VMain>
     <VFooter app :color="activeSectionColorInverse">
-      <VContainer>
-        <VRow justify="center" wrap>
+      <VContainer class="pa-0" fluid>
+        <VRow justify="center" align="center" wrap>
           <VCol cols="12" lg="4" class="text-center">
             <span>
               Made with ❤️ by
@@ -125,7 +125,7 @@
                   </span>
                 </VBtn>
                 <br v-if="$vuetify.display.mobile">
-                <span class="pl-3">
+                <span class="pl-lg-3">
                   (Se preferir pix: contato@anlonio.games)
                 </span>
               </span>
