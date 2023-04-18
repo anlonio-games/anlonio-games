@@ -21,7 +21,7 @@
     <VAppBar fixed flat :color="activeSectionColor">
       <VAppBarNavIcon v-if="$vuetify.display.mobile" @click="drawer = !drawer" />
       <VAppBarTitle
-        v-class="{ 'pl-5': !$vuetify.display.mobile }"
+        :class="{ 'pl-5': !$vuetify.display.mobile }"
         class="text-lg-h5"
       >
         Anlonio Games
@@ -62,7 +62,7 @@
                 <VCol :order="section.offset" lg="6" class="text-center">
                   <span>
                     <!-- eslint-disable-next-line vue/html-self-closing, vue/no-v-html -->
-                    <h1 class="text-lg-h1 text-h4" v-html="section.title" />
+                    <h1 class="text-xl-h1 text-lg-h2 text-h4" v-html="section.title" />
                     <template v-if="$vuetify.display.mobile">
                       <br>
                       <br>
@@ -70,15 +70,21 @@
                       <p class="text-lg-h4" v-html="section.body" />
                       <br>
                       <br>
-                      <NuxtLink v-if="section.link" :href="section.link" class="text-lg-h4">
+                      <VBtn
+                        v-if="section.link"
+                        variant="outlined"
+                        size="small"
+                        nuxt
+                        :href="section.link"
+                      >
                         {{ section.linkText }}
-                      </NuxtLink>
+                      </VBtn>
                     </template>
                   </span>
                 </VCol>
-                <VCol v-if="!$vuetify.display.mobile" lg="6">
+                <VCol v-if="!$vuetify.display.mobile" lg="6" class="text-center">
                   <!-- eslint-disable-next-line vue/html-self-closing, vue/no-v-html -->
-                  <p class="text-lg-h4" v-html="section.body" />
+                  <p class="text-xl-h4 text-lg-h5" v-html="section.body" />
                   <br>
                   <br>
                   <VBtn
@@ -100,14 +106,14 @@
     </VMain>
     <VFooter app :color="activeSectionColorInverse">
       <VContainer>
-        <VRow justify="center">
-          <VCol cols="6">
+        <VRow justify="center" wrap>
+          <VCol cols="12" lg="4" class="text-center">
             <span>
               Made with ❤️ by
               <a href="https://twitter.com/oanlonio" target="_blank">Anlonio</a>
             </span>
           </VCol>
-          <VCol cols="6">
+          <VCol cols="12" lg="8" class="text-center">
             <span>
               <span>
                 <VBtn variant="text" target="_blank" href="https://www.paypal.com/donate/?business=875MJNLF8SEXY&no_recurring=1&item_name=Me+pague+um+caf%C3%A9&currency_code=BRL">
@@ -118,6 +124,7 @@
                     <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate">
                   </span>
                 </VBtn>
+                <br v-if="$vuetify.display.mobile">
                 <span class="pl-3">
                   (Se preferir pix: contato@anlonio.games)
                 </span>
@@ -154,7 +161,7 @@ const sections = ref({
     enquanto assiste ou faz stream de jogos.
     `,
     link: '/comandos',
-    linkText: 'Clique aqui e comece pelos comandos já disponíveis'
+    linkText: 'Clique aqui e comece pelos comandos'
   },
   commands: {
     id: 'commands',
@@ -170,7 +177,7 @@ const sections = ref({
     stream ou recomendar pro seu streamer favorito. São comandos incríveis e úteis para você interagir com seus
     espectadores e mantê-los sempre informados.
     `,
-    linkText: 'Clique aqui e veja todos os comandos disponíveis'
+    linkText: 'Clique aqui e comece pelos comandos'
   },
   games: {
     id: 'games',

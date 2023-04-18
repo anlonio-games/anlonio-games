@@ -11,21 +11,21 @@
     <VMain>
       <VContainer>
         <VRow justify="center">
-          <VCol lg="6">
+          <VCol lg="10" xl="6">
             <VRow>
               <VCol>
                 <VCard color="primary">
-                  <VCardTitle class="text-h4">
-                    Como Usar
-                  </VCardTitle>
+                  <VCardItem>
+                    <VCardTitle class="text-h4">
+                      Como Usar
+                    </VCardTitle>
+                  </VCardItem>
                   <VCardText>
                     <p class="text-h5">
-                      Para começar a usar os comandos da API, você só precisar fazer 3 passos:
-                      <ul>
-                        <li>- Verificar e excluir/editar caso exista algum comando já existente no seu StreamElements</li>
-                        <li>- Adicionar o comando base com o link da API</li>
-                        <li>- Adicionar os alias (comandos alternativos ao do link) de cada comando</li>
-                      </ul>
+                      Para começar a usar os comandos da API, você só precisar fazer 3 passos: <br>
+                      - Verificar e excluir/editar caso exista algum comando já existente no seu StreamElements <br>
+                      - Adicionar o comando base com o link da API <br>
+                      - Adicionar os alias (comandos alternativos ao do link) de cada comando <br><br>
                       E pronto! Agora você já pode usar os comandos. Caso queria remover algum comando, basta remover o alias.
                     </p>
                   </VCardText>
