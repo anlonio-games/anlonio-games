@@ -34,9 +34,12 @@ export const getAugText = cachedFunction((augment) => {
       effects[effect] = value
     }
   }
-  const desc = descriptionTemplate.replaceAll('*100', '').replace(/@[^@]+@/g, function (match) {
-    return match.toLowerCase()
-  })
+  const desc = descriptionTemplate
+    .replaceAll('<TFTKeyword>', '')
+    .replaceAll('</TFTKeyword>', '')
+    .replaceAll('*100', '').replace(/@[^@]+@/g, function (match) {
+      return match.toLowerCase()
+    })
   const description = Mustache.render(desc, effects, {}, ['@', '@'])
 
   return {
