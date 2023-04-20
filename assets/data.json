@@ -374,9 +374,9 @@
                       "name": "Damage",
                       "value": [
                           0.15,
-                          165,
-                          245,
-                          405,
+                          135,
+                          205,
+                          335,
                           0.15
                       ]
                   },
@@ -459,8 +459,8 @@
               "mana": 50,
               "initialMana": 0,
               "damage": 45,
-              "armor": 30,
-              "magicResist": 30,
+              "armor": 35,
+              "magicResist": 35,
               "critMultiplier": 1.4,
               "critChance": 0.25,
               "attackSpeed": 0.65,
@@ -472,9 +472,9 @@
                       "name": "Damage",
                       "value": [
                           0,
-                          230,
-                          345,
-                          515,
+                          240,
+                          360,
+                          540,
                           160
                       ]
                   },
@@ -766,11 +766,11 @@
                   {
                       "name": "ASPerCast",
                       "value": [
-                          25,
-                          25,
-                          25,
-                          25,
-                          25
+                          30,
+                          30,
+                          30,
+                          30,
+                          30
                       ]
                   },
                   {
@@ -1960,12 +1960,12 @@
       "TFT8_Nasus": {
           "name": "Nasus",
           "stats": {
-              "hp": 650,
+              "hp": 700,
               "mana": 60,
               "initialMana": 0,
               "damage": 65,
-              "armor": 40,
-              "magicResist": 40,
+              "armor": 45,
+              "magicResist": 45,
               "critMultiplier": 1.4,
               "critChance": 0.25,
               "attackSpeed": 0.65,
@@ -1986,11 +1986,11 @@
                   {
                       "name": "ADPercent",
                       "value": [
-                          2,
-                          2,
-                          2,
-                          2,
-                          2
+                          2.25,
+                          2.25,
+                          2.25,
+                          2.25,
+                          2.25
                       ]
                   },
                   {
@@ -2438,11 +2438,11 @@
                   {
                       "name": "StunDuration",
                       "value": [
-                          1.25,
-                          1.25,
-                          1.25,
-                          1.25,
-                          1.25
+                          1.5,
+                          1.5,
+                          1.5,
+                          1.5,
+                          1.5
                       ]
                   },
                   {
@@ -2482,9 +2482,9 @@
           "name": "Jinx",
           "stats": {
               "hp": 550,
-              "mana": 80,
-              "initialMana": 20,
-              "damage": 50,
+              "mana": 65,
+              "initialMana": 0,
+              "damage": 55,
               "armor": 20,
               "magicResist": 20,
               "critMultiplier": 1.4,
@@ -2547,9 +2547,9 @@
                       "name": "DRReductionPercent",
                       "value": [
                           0,
+                          0.5,
+                          0.52,
                           0.55,
-                          0.6,
-                          0.65,
                           0
                       ]
                   }
@@ -2586,9 +2586,9 @@
                       "name": "Damage",
                       "value": [
                           0,
-                          220,
-                          330,
-                          500,
+                          230,
+                          345,
+                          520,
                           0
                       ]
                   },
@@ -2680,7 +2680,7 @@
               "hp": 800,
               "mana": 80,
               "initialMana": 20,
-              "damage": 65,
+              "damage": 60,
               "armor": 50,
               "magicResist": 50,
               "critMultiplier": 1.4,
@@ -2999,9 +2999,9 @@
                       "name": "Duration",
                       "value": [
                           3.5,
-                          3.5,
                           4,
-                          5,
+                          4,
+                          4,
                           3.5
                       ]
                   },
@@ -3009,9 +3009,9 @@
                       "name": "DRReductionPercent",
                       "value": [
                           0,
+                          0.4,
                           0.45,
                           0.5,
-                          0.55,
                           0
                       ]
                   }
@@ -3048,8 +3048,8 @@
                       "name": "Damage",
                       "value": [
                           0,
-                          35,
-                          55,
+                          32,
+                          50,
                           150,
                           120
                       ]
@@ -3068,8 +3068,8 @@
                       "name": "ReducedDamage",
                       "value": [
                           0,
-                          20,
-                          30,
+                          18,
+                          27,
                           100,
                           0
                       ]
@@ -3251,12 +3251,12 @@
               "hp": 800,
               "mana": 150,
               "initialMana": 50,
-              "damage": 65,
+              "damage": 60,
               "armor": 40,
               "magicResist": 40,
               "critMultiplier": 1.4,
               "critChance": 0.25,
-              "attackSpeed": 0.95,
+              "attackSpeed": 0.9,
               "range": 4
           },
           "ability": {
@@ -3363,9 +3363,9 @@
                       "name": "BaseDamagePerShot",
                       "value": [
                           0,
-                          50,
-                          75,
-                          115,
+                          40,
+                          60,
+                          90,
                           0
                       ]
                   },
@@ -4147,8 +4147,8 @@
                   "minUnits": 5,
                   "variables": {
                       "{ebe691d4}": 2,
-                      "PercentHealth": 60,
-                      "DamageReduction": 60,
+                      "PercentHealth": 55,
+                      "DamageReduction": 55,
                       "{0a967788}": 1
                   }
               },
@@ -4156,8 +4156,8 @@
                   "minUnits": 7,
                   "variables": {
                       "{ebe691d4}": 2,
-                      "PercentHealth": 95,
-                      "DamageReduction": 95,
+                      "PercentHealth": 85,
+                      "DamageReduction": 85,
                       "{0a967788}": 1
                   }
               }
@@ -4217,21 +4217,20 @@
               {
                   "minUnits": 3,
                   "variables": {
-                      "{ad16f688}": 0.3,
-                      "{692f8d6e}": 0.1
+                      "{ad16f688}": 0.1
                   }
               },
               {
                   "minUnits": 4,
                   "variables": {
-                      "{ad16f688}": 0.4,
-                      "{692f8d6e}": 0.2
+                      "{ad16f688}": 0.2,
+                      "{692f8d6e}": 0.15
                   }
               },
               {
                   "minUnits": 5,
                   "variables": {
-                      "{ad16f688}": 0.5,
+                      "{ad16f688}": 0.4,
                       "{692f8d6e}": 0.3
                   }
               }
@@ -4243,22 +4242,25 @@
               {
                   "minUnits": 2,
                   "variables": {
-                      "{0bca9660}": 10,
-                      "{66b6cdea}": 1
+                      "{0bca9660}": 5,
+                      "ShieldPercent": 50,
+                      "Duration": 1.5
                   }
               },
               {
                   "minUnits": 4,
                   "variables": {
-                      "{0bca9660}": 40,
-                      "{66b6cdea}": 1
+                      "{0bca9660}": 35,
+                      "ShieldPercent": 50,
+                      "Duration": 1.5
                   }
               },
               {
                   "minUnits": 6,
                   "variables": {
-                      "{0bca9660}": 90,
-                      "{66b6cdea}": 1
+                      "{0bca9660}": 75,
+                      "ShieldPercent": 50,
+                      "Duration": 1.5
                   }
               }
           ]
@@ -4278,7 +4280,7 @@
                   "minUnits": 4,
                   "variables": {
                       "{b258b089}": 5,
-                      "AP": 50,
+                      "AP": 45,
                       "MagicDamage": 50
                   }
               },
@@ -4286,7 +4288,7 @@
                   "minUnits": 6,
                   "variables": {
                       "{b258b089}": 5,
-                      "AP": 80,
+                      "AP": 70,
                       "MagicDamage": 50
                   }
               },
@@ -4294,7 +4296,7 @@
                   "minUnits": 8,
                   "variables": {
                       "{b258b089}": 5,
-                      "AP": 120,
+                      "AP": 110,
                       "MagicDamage": 100
                   }
               }
@@ -4367,7 +4369,7 @@
               {
                   "minUnits": 6,
                   "variables": {
-                      "{ebcfdef4}": 10
+                      "{ebcfdef4}": 11
                   }
               }
           ]
@@ -4946,7 +4948,7 @@
           "id": 94,
           "name": "Anima Squad Emblem",
           "effects": {
-              "AP": 0.1
+              "AP": 10
           },
           "from": [
               3,
@@ -5959,7 +5961,9 @@
       },
       "6PandorasItems": {
           "id": 52,
-          "effects": {},
+          "effects": {
+              "{5cc08b27}": 1
+          },
           "name": "Pandora's Items",
           "rank": 1
       },
@@ -6687,7 +6691,7 @@
       "8LeBlancSupport": {
           "id": 242,
           "effects": {
-              "HealthPercent": 75
+              "HealthPercent": 99
           },
           "name": "Mirror Image",
           "rank": 1,
@@ -6699,7 +6703,7 @@
       "8_5VexCarry": {
           "id": 259,
           "effects": {
-              "{ad16f688}": 0.22,
+              "{ad16f688}": 0.3,
               "{79a51d61}": 2
           },
           "name": "Joy Siphon",
@@ -6786,7 +6790,7 @@
       "8_5PantheonSupport": {
           "id": 196,
           "effects": {
-              "DamageReduction": 0.7,
+              "DamageReduction": 0.6,
               "Duration": 6,
               "{79a51d61}": 4
           },
@@ -7115,8 +7119,8 @@
       "8EkkoCarry": {
           "id": 267,
           "effects": {
-              "DamageAmp": 2.5,
-              "Range": 2
+              "DamageAmp": 2,
+              "Range": 3
           },
           "name": "Destructive Resonance",
           "rank": 1,
@@ -7202,7 +7206,7 @@
       "8RenektonCarry": {
           "id": 201,
           "effects": {
-              "AS": 4,
+              "AS": 5,
               "{27c79872}": 100,
               "{2acb3e58}": 40
           },
@@ -7229,8 +7233,8 @@
       "8LeonaCarry": {
           "id": 290,
           "effects": {
-              "{d49caf5d}": 30,
-              "{80330413}": 30
+              "{d49caf5d}": 40,
+              "{80330413}": 40
           },
           "name": "Perfected Solar Flare",
           "rank": 1,
@@ -7938,7 +7942,7 @@
       "8_5ShenSupport": {
           "id": 252,
           "effects": {
-              "DamageReduction": 0.08,
+              "DamageReduction": 0.07,
               "Duration": 4
           },
           "name": "Recursion Matrix",
@@ -8024,7 +8028,7 @@
       "8_5PantheonCarry": {
           "id": 197,
           "effects": {
-              "{d49caf5d}": 50,
+              "{d49caf5d}": 40,
               "BonusMR": 100
           },
           "name": "The Best Offense",
@@ -8081,7 +8085,7 @@
       "8UrgotSupport": {
           "id": 297,
           "effects": {
-              "BonusAS": 0.4
+              "BonusAS": 0.5
           },
           "name": "Rising Tide",
           "rank": 1,
@@ -8165,7 +8169,7 @@
           "id": 257,
           "effects": {
               "{f0f10b3f}": 2,
-              "DamagePercent": 50
+              "DamagePercent": 44
           },
           "name": "Spread Shot",
           "rank": 1,
@@ -8241,7 +8245,7 @@
       "8WukongCarry": {
           "id": 205,
           "effects": {
-              "AP": 10
+              "AP": 18
           },
           "name": "Cyclone",
           "rank": 1,
@@ -8278,8 +8282,8 @@
       "8LeeSinCarry": {
           "id": 221,
           "effects": {
-              "{7ccd3647}": 30,
-              "HealPercent": 0.18
+              "{7ccd3647}": 10,
+              "HealPercent": 0.15
           },
           "name": "Cleansing Safeguard",
           "rank": 1,
@@ -8405,7 +8409,7 @@
           "id": 188,
           "effects": {
               "{d49caf5d}": 20,
-              "{bfb90928}": 2
+              "{bfb90928}": 1
           },
           "name": "Enchanted Ammunition",
           "rank": 1,
@@ -8462,7 +8466,7 @@
       "8RammusArmor": {
           "id": 248,
           "effects": {
-              "BonusArmor": 35
+              "BonusArmor": 40
           },
           "name": "Armored-dillo",
           "rank": 1,
@@ -8759,7 +8763,7 @@
           "id": 109,
           "effects": {
               "{16394c87}": 2,
-              "AS": 0.1
+              "AS": 0.12
           },
           "name": "Scoped Weapons I",
           "rank": 2
@@ -8811,6 +8815,32 @@
           "name": "The Golden Egg",
           "rank": 3
       },
+      "TFT8_HyperRollAugment_GangplankSupport": {
+          "id": -1,
+          "effects": {
+              "{2dd33743}": 66,
+              "{d5fb325a}": 2
+          },
+          "name": "Get Paid",
+          "rank": 1,
+          "hero": [
+              "TFT8_Gangplank",
+              "support"
+          ]
+      },
+      "TFT8_HyperRollAugment_DravenCarry": {
+          "id": -1,
+          "effects": {
+              "BonusAD": 25,
+              "{2dd33743}": 80
+          },
+          "name": "League of Draven",
+          "rank": 1,
+          "hero": [
+              "TFT8_Draven",
+              "carry"
+          ]
+      },
       "8SalvageBinPlusHR": {
           "id": -1,
           "effects": {
@@ -8818,6 +8848,153 @@
           },
           "name": "Salvage Bin+",
           "rank": 2
+      },
+      "TFT8_HyperRollAugment_MissFortuneSupport": {
+          "id": -1,
+          "effects": {
+              "{cc06ab16}": 3,
+              "{c7e57406}": 20,
+              "{c6e57273}": 40
+          },
+          "name": "Make It Rain",
+          "rank": 1,
+          "hero": [
+              "TFT8_MissFortune",
+              "support"
+          ]
+      },
+      "TFT8_5_HyperRollAugment_TwistedFateCarry": {
+          "id": -1,
+          "effects": {
+              "{8ae99e9c}": 10,
+              "{614a3ad3}": 20,
+              "Gold": 2
+          },
+          "name": "Ante Up",
+          "rank": 1,
+          "hero": [
+              "TFT8_TwistedFate",
+              "carry"
+          ]
+      },
+      "TFT8_5_HyperRollAugment_WarwickCarry2": {
+          "id": -1,
+          "effects": {
+              "BonusHealth": 2,
+              "StartingHealth": 230,
+              "{6fc21adc}": 2
+          },
+          "name": "Well Fed+",
+          "rank": 1,
+          "hero": [
+              "TFT8_Warwick",
+              "carry"
+          ]
+      },
+      "TFT8_5_HyperRollAugment_WarwickCarry": {
+          "id": -1,
+          "effects": {
+              "BonusHealth": 2,
+              "StartingHealth": 50,
+              "{6fc21adc}": 2
+          },
+          "name": "Well Fed",
+          "rank": 1,
+          "hero": [
+              "TFT8_Warwick",
+              "carry"
+          ]
+      },
+      "TFT8_5_HyperRollAugment_EzrealFutureSupport": {
+          "id": -1,
+          "effects": {
+              "Gold": 16
+          },
+          "name": "Accelerated Mentorship",
+          "rank": 1,
+          "hero": [
+              "TFT8_EzrealFuture",
+              "support"
+          ]
+      },
+      "TFT8_5_HyperRollAugment_SivirCarry": {
+          "id": -1,
+          "effects": {
+              "Gold": 2,
+              "{94b55f9b}": 42
+          },
+          "name": "Time and a Half",
+          "rank": 1,
+          "hero": [
+              "TFT8b_Sivir",
+              "carry"
+          ]
+      },
+      "TFT8_5_HyperRollAugment_LucianCarry": {
+          "id": -1,
+          "effects": {
+              "BaseGold": 2,
+              "{e5c8ad60}": 2
+          },
+          "name": "Hyperbolic Time Chamber",
+          "rank": 1,
+          "hero": [
+              "TFT8_Lucian",
+              "carry"
+          ]
+      },
+      "TFT8_5_HyperRollAugment_JhinCarry": {
+          "id": -1,
+          "effects": {
+              "{6611a3fc}": 4,
+              "{20569db9}": 6,
+              "Gold": 12,
+              "{ea6108de}": 12.5
+          },
+          "name": "Rule of Four",
+          "rank": 1,
+          "hero": [
+              "TFT8_Jhin",
+              "carry"
+          ]
+      },
+      "TFT8_HyperRollAugment_EzrealSupport": {
+          "id": -1,
+          "effects": {
+              "Gold": 2
+          },
+          "name": "Raider's Spoils",
+          "rank": 1,
+          "hero": [
+              "TFT8_Ezreal",
+              "support"
+          ]
+      },
+      "TFT8_HyperRollAugment_NasusCarry": {
+          "id": -1,
+          "effects": {
+              "{b3b8f644}": 6,
+              "{9c6a27a4}": 20
+          },
+          "name": "Stacks on Stacks",
+          "rank": 1,
+          "hero": [
+              "TFT8_Nasus",
+              "carry"
+          ]
+      },
+      "TFT8_HyperRollAugment_SamiraSupport": {
+          "id": -1,
+          "effects": {
+              "Health": 2,
+              "AttackSpeed": 0.045
+          },
+          "name": "Daredevil",
+          "rank": 1,
+          "hero": [
+              "TFT8_Samira",
+              "support"
+          ]
       },
       "7LivingForgeHR": {
           "id": -1,
