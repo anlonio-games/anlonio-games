@@ -27,6 +27,9 @@ export const getAugText = cachedFunction((augment) => {
   const effects: any = {}
   for (const [key, value] of Object.entries(JSON.parse(augment.effects?.toString() as string))) {
     const effect = getEffectName(key).toLocaleLowerCase()
+    if (Object.keys(effects).includes(effect)) {
+      continue
+    }
     const descAux = descriptionTemplate.toLocaleLowerCase()
     if (descAux.includes(effect + '*100')) {
       effects[effect] = ((value as number) * 100).toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 2 })
