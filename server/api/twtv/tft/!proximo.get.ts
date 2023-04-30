@@ -55,7 +55,20 @@ export default eventHandler(async (event) => {
     return '/me Máximo de 3 aprimoramentos escolhidos.'
   }
 
-  const augments: Prisma.EnumaugmentRankFilter[] = augmentsArg.map(aug => t[aug] || aug)
+  let augments: Prisma.EnumaugmentRankFilter[]
+  try {
+    augments = augmentsArg.map((aug):Prisma.EnumaugmentRankFilter => {
+      // check if aug is valid
+      if (!t[aug]) {
+        throw new Error(`Aprimoramento ${aug} não encontrado.`)
+      }
+      return {
+        equals: t[aug]
+      }
+    })
+  } catch (e: any) {
+    return `/me ${e.message}`
+  }
 
   const secondChance = await event.context.prisma.tftAugmentChances.groupBy({
     where: {
