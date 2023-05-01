@@ -27,7 +27,7 @@ export default eventHandler(async (event) => {
   const augStats = stats?.find(aug => aug.id === augment.nameSlug)
 
   if (!augStats) {
-    return `${name} (${rank}) -> Nenhuma estatística encontrada.`
+    return `${name} (${rank}) ⋮-> Nenhuma estatística encontrada.`
   }
 
   const statsData = {
@@ -37,7 +37,7 @@ export default eventHandler(async (event) => {
     win: (augStats.count > 0 ? augStats.win / augStats.count * 100 : 0).toFixed(2)
   }
 
-  const prompt = `/me ${name} (${rank}) ->
+  const prompt = `/me ${name} (${rank}) ⋮->
   TOTAL:
   Nº Partidas: ${statsData.qtd} ; Média de posição: ${statsData.avg} ; % Top 4: ${statsData.top4} % ; % vitória: ${statsData.win} % |`
 

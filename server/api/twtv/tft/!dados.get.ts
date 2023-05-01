@@ -126,7 +126,7 @@ export default eventHandler(async (event) => {
     return acc
   }, []).sort((a, b) => parseFloat(b.value) - parseFloat(a.value))
 
-  let prompt = `/me Chance de vir ${unit.name} usando Dados Viciados no nível ${level} em: `
+  let prompt = `/me Chance de vir ${unit.name} usando Dados Viciados no nível ${level} em ⋮-> `
   championsPerChance.forEach((chance) => {
     prompt += `${chance.champions.map(champion => champion).join(', ')}: ${chance.value}% | `
   })
