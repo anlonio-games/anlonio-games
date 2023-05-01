@@ -88,7 +88,7 @@ export default eventHandler(async (event) => {
   if (augments.length === 1) {
     let r = '/me '
     secondChance.forEach((chance) => {
-      r += `${tr[chance.second]} ${((chance?._sum?.chance || 0) / augChance(augments[0] as string) * 100).toFixed(2)}% `
+      r += `${tr[chance.second]} ${((chance?._sum?.chance || 0) / augChance(augments[0].equals as string) * 100).toFixed(2)}% `
     })
     return r
   }
@@ -107,7 +107,7 @@ export default eventHandler(async (event) => {
 
     let r = '/me '
     thirdChance.forEach((chance) => {
-      r += `${tr[chance.third]} ${((chance?._sum?.chance || 0) / augSecondChance(augments[1] as string) * 100).toFixed(2)}% `
+      r += `${tr[chance.third]} ${((chance?._sum?.chance || 0) / augSecondChance(augments[1].equals as string) * 100).toFixed(2)}% `
     })
     return r
   }
