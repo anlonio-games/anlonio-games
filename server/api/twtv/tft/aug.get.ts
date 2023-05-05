@@ -103,7 +103,7 @@ export default cachedEventHandler(async (event) => {
   })
   const description = Mustache.render(desc, effects, {}, ['@', '@'])
 
-  return `${augment.name} (${rank}) -> ${description}`
+  return `${augment.name} (${rank}) ⋮-> ${description}`
 }, {
   maxAge: 60 * 60 * 24 * 7
 })
