@@ -1,7 +1,6 @@
-import statsData from '~~/assets/stats.json'
+import * as puppeteer from 'puppeteer'
 
 export const getAugStats = cachedFunction(async () => {
-  const stats = statsData as any
   interface PickStats {
     count: number
     place: number
@@ -20,8 +19,24 @@ export const getAugStats = cachedFunction(async () => {
     pick3: PickStats
   }
 
+  const fetchData = async () => {
+    const browser = await puppeteer.launch({ headless: 'new' })
+    const page = await browser.newPage()
+    await page.goto('https://tactics.tools/augments')
+
+    const data = await page.evaluate(() => {
+      return window.__NEXT_DATA__.props
+    })
+
+    await browser.close()
+
+    return data
+  }
+
+  const stats = await fetchData()
+
   return stats.pageProps.augsData.singles as AugStats[]
 }, {
-  maxAge: 60 * 30,
+  maxAge: 10 * 60 * 1000,
   name: 'getAugStats'
 })
