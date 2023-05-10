@@ -75,7 +75,7 @@
                         variant="outlined"
                         size="small"
                         nuxt
-                        :href="section.link"
+                        :to="section.link"
                       >
                         {{ section.linkText }}
                       </VBtn>
@@ -92,7 +92,7 @@
                     size="large"
                     variant="outlined"
                     nuxt
-                    :href="section.link"
+                    :to="section.link"
                     class="text-lg-h4"
                   >
                     {{ section.linkText }}
@@ -139,6 +139,10 @@
 
 <script setup>
 import { vElementVisibility } from '@vueuse/components'
+
+definePageMeta({
+  layout: false
+})
 
 function scrollToTag (tag) {
   const element = document.getElementById(tag)
