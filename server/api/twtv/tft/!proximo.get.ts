@@ -4,14 +4,9 @@ export default eventHandler(async (event) => {
   const { search } : { search?: string} = getQuery(event)
 
   const t: any = {
-    hero: 'hero',
     silver: 'silver',
     gold: 'gold',
     prismatic: 'prismatic',
-    heróico: 'hero',
-    heroico: 'hero',
-    heroi: 'hero',
-    herói: 'hero',
     prata: 'silver',
     ouro: 'gold',
     prismático: 'prismatic',
@@ -23,7 +18,6 @@ export default eventHandler(async (event) => {
   }
 
   const tr = {
-    hero: 'Heróico',
     silver: 'Prata',
     gold: 'Ouro',
     prismatic: 'Prismático'
@@ -41,7 +35,7 @@ export default eventHandler(async (event) => {
   }
 
   if (search === 'help') {
-    return `/me Heróico ${augChance('hero')}% Prata ${augChance('silver')}% Ouro ${augChance('gold')}% Prismático ${augChance('prismatic')}% | Exemplo de uso: !proximo prata ouro.`
+    return `/me Prata ${augChance('silver')}% Ouro ${augChance('gold')}% Prismático ${augChance('prismatic')}% | Exemplo de uso: !proximo prata ouro.`
   }
 
   let augmentsArg: string[] = []
