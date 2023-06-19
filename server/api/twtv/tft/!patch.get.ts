@@ -1,3 +1,3 @@
 export default eventHandler(() => {
-  return '/me Link para as notas de atualização do patch 13.10, que entrará quinta-feira: http://bit.ly/3Oc7zU7'
+  return '/me Link para as notas de atualização do patch 13.12: https://bit.ly/3oUtZ23'
 })
