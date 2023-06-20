@@ -1,6 +1,6 @@
 import statsData from '~~/assets/stats.json'
 
-export const getAugStats = cachedFunction(async () => {
+export const getAugStats = cachedFunction(() => {
   const stats = statsData as any
   interface PickStats {
     count: number

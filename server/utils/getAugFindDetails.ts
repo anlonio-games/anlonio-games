@@ -1,12 +1,10 @@
 import { PrismaClient } from '@prisma/client'
 import AugmentsJSON from '~~/assets/pt/augments.json'
 import CommonJSON from '~~/assets/pt/common.json'
-import UnitsJSON from '~~/assets/pt/units.json'
 
 export const getAugFindDetails = cachedFunction(async (prisma: PrismaClient, search) => {
   const Augments = AugmentsJSON as any
   const Common = CommonJSON as any
-  const Units = UnitsJSON as any
 
   const ranks: any = {
     1: 'Silver',
@@ -25,11 +23,8 @@ export const getAugFindDetails = cachedFunction(async (prisma: PrismaClient, sea
   if (augments.length > 0) {
     const augmentsList = augments.map((augment: any) => {
       augment.name = Augments[augment.nameSlug] || 'NOT_FOUND'
-      let rank = Common[ranks[augment.rank]]
+      const rank = Common[ranks[augment.rank]]
       augment.name = augment.name.toUpperCase()
-      if (augment?.heroName) {
-        rank = Units[augment.heroName] + ' ' + Common[augment?.heroType || '']
-      }
       return `${augment.name} (${rank})`
     }).join(', ')
     return `Nenhum resultado exato encontrado. digite um (Sem os parênteses, caso tenha) do(s) resultado(s) para mais detalhes: ${augmentsList}`
