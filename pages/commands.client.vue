@@ -104,6 +104,7 @@
 </template>
 
 <script setup lang="ts">
+type Commands = { id: string; title: string; onClick: () => void, subtitle: string; props: { prependIcon: string }}[];
 definePageMeta({
   alias: '/comandos'
 })
@@ -126,17 +127,17 @@ const alias = ref(null)
 
 const copiedCommand = ref(null)
 
-const commands = [
+const commands: Commands = [
   {
     id: 'tft',
     title: 'Comando Base !tft',
     onClick: () => {
       // eslint-disable-next-line no-template-curly-in-string
-      copyCommand('!cmd add tft ${urlfetch https://api.anlonio.games/api/twtv/tft/${0}?channel=${channel}&search=${queryescape ${1: | help}}}')
+      copyCommand('!cmd add tft ${urlfetch https://api.anlonio.games/api/twtv/tft/${0}?channel=${channel}&search=${queryescape ${1: | help}}&id=${getcount portal}}')
       copiedCommand.value = tft.value
     },
     // eslint-disable-next-line no-template-curly-in-string
-    subtitle: '!cmd add tft ${urlfetch https://api.anlonio.games/api/twtv/tft/${0}?channel=${channel}&search=${queryescape ${1: | help}}}',
+    subtitle: '!cmd add tft ${urlfetch https://api.anlonio.games/api/twtv/tft/${0}?channel=${channel}&search=${queryescape ${1: | help}}&id=${getcount portal}}',
     props: {
       prependIcon: 'mdi-content-copy'
     }
@@ -145,10 +146,36 @@ const commands = [
     id: 'alias',
     title: 'Adicionar todos os Alias',
     onClick: () => {
-      copyCommand('!cmd alias add tft aug passe stats stats+ proximo p d dados levelup novonivel lu')
+      copyCommand('!cmd alias add tft passe stats stats+ proximo p d levelup novonivel lu dados portal')
       copiedCommand.value = alias.value
     },
-    subtitle: '!cmd alias add tft aug passe stats stats+ proximo p d dados levelup novonivel lu',
+    subtitle: '!cmd alias add tft passe stats stats+ proximo p d levelup novonivel lu dados portal',
+    props: {
+      prependIcon: 'mdi-content-copy'
+    }
+  },
+  {
+    id: 'setportal',
+    title: 'Comando de definir o portal da partida',
+    onClick: () => {
+      // eslint-disable-next-line no-template-curly-in-string
+      copyCommand('!cmd add setportal /me Portal Alterado para ${1:} ${count portal ${urlfetch https://api.anlonio.games/api/twtv/tft/portal/slug2number?channel=${channel}&search=${queryescape ${1:}}}}')
+      copiedCommand.value = alias.value
+    },
+    // eslint-disable-next-line no-template-curly-in-string
+    subtitle: '!cmd add setportal /me Portal Alterado para ${1:} ${count portal ${urlfetch https://api.anlonio.games/api/twtv/tft/portal/slug2number?channel=${channel}&search=${queryescape ${1:}}}}',
+    props: {
+      prependIcon: 'mdi-content-copy'
+    }
+  },
+  {
+    id: 'portalAlias',
+    title: 'Comando para permitir apenas pessoas moderadoras do canal usarem o comando',
+    onClick: () => {
+      copyCommand('!cmd options setportal -level 500')
+      copiedCommand.value = alias.value
+    },
+    subtitle: '!cmd options setportal -level 500',
     props: {
       prependIcon: 'mdi-content-copy'
     }
