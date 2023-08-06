@@ -4,7 +4,7 @@ export default eventHandler(async (event) => {
   console.info('search', search)
 
   if (!search || search === 'help') {
-    return 'Patch atual: 13.9b | Digite !aug [nome do aprimoramento] para obter informações sobre o aprimoramento. Exemplo: !aug jinx carry | Essa api é mantida pelo Anlonio, para mais informações acesse: anlonio.games'
+    return 'Patch atual: 13.15 | Digite !aug [nome do aprimoramento] para obter informações sobre o aprimoramento. Exemplo: !aug jinx carry | Essa api é mantida pelo Anlonio, para mais informações acesse: anlonio.games'
   }
 
   if (search.length < 3) {
