@@ -21,13 +21,23 @@
                     </VCardTitle>
                   </VCardItem>
                   <VCardText>
-                    <p class="text-h5">
-                      Para começar a usar os comandos da API, você só precisar fazer 3 passos: <br>
-                      - Verificar e excluir/editar caso exista algum comando já existente no seu StreamElements <br>
-                      - Adicionar o comando base com o link da API <br>
-                      - Adicionar os alias (comandos alternativos ao do link) de cada comando <br><br>
-                      E pronto! Agora você já pode usar os comandos. Caso queria remover algum comando, basta remover o alias.
-                    </p>
+                    <div class="flex flex-col">
+                      <h5 class="text-h5">
+                        Para começar a usar os comandos da API, você precisar seguir os passos abaixo:
+                      </h5>
+                      <ul>
+                        <li class="text-h6">
+                          Verificar se os comandos existem em seu Streamelements
+                        </li>
+                        <li class="text-h6">
+                          Adicionar o comando base com o link da API
+                        </li>
+                        <li class="text-h6">
+                          Adicionar os alias (comandos alternatvos ao do link) de cada comando
+                        </li>
+                      </ul>
+                      <pre>E pronto! Agora você pode utilizar os comandos. Caso queira remover algum comando, basta remover o alias</pre>
+                    </div>
                   </VCardText>
                 </VCard>
               </VCol>
@@ -184,5 +194,7 @@ const commands: Commands = [
 </script>
 
 <style scoped>
-
+  ul li::before {
+    content: '-';
+  }
 </style>
