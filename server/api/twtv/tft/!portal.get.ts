@@ -17,7 +17,7 @@ export default eventHandler((event) => {
       portal = portals[id]
     }
   } else {
-    portal = portals.find(p => p.region_subtitle === search || p.name.toLocaleLowerCase() === search.toLocaleLowerCase())
+    portal = portals.find(p => getSlug(p.name) === search || p.name.toLocaleLowerCase() === search.toLocaleLowerCase())
   }
 
   if (portal) {
