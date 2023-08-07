@@ -21,7 +21,7 @@ export default eventHandler((event) => {
   }
 
   if (portal) {
-    return `/me (${portal.region}) ${portal.name} ⋮-> ${portal.description}`
+    return `/me (${portal.region}) ${portal.name} ⋮-> ${getPortalDescription(portal)}`
   } else {
     return 'Portal não encontrado. Digite o nome exato ou apenas as letras Maiúsculas (O Sumidouro = OS)'
   }
