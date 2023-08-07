@@ -21,13 +21,23 @@
                     </VCardTitle>
                   </VCardItem>
                   <VCardText>
-                    <p class="text-h5">
-                      Para começar a usar os comandos da API, você só precisar fazer 3 passos: <br>
-                      - Verificar e excluir/editar caso exista algum comando já existente no seu StreamElements <br>
-                      - Adicionar o comando base com o link da API <br>
-                      - Adicionar os alias (comandos alternativos ao do link) de cada comando <br><br>
-                      E pronto! Agora você já pode usar os comandos. Caso queria remover algum comando, basta remover o alias.
-                    </p>
+                    <div class="flex flex-col">
+                      <h5 class="text-h5">
+                        Para começar a usar os comandos da API, você precisar seguir os passos abaixo:
+                      </h5>
+                      <ul>
+                        <li class="text-h6">
+                          Verificar se os comandos existem em seu Streamelements
+                        </li>
+                        <li class="text-h6">
+                          Adicionar o comando base com o link da API
+                        </li>
+                        <li class="text-h6">
+                          Adicionar os alias (comandos alternatvos ao do link) de cada comando
+                        </li>
+                      </ul>
+                      <pre>E pronto! Agora você pode utilizar os comandos. Caso queira remover algum comando, basta remover o alias</pre>
+                    </div>
                   </VCardText>
                 </VCard>
               </VCol>
@@ -104,6 +114,7 @@
 </template>
 
 <script setup lang="ts">
+type Commands = { id: string; title: string; onClick: () => void, subtitle: string; props: { prependIcon: string }}[];
 definePageMeta({
   alias: '/comandos'
 })
@@ -126,17 +137,17 @@ const alias = ref(null)
 
 const copiedCommand = ref(null)
 
-const commands = [
+const commands: Commands = [
   {
     id: 'tft',
     title: 'Comando Base !tft',
     onClick: () => {
       // eslint-disable-next-line no-template-curly-in-string
-      copyCommand('!cmd add tft ${urlfetch https://api.anlonio.games/api/twtv/tft/${0}?channel=${channel}&search=${queryescape ${1: | help}}}')
+      copyCommand('!cmd add tft ${urlfetch https://api.anlonio.games/api/twtv/tft/${0}?channel=${channel}&search=${queryescape ${1: | help}}&id=${getcount portal}}')
       copiedCommand.value = tft.value
     },
     // eslint-disable-next-line no-template-curly-in-string
-    subtitle: '!cmd add tft ${urlfetch https://api.anlonio.games/api/twtv/tft/${0}?channel=${channel}&search=${queryescape ${1: | help}}}',
+    subtitle: '!cmd add tft ${urlfetch https://api.anlonio.games/api/twtv/tft/${0}?channel=${channel}&search=${queryescape ${1: | help}}&id=${getcount portal}}',
     props: {
       prependIcon: 'mdi-content-copy'
     }
@@ -145,10 +156,36 @@ const commands = [
     id: 'alias',
     title: 'Adicionar todos os Alias',
     onClick: () => {
-      copyCommand('!cmd alias add tft aug passe stats stats+ proximo p d dados levelup novonivel lu')
+      copyCommand('!cmd alias add tft passe stats stats+ proximo p d levelup novonivel lu dados portal')
       copiedCommand.value = alias.value
     },
-    subtitle: '!cmd alias add tft aug passe stats stats+ proximo p d dados levelup novonivel lu',
+    subtitle: '!cmd alias add tft passe stats stats+ proximo p d levelup novonivel lu dados portal',
+    props: {
+      prependIcon: 'mdi-content-copy'
+    }
+  },
+  {
+    id: 'setportal',
+    title: 'Comando de definir o portal da partida',
+    onClick: () => {
+      // eslint-disable-next-line no-template-curly-in-string
+      copyCommand('!cmd add setportal /me Portal Alterado para ${1:} ${count portal ${urlfetch https://api.anlonio.games/api/twtv/tft/portal/slug2number?channel=${channel}&search=${queryescape ${1:}}}}')
+      copiedCommand.value = alias.value
+    },
+    // eslint-disable-next-line no-template-curly-in-string
+    subtitle: '!cmd add setportal /me Portal Alterado para ${1:} ${count portal ${urlfetch https://api.anlonio.games/api/twtv/tft/portal/slug2number?channel=${channel}&search=${queryescape ${1:}}}}',
+    props: {
+      prependIcon: 'mdi-content-copy'
+    }
+  },
+  {
+    id: 'portalAlias',
+    title: 'Comando para permitir apenas pessoas moderadoras do canal usarem o comando',
+    onClick: () => {
+      copyCommand('!cmd options setportal -level 500')
+      copiedCommand.value = alias.value
+    },
+    subtitle: '!cmd options setportal -level 500',
     props: {
       prependIcon: 'mdi-content-copy'
     }
@@ -157,5 +194,7 @@ const commands = [
 </script>
 
 <style scoped>
-
+  ul li::before {
+    content: '-';
+  }
 </style>
