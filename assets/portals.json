@@ -71,28 +71,6 @@
     ]
   },
   {
-    "name": "Casa Lumescudo",
-    "description": "Recebe uma Coroa de Demacia no Estágio @StartStage@-@StartRound@. Se o usuário for abatido, você perde a luta instantaneamente. ",
-    "short": "Coroa um de seus Campeões e tenta protegê-lo. ",
-    "region_subtitle": "Demacia",
-    "region": "Demacia",
-    "apiName": "TFT9_RegionPortals_HouseLightshield_HR",
-    "color": [72, 58, 1, 255],
-    "effectAmounts": [
-      { "name": "{664da10b}", "value": 3, "match": "StartStage" },
-      { "name": "{d86a4c5d}", "value": 1, "match": "StartRound" }
-    ]
-  },
-  {
-    "name": "O Salão dos Nove",
-    "description": "No início dos outros Estágios, todos recebem o mesmo espólio de uma lista altamente variada.",
-    "short": "No início dos outros Estágios, todos recebem o mesmo espólio de uma lista altamente variada.",
-    "region_subtitle": "O Vazio",
-    "region": "Void",
-    "apiName": "TFT9_RegionPortals_TheHallOfTheNine_HR",
-    "color": [115, 36, 91, 255]
-  },
-  {
     "name": "Biblioteca do Placídio",
     "description": "Recebe um Pergaminho do Conhecimento no Estágio @Stage@-@Round@. Utilize em um Campeão para abrir um Arsenal que oferece emblemas relacionados às Características da unidade. ",
     "short": "Escolha um emblema de Característica de uma das suas unidades!",
@@ -159,21 +137,6 @@
     ]
   },
   {
-    "name": "Bastião Imortal",
-    "description": "No Estágio @StartStage@-@StartRound@, você recebe uma bandeira de batalha que pode ser posicionada e concede @AttackSpeed*100@% de Velocidade de Ataque e um Escudo de @HealthRatio*100@% da Vida máxima das unidades que iniciarem o combate nas casas adjacentes.",
-    "short": "Recebe uma bandeira que pode ser posicionada e fortalece as unidades próximas. ",
-    "region_subtitle": "Noxus",
-    "region": "Noxus",
-    "apiName": "TFT9_RegionPortals_ImmortalBastion_HR",
-    "color": [26, 20, 89, 255],
-    "effectAmounts": [
-      { "name": "{664da10b}", "value": 3, "match": "StartStage" },
-      { "name": "{d86a4c5d}", "value": 1, "match": "StartRound" },
-      { "name": "AttackSpeed", "value": 0.2, "match": "AttackSpeed" },
-      { "name": "HealthRatio", "value": 0.2, "match": "HealthRatio" }
-    ]
-  },
-  {
     "name": "Mercado Shurimane",
     "description": "Todas os Campeões no Carrossel terão @TooltipNumComponents@ componentes em vez de apenas 1.",
     "short": "Os Carrosséis de componentes têm componentes adicionais para cada Campeão.",
@@ -210,20 +173,6 @@
       { "name": "{79b4d5be}", "value": 5, "match": "Round1" },
       { "name": "{c5a09ecd}", "value": 4, "match": "Stage2" },
       { "name": "{78b4d42b}", "value": 5, "match": "Round2" }
-    ]
-  },
-  {
-    "name": "Santuário do Thresh",
-    "description": "Quando QUALQUER unidade for abatida, coleta a alma dela. A cada @SoulsPerLoot@ almas coletadas, recebe um orbe de espólio. ",
-    "short": "Quando unidades são abatidas, ele coleta as almas. Receba espólio a cada @SoulsPerLoot@ almas coletadas.",
-    "region_subtitle": "Ilhas das Sombras",
-    "region": "ShadowIsles",
-    "apiName": "TFT9_RegionPortals_ThreshsSanctum_HR",
-    "color": [64, 53, 15, 255],
-    "effectAmounts": [
-      { "name": "{3389a500}", "value": 20, "match": "SoulsPerLoot" },
-      { "name": "{689322e6}", "value": 7 },
-      { "name": "{cc31c4e0}", "value": 1 }
     ]
   },
   {
@@ -306,19 +255,6 @@
     ]
   },
   {
-    "name": "O Topo",
-    "description": "A partir do Estágio @StartStage@, recebe um Duplicador de Campeão Inferior no início dos outros Estágios. A partir do Estágio @StageSwitch@, recebe um Duplicador de Campeão. ",
-    "short": "Recebe um Duplicador de Campeão Inferior ou normal no início dos outros Estágios. ",
-    "region_subtitle": "Targon",
-    "region": "Targon",
-    "apiName": "TFT9_RegionPortals_TheSummit_HR",
-    "color": [127, 37, 40, 255],
-    "effectAmounts": [
-      { "name": "{664da10b}", "value": 2, "match": "StartStage" },
-      { "name": "{3b602159}", "value": 6, "match": "StageSwitch" }
-    ]
-  },
-  {
     "name": "Indústrias Glasc",
     "description": "Toda vez que construir um item, recebe @GoldAmount@ de ouro. ",
     "short": "Ao construir itens, recebe ouro.",
@@ -328,20 +264,6 @@
     "color": [14, 63, 11, 255],
     "effectAmounts": [
       { "name": "{b9b4d8d7}", "value": 3, "match": "GoldAmount" }
-    ]
-  },
-  {
-    "name": "Lanchonete de Bandópolis",
-    "description": "Recebe uma Espátula no Estágio @StartStage@-@StartRound@. A cada rodada, Campeões com Espátulas alimentam seu aliado mais próximo com Poritos e concedem a ele @Health@ de Vida permanentemente para cada componente de Espátula que tiverem.",
-    "short": "Recebe uma Espátula. Espátulas alimentam seus Campeões, concedendo Vida permanentemente a eles. ",
-    "region_subtitle": "Bandópolis",
-    "region": "BandleCity",
-    "apiName": "TFT9_RegionPortals_BandleCafeteria_HR",
-    "color": [71, 82, 7, 255],
-    "effectAmounts": [
-      { "name": "{664da10b}", "value": 3, "match": "StartStage" },
-      { "name": "{d86a4c5d}", "value": 1, "match": "StartRound" },
-      { "name": "Health", "value": 40, "match": "Health" }
     ]
   },
   {
@@ -355,18 +277,6 @@
     "effectAmounts": [{ "name": "{bed4e54c}", "value": 2, "match": "BonusXP" }]
   },
   {
-    "name": "Targon Primordial",
-    "description": "Ao atingir @TooltipHealthThreshold@ de Vida, receba uma bênção dos deuses targonenses.",
-    "short": "Ao ficar com Vida baixa, recebe uma bênção dos deuses targonenses.",
-    "region_subtitle": "Targon",
-    "region": "Targon",
-    "apiName": "TFT9_RegionPortals_TargonPrime_HR",
-    "color": [127, 37, 40, 255],
-    "effectAmounts": [
-      { "name": "{bd707e51}", "value": 10, "match": "TooltipHealthThreshold" }
-    ]
-  },
-  {
     "name": "O Topo",
     "description": "A partir do Estágio @StartStage@, recebe um Duplicador de Campeão Inferior no início de cada Estágio. A partir do Estágio @StageSwitch@, recebe um Duplicador de Campeão. ",
     "short": "Recebe um Duplicador de Campeão Inferior ou normal no início de cada Estágio. ",
@@ -377,21 +287,6 @@
     "effectAmounts": [
       { "name": "{664da10b}", "value": 3, "match": "StartStage" },
       { "name": "{3b602159}", "value": 5, "match": "StageSwitch" }
-    ]
-  },
-  {
-    "name": "Forja do Ornn",
-    "description": "De forma aleatória, no Estágio @Stage1@-@Round1@ ou @Stage2@-@Round2@, recebe uma Bigorna de Item do Ornn. ",
-    "short": "Recebe um Artefato do Ornn durante a partida. ",
-    "region_subtitle": "Freljord",
-    "region": "Freljord",
-    "apiName": "TFT9_RegionPortals_OrnnsForge_HR",
-    "color": [153, 98, 34, 255],
-    "effectAmounts": [
-      { "name": "{c2a09a14}", "value": 4, "match": "Stage1" },
-      { "name": "{79b4d5be}", "value": 1, "match": "Round1" },
-      { "name": "{c5a09ecd}", "value": 6, "match": "Stage2" },
-      { "name": "{78b4d42b}", "value": 3, "match": "Round2" }
     ]
   },
   {
@@ -449,35 +344,6 @@
     "color": [148, 55, 2, 255]
   },
   {
-    "name": "Pedra-Lar",
-    "description": "No Estágio @Stage@-@Round@, você recebe uma Melhoria do Mestre-Artesão que permite aprimorar um item equipado para sua versão Radiante.",
-    "short": "Aprimore um dos itens para sua versão Radiante.",
-    "region_subtitle": "Freljord",
-    "region": "Freljord",
-    "apiName": "TFT9_RegionPortals_HearthHome_HR",
-    "color": [153, 98, 34, 255],
-    "effectAmounts": [
-      { "name": "Stage", "value": 7, "match": "Stage" },
-      { "name": "{4f0be23b}", "value": 1, "match": "Round" }
-    ]
-  },
-  {
-    "name": "Palácio do Senhor da Guerra",
-    "description": "O Estágio @Stage@-@Round@ é substituído por uma rodada de Arsenal de tesouros. Cada atualização de loja custa @TooltipRerollCost@. ",
-    "short": "A última rodada do Estágio @Stage@ é substituída por um Arsenal de tesouros. ",
-    "region_subtitle": "Shurima",
-    "region": "Shurima",
-    "apiName": "TFT9_RegionPortals_WarlordsPalace_HR",
-    "color": [29, 66, 89, 255],
-    "effectAmounts": [
-      { "name": "Stage", "value": 7, "match": "Stage" },
-      { "name": "{4f0be23b}", "value": 1, "match": "Round" },
-      { "name": "{b9b6501b}", "value": 1, "match": "TooltipRerollCost" },
-      { "name": "{ad7fcebc}", "value": 0.2 },
-      { "name": "{642f9304}", "value": 0.3 }
-    ]
-  },
-  {
     "name": "A Ruptura",
     "description": "Viaja para um local aleatório não exibido anteriormente.",
     "short": "Viaja para um local aleatório não exibido anteriormente.",
@@ -485,23 +351,6 @@
     "region": "Void",
     "apiName": "TFT9_RegionPortals_TheRupture",
     "color": [115, 36, 91, 255]
-  },
-  {
-    "name": "Portalzinho Yordle",
-    "description": "Uma vez por Estágio, recebe uma unidade grátis de tier alto. O tier da unidade aumenta durante a partida.",
-    "short": "Uma vez por Estágio, recebe uma unidade grátis de tier alto.",
-    "region_subtitle": "Bandópolis",
-    "region": "BandleCity",
-    "apiName": "TFT9_RegionPortals_YordlePordles_HR",
-    "color": [71, 82, 7, 255],
-    "effectAmounts": [
-      { "name": "{672387c8}", "value": 3 },
-      { "name": "{49950766}", "value": 1 },
-      { "name": "{e3f2a4c5}", "value": 7 },
-      { "name": "{08f8a413}", "value": 1 },
-      { "name": "{8632a4c6}", "value": 8 },
-      { "name": "{031dfbc0}", "value": 1 }
-    ]
   },
   {
     "name": "Lanchonete de Bandópolis",
@@ -515,34 +364,6 @@
       { "name": "{664da10b}", "value": 2, "match": "StartStage" },
       { "name": "{d86a4c5d}", "value": 1, "match": "StartRound" },
       { "name": "Health", "value": 20, "match": "Health" }
-    ]
-  },
-  {
-    "name": "Biblioteca do Placídio",
-    "description": "Recebe um Pergaminho do Conhecimento no Estágio @Stage@-@Round@. Utilize em um Campeão para abrir um Arsenal que oferece emblemas relacionados às Características da unidade. ",
-    "short": "Escolha um emblema de Característica de uma das suas unidades!",
-    "region_subtitle": "Ionia",
-    "region": "Ionia",
-    "apiName": "TFT9_RegionPortals_PlacidiumLibrary_HR",
-    "color": [83, 38, 111, 255],
-    "effectAmounts": [
-      { "name": "Stage", "value": 6, "match": "Stage" },
-      { "name": "{4f0be23b}", "value": 3, "match": "Round" }
-    ]
-  },
-  {
-    "name": "Marus Omegnum",
-    "description": "Nos Estágios @Stage1@-@Round1@ e @Stage2@-@Round2@, recebe uma Coroa do Estrategista.",
-    "short": "Recebe duas Coroas do Estrategista ao longo da partida. ",
-    "region_subtitle": "Targon",
-    "region": "Targon",
-    "apiName": "TFT9_RegionPortals_MarusOmegnum_HR",
-    "color": [127, 37, 40, 255],
-    "effectAmounts": [
-      { "name": "{c2a09a14}", "value": 4, "match": "Stage1" },
-      { "name": "{79b4d5be}", "value": 1, "match": "Round1" },
-      { "name": "{c5a09ecd}", "value": 7, "match": "Stage2" },
-      { "name": "{78b4d42b}", "value": 3, "match": "Round2" }
     ]
   },
   {
