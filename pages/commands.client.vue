@@ -1,116 +1,64 @@
 <template>
-  <VApp>
-    <VAppBar color="primary">
-      <VToolbarItems>
-        <VBtn icon nuxt href="/">
-          <VIcon>mdi-home</VIcon>
-        </VBtn>
-      </VToolbarItems>
-      <VToolbarTitle>Anlonio Games</VToolbarTitle>
-    </VAppBar>
-    <VMain>
-      <VContainer>
-        <VRow justify="center">
-          <VCol lg="10" xl="6">
-            <VRow>
-              <VCol>
-                <VCard color="primary">
-                  <VCardItem>
-                    <VCardTitle class="text-h4">
-                      Como Usar
-                    </VCardTitle>
-                  </VCardItem>
-                  <VCardText>
-                    <div class="flex flex-col">
-                      <h5 class="text-h5">
-                        Para começar a usar os comandos da API, você precisar seguir os passos abaixo:
-                      </h5>
-                      <ul>
-                        <li class="text-h6">
-                          Verificar se os comandos existem em seu Streamelements
-                        </li>
-                        <li class="text-h6">
-                          Adicionar o comando base com o link da API
-                        </li>
-                        <li class="text-h6">
-                          Adicionar os alias (comandos alternatvos ao do link) de cada comando
-                        </li>
-                      </ul>
-                      <pre>E pronto! Agora você pode utilizar os comandos. Caso queira remover algum comando, basta remover o alias</pre>
-                    </div>
-                  </VCardText>
-                </VCard>
-              </VCol>
-            </VRow>
-            <VRow>
-              <VCol cols="12">
-                <VCard>
-                  <v-tooltip
-                    v-model="copied"
-                    :activator="copiedCommand ?? undefined"
-                    location="top"
-                    close-delay="1000"
-                  >
-                    Copiado!
-                  </v-tooltip>
-                  <VCardTitle>
-                    <h1 class="text-h4">
-                      Comandos
-                    </h1>
-                  </VCardTitle>
-                  <VCardText>
-                    <VList item-props :items="commands" lines="two">
-                      <template #prepend="{ item }">
-                        <VBtn :ref="item.id" icon variant="flat">
-                          <VIcon>
-                            {{ item.props.prependIcon }}
-                          </VIcon>
-                        </VBtn>
-                      </template>
-                      <template #subtitle="{ subtitle }">
-                        <!-- eslint-disable-next-line vue/no-v-html -->
-                        <div v-html="subtitle" />
-                      </template>
-                    </VList>
-                  </VCardText>
-                </VCard>
-              </VCol>
-            </VRow>
+  <VContainer>
+    <VRow justify="center">
+      <VCol lg="10" xl="6">
+        <VRow>
+          <VCol>
+            <VCard color="primary">
+              <VCardItem>
+                <VCardTitle class="text-h4">
+                  Como Usar
+                </VCardTitle>
+              </VCardItem>
+              <VCardText>
+                <p class="text-h5">
+                  Para começar a usar os comandos da API, você só precisar fazer 3 passos: <br>
+                  - Verificar e excluir/editar caso exista algum comando já existente no seu StreamElements <br>
+                  - Adicionar o comando base com o link da API <br>
+                  - Adicionar os alias (comandos alternativos ao do link) de cada comando <br><br>
+                  E pronto! Agora você já pode usar os comandos. Caso queria remover algum comando, basta remover o alias.
+                </p>
+              </VCardText>
+            </VCard>
           </VCol>
         </VRow>
-      </VContainer>
-    </VMain>
-    <VFooter app color="primary">
-      <VContainer class="pa-0" fluid>
-        <VRow justify="center" align="center" wrap>
-          <VCol cols="12" lg="4" class="text-center">
-            <span>
-              Made with ❤️ by
-              <a href="https://twitter.com/oanlonio" target="_blank">Anlonio</a>
-            </span>
-          </VCol>
-          <VCol cols="12" lg="8" class="text-center">
-            <span>
-              <span>
-                <VBtn variant="text" target="_blank" href="https://www.paypal.com/donate/?business=875MJNLF8SEXY&no_recurring=1&item_name=Me+pague+um+caf%C3%A9&currency_code=BRL">
-                  <span class="pr-2">
-                    Me pague um café ☕
-                  </span>
-                  <span>
-                    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate">
-                  </span>
-                </VBtn>
-                <br v-if="$vuetify.display.mobile">
-                <span class="pl-3">
-                  (Se preferir pix: contato@anlonio.games)
-                </span>
-              </span>
-            </span>
+        <VRow>
+          <VCol cols="12">
+            <VCard>
+              <v-tooltip
+                v-model="copied"
+                :activator="copiedCommand ?? undefined"
+                location="top"
+                close-delay="1000"
+              >
+                Copiado!
+              </v-tooltip>
+              <VCardTitle>
+                <h1 class="text-h4">
+                  Comandos
+                </h1>
+              </VCardTitle>
+              <VCardText>
+                <VList item-props :items="commands" lines="two">
+                  <template #prepend="{ item }">
+                    <VBtn :ref="item.id" icon variant="flat">
+                      <VIcon>
+                        {{ item.props.prependIcon }}
+                      </VIcon>
+                    </VBtn>
+                  </template>
+                  <template #subtitle="{ subtitle }">
+                    <!-- eslint-disable-next-line vue/no-v-html -->
+                    <div v-html="subtitle" />
+                  </template>
+                </VList>
+              </VCardText>
+            </VCard>
           </VCol>
         </VRow>
-      </vcontainer>
-    </VFooter>
-  </VApp>
+      </VCol>
+    </VRow>
+  </VContainer>
 </template>
 
 <script setup lang="ts">
