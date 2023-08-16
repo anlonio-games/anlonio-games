@@ -238,11 +238,11 @@
     "color": [83, 38, 111, 255]
   },
   {
-    "name": "Portalzinho Yordle",
+    "name": "Arena da Carnificina",
     "description": "Duas vezes por Estágio, receba um Campeão grátis de tier alto. O tier do Campeão aumenta durante a partida.",
     "short": "Duas vezes por Estágio, receba um Campeão grátis de tier alto.",
-    "region_subtitle": "Bandópolis",
-    "region": "BandleCity",
+    "region_subtitle": "Noxus",
+    "region": "Noxus",
     "apiName": "TFT9_RegionPortals_YordlePordles",
     "color": [71, 82, 7, 255],
     "effectAmounts": [
