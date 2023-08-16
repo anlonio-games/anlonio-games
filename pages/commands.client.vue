@@ -104,10 +104,10 @@ const commands: Commands = [
     id: 'alias',
     title: 'Adicionar todos os Alias',
     onClick: () => {
-      copyCommand('!cmd alias add tft passe stats stats+ proximo p d levelup novonivel lu dados portal')
+      copyCommand('!cmd alias add tft passe stats stats+ proximo p d levelup novonivel lu dados portal patch loot')
       copiedCommand.value = alias.value
     },
-    subtitle: '!cmd alias add tft passe stats stats+ proximo p d levelup novonivel lu dados portal',
+    subtitle: '!cmd alias add tft passe stats stats+ proximo p d levelup novonivel lu dados portal patch loot',
     props: {
       prependIcon: 'mdi-content-copy'
     }
