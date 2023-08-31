@@ -4,7 +4,7 @@ export default eventHandler(async (event) => {
   console.info('search', search)
 
   if (!search || search === 'help') {
-    return 'Patch atual: 13.15 | Digite !aug [nome do aprimoramento] para obter informações sobre o aprimoramento. Exemplo: !aug jinx carry | Essa api é mantida pelo Anlonio, para mais informações acesse: anlonio.games'
+    return 'Patch atual: 13.17 | Digite !aug [nome do aprimoramento] para obter informações sobre o aprimoramento. Exemplo: !aug jinx carry | Essa api é mantida pelo Anlonio, para mais informações acesse: https://anlonio.games'
   }
 
   if (search.length < 3) {
@@ -22,5 +22,5 @@ export default eventHandler(async (event) => {
   // build name
   const { name, rank, description } = await getAugText(augment) || {}
 
-  return `${name} (${rank}) ⋮-> ${description} Para estatísticas, digite !stats ${name}`
+  return `${name} (${rank}) ⋮-> ${description} Para estatísticas, espere o set 9.5` // !stats ${name}
 })
