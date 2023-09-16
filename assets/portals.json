@@ -764,7 +764,13 @@
     "short": "Duas vezes por jogo o comerciante de Águas de Sentina aparece aleatoriamente para oferecer itens completos, radiantes ou de suporte",
     "region_subtitle": "Águas de Sentina",
     "region": "Águas de Sentina",
-    "apiName": "TFT9_RegionPortals_FinnsMarket"
+    "apiName": "TFT9_RegionPortals_FinnsMarket",
+    "color": [
+      135,
+      114,
+      14,
+      255
+    ]
   },
   {
     "name": "Cidade dos Ratos",
@@ -772,7 +778,13 @@
     "short": "A partir do estágio 2, lojas da sorte aparecem aleatóriamente uma vez por estágio.",
     "region_subtitle": "Águas de Sentina",
     "region": "Águas de Sentina",
-    "apiName": "TFT9_RegionPortals_RatTown"
+    "apiName": "TFT9_RegionPortals_RatTown",
+    "color": [
+      135,
+      114,
+      14,
+      255
+    ]
   },
   {
     "name": "Docas da Matança",
@@ -780,7 +792,20 @@
     "short": "Recebe atualizações grátis equivalentes ao número do Estágio, e depois mais 1 no início de cada estágio! Dura apenas na rodada em que as recebe.",
     "region_subtitle": "Águas de Sentina",
     "region": "Águas de Sentina",
-    "apiName": "TFT9_RegionPortals_SlaughterDocks"
+    "apiName": "TFT9_RegionPortals_SlaughterDocks",
+    "color": [
+      135,
+      114,
+      14,
+      255
+    ],
+    "effectAmounts": [
+      {
+        "name": "BaseRerolls",
+        "value": 1,
+        "match": "BaseRerolls"
+      }
+    ]
   },
   {
     "name": "Ixaocan",
@@ -788,7 +813,20 @@
     "short": "Sempre que alguém subir as estrelas de 20 unidades, todo mundo na partida ganhará espólios cada vez mais valiosos.",
     "region_subtitle": "Ixtal",
     "region": "Ixtal",
-    "apiName": "TFT9_RegionPortals_Ixaocan"
+    "apiName": "TFT9_RegionPortals_Ixaocan",
+    "color": [
+      73,
+      133,
+      34,
+      255
+    ],
+    "effectAmounts": [
+      {
+        "name": "NumberOfUpgradedUnits",
+        "value": 20,
+        "match": "NumberOfUpgradedUnits"
+      }
+    ]
   },
   {
     "name": "Arcologia Cardinal",
@@ -796,7 +834,13 @@
     "short": "Sempre serão oferecidos, nesta ordem, um Aprimoramento de Prata, de Ouro ou Prismático.",
     "region_subtitle": "Ixtal",
     "region": "Ixtal",
-    "apiName": "TFT9_RegionPortals_CardinalArcology"
+    "apiName": "TFT9_RegionPortals_CardinalArcology",
+    "color": [
+      73,
+      133,
+      34,
+      255
+    ]
   },
   {
     "name": "Rio Serpentino",
@@ -804,6 +848,12 @@
     "short": "Os carrosséis dos estágios 2 e 4 são substituídos por rodadas de votação. Todos recebem uma Bigorna de Componente e a recompensa vencedora",
     "region_subtitle": "Ixtal",
     "region": "Ixtal",
-    "apiName": "TFT9_RegionPortals_SerpentineRiver"
+    "apiName": "TFT9_RegionPortals_SerpentineRiver",
+    "color": [
+      33,
+      32,
+      20,
+      255
+    ]
   }
 ]
