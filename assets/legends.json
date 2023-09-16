@@ -1,0 +1,287 @@
+[
+    {
+        "id": "Aurelion Sol",
+        "name": "Aurelion Sol: o Ancestral",
+        "desc": "Alcance um nível alto e jogue com unidades incríveis!",
+        "early": [
+            "TFT9_Augment_CuttingCorners",
+            "TFT9_Augment_LearningFromExperience2",
+            "TFT6_Augment_MaxLevel10"
+        ],
+        "mid": [
+            "TFT9_Augment_Commander_Experience1",
+            "TFT9_Augment_Commander_Experience2",
+            "TFT9_Augment_Commander_Experience3"
+        ],
+        "late": [
+            "TFT9_Augment_ItPaysToLearn",
+            "TFT9_Augment_ItPaysToLearnII",
+            "TFT9_Augment_ItPaysToLearnIII"
+        ]
+    },
+    {
+        "id": "Bard",
+        "name": "Bardo: o Viajante",
+        "desc": "Receba ainda mais poder ao subir de nível!",
+        "early": [
+            "TFT9_Augment_BardPlaybook1",
+            "TFT9_Augment_BardPlaybook2",
+            "TFT9_Augment_BardPlaybook3"
+        ],
+        "mid": [
+            "TFT9_Augment_Commander_SmallForge",
+            "TFT9_Augment_Commander_MediumForge",
+            "TFT9_Augment_Commander_LargeForge"
+        ],
+        "late": [
+            "TFT9_Augment_Commander_SmallForgePlus",
+            "TFT9_Augment_Commander_TeamingUp2",
+            "TFT9_Augment_Commander_TeamingUp3"
+        ]
+    },
+    {
+        "id": "Caitlyn",
+        "name": "Caitlyn: a Pacificadora",
+        "desc": "Receba unidades fortes logo no início da partida!",
+        "early": [
+            "TFT9_Augment_OneTwosThree",
+            "TFT9_Augment_StarsAreBorn",
+            "TFT9_Augment_StarterKit"
+        ],
+        "mid": [
+            "TFT9_Augment_Commander_Experience1",
+            "TFT9_Augment_Commander_Experience2",
+            "TFT9_Augment_Commander_Experience3"
+        ],
+        "late": [
+            "TFT9_Augment_Commander_RollingForDays",
+            "TFT9_Augment_Commander_RollingForDays2",
+            "TFT9_Augment_Commander_RollingForDays3"
+        ]
+    },
+    {
+        "id": "Draven",
+        "name": "Draven: o Carrasco",
+        "desc": "Fature alto e receba recompensas mais altas ainda!",
+        "early": [
+            "TFT9_Augment_DravenSpoilsOfWar",
+            "TFT9_Augment_DravenSpoilsOfWar2",
+            "TFT9_Augment_DravenSpoilsOfWar3"
+        ],
+        "mid": [
+            "TFT9_Augment_BalancedBudget",
+            "TFT9_Augment_BalancedBudget2",
+            "TFT9_Augment_BalancedBudget3"
+        ],
+        "late": [
+            "TFT9_Augment_Commander_RollingForDays",
+            "TFT9_Augment_Commander_RollingForDays2",
+            "TFT9_Augment_Commander_RollingForDays3"
+        ]
+    },
+    {
+        "id": "Ezreal",
+        "name": "Ezreal: o Colecionador de Itens",
+        "desc": "Quanto mais itens, melhor!",
+        "early": [
+            "TFT9_Augment_BuildingACollection",
+            "TFT9_Augment_BuildingACollectionPlus",
+            "TFT9_Augment_BuildingACollectionPlusPlus"
+        ],
+        "mid": [
+            "TFT9_Augment_TinyGrabBag",
+            "TFT9_Augment_BigGrabBag",
+            "TFT9_Augment_GiantGrabBag"
+        ],
+        "late": [
+            "TFT9_Augment_Commander_WellEarnedComforts",
+            "TFT9_Augment_Commander_WellEarnedComforts2",
+            "TFT9_Augment_Commander_WellEarnedComforts3"
+        ]
+    },
+    {
+        "id": "Lee Sin",
+        "name": "Lee Sin: o Armador de Jogadas",
+        "desc": "Atualize sua loja com unidades perfeitas.",
+        "early": [
+            "TFT9_Augment_BronzeTicket",
+            "TFT6_Augment_TradeSector",
+            "TFT9_Augment_HighEndSector"
+        ],
+        "mid": [
+            "TFT9_Augment_TopDeck",
+            "TFT9_Augment_TopDeckPlus",
+            "TFT9_Augment_TopDeckPlusPlus"
+        ],
+        "late": [
+            "TFT9_Augment_Commander_Money",
+            "TFT9_Augment_Commander_Money2",
+            "TFT9_Augment_Commander_Money3"
+        ]
+    },
+    {
+        "id": "Master Yi",
+        "name": "Master Yi: o Mestre Wuju",
+        "desc": "Fique cada vez mais forte a cada luta!",
+        "early": [
+            "TFT9_Augment_PumpingUp",
+            "TFT9_Augment_PumpingUp2",
+            "TFT9_Augment_PumpingUp3"
+        ],
+        "mid": [
+            "TFT9_Augment_BattleReady",
+            "TFT9_Augment_BattleReadyII",
+            "TFT9_Augment_BattleReadyIII"
+        ],
+        "late": [
+            "TFT9_Augment_GottaGoFast",
+            "TFT9_Augment_GottaGoFastII",
+            "TFT9_Augment_GottaGoFastIII"
+        ]
+    },
+    {
+        "id": "Ornn",
+        "name": "Ornn: o Mestre da Forja",
+        "desc": "Receba o poder das criações do Ornn.",
+        "early": [
+            "TFT9_Augment_LongTimeCrafting",
+            "TFT6_Augment_PortableForge",
+            "TFT7_Augment_LivingForge"
+        ],
+        "mid": [
+            "TFT9_Augment_Commander_SmallForge",
+            "TFT9_Augment_Commander_MediumForge",
+            "TFT9_Augment_Commander_LargeForge"
+        ],
+        "late": [
+            "TFT9_Augment_Commander_SmallForgePlus",
+            "TFT9_Augment_Commander_MediumForgePlus",
+            "TFT9_Augment_Commander_LargeForgePlus"
+        ]
+    },
+    {
+        "id": "Pengu",
+        "name": "Pingu: o Estrategista",
+        "desc": "Jogue sem riscos! Ótimo para iniciantes.",
+        "early": [
+            "TFT6_Augment_TinyTitans",
+            "TFT6_Augment_MetabolicAccelerator",
+            "TFT9_Augment_TiniestTitan"
+        ],
+        "mid": [
+            "TFT6_Augment_ItemGrabBag1",
+            "TFT9_Augment_ItemGrabBagPlus",
+            "TFT9_Augment_ItemGrabBagPlusPlus"
+        ],
+        "late": [
+            "TFT9_Augment_FinalGrabBag",
+            "TFT9_Augment_FinalGrabBagPlus",
+            "TFT9_Augment_FinalGrabBagPlusPlus"
+        ]
+    },
+    {
+        "id": "TahmKench",
+        "name": "Tahm Kench: o Glutão",
+        "desc": "Colete o máximo de ouro possível.",
+        "early": [
+            "TFT7_Augment_AFK",
+            "TFT6_Augment_RichGetRicher",
+            "TFT9_Augment_HedgeFund"
+        ],
+        "mid": [
+            "TFT9_Augment_BalancedBudget",
+            "TFT9_Augment_BalancedBudget2",
+            "TFT9_Augment_BalancedBudget3"
+        ],
+        "late": [
+            "TFT9_Augment_Commander_Money",
+            "TFT9_Augment_Commander_Money2",
+            "TFT9_Augment_Commander_Money3"
+        ]
+    },
+    {
+        "id": "TwistedFate",
+        "name": "Twisted Fate: o Apostador",
+        "desc": "Receba exatamente os itens que precisar!",
+        "early": [
+            "TFT6_Augment_PandorasItems",
+            "TFT9_Augment_PandorasItems2",
+            "TFT9_Augment_PandorasRadiantBox"
+        ],
+        "mid": [
+            "TFT6_Augment_ItemGrabBag1",
+            "TFT9_Augment_ItemGrabBagPlus",
+            "TFT9_Augment_ItemGrabBagPlusPlus"
+        ],
+        "late": [
+            "TFT9_Augment_FinalGrabBag",
+            "TFT9_Augment_Commander_TeamingUp2",
+            "TFT9_Augment_Commander_TeamingUp3"
+        ]
+    },
+    {
+        "id": "Urf",
+        "name": "Urf: o Colecionador de Emblemas",
+        "desc": "Para quem ama Emblemas!",
+        "early": [
+            "TFT9_Augment_BranchingOut",
+            "TFT6_Augment_TomeOfTraits1",
+            "TFT7_Augment_TomeOfTraits2"
+        ],
+        "mid": [
+            "TFT9_Augment_TinyGrabBag",
+            "TFT9_Augment_BigGrabBag",
+            "TFT9_Augment_GiantGrabBag"
+        ],
+        "late": [
+            "TFT9_Augment_FinalGrabBag",
+            "TFT9_Augment_FinalGrabBagPlus",
+            "TFT9_Augment_FinalGrabBagPlusPlus"
+        ]
+    },
+    {
+        "id": "Veigar",
+        "name": "Veigar: o Conjurador",
+        "desc": "Cause muito dano com as habilidades dos seus Campeões!",
+        "early": [
+            "TFT9_Augment_LesserJeweledLotus",
+            "TFT9_Augment_JeweledLotus",
+            "TFT9_Augment_GreaterJeweledLotus"
+        ],
+        "mid": [
+            "TFT9_Augment_Commander_TinyPower1",
+            "TFT9_Augment_Commander_TinyPower2",
+            "TFT9_Augment_Commander_TinyPower3"
+        ],
+        "late": [
+            "TFT9_Augment_Commander_PartialAscension",
+            "TFT9_Augment_Commander_Ascension",
+            "TFT9_Augment_Commander_FinalAscension"
+        ]
+    },
+    {
+        "id": "Vladimir",
+        "name": "Vladimir: o Hemomante",
+        "desc": "Troque Vida por poder!",
+        "early": [
+            "TFT9_Augment_Transfusion",
+            "TFT9_Augment_TransfusionPlus",
+            "TFT9_Augment_TransfusionPlusPlus"
+        ],
+        "mid": [
+            "TFT9_Augment_BattleReady",
+            "TFT9_Augment_BattleReadyII",
+            "TFT9_Augment_BattleReadyIII"
+        ],
+        "late": [
+            "TFT9_Augment_Commander_PartialAscension",
+            "TFT9_Augment_Commander_Ascension",
+            "TFT9_Augment_Commander_FinalAscension"
+        ]
+    },
+    {
+        "id": "Poro",
+        "name": "Poro: o Imporável ",
+        "desc": "Sem alterações, só uma partida clássica de TFT!"
+    }
+]
