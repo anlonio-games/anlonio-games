@@ -12,7 +12,6 @@ export default defineNuxtConfig({
   },
   plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
   modules: [
-    '@sidebase/nuxt-auth',
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt'
   ],
@@ -25,9 +24,6 @@ export default defineNuxtConfig({
       'trpc-nuxt',
       'vuetify'
     ]
-  },
-  auth: {
-    origin: process.env.ORIGIN || 'http://localhost:3000'
   },
   typescript: {
     shim: false
