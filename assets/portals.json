@@ -208,6 +208,42 @@
     ]
   },
   {
+    "name": "Depressão de Valar",
+            "description": "No estágio @ItemStage1@-@ItemRound1@ recebe uma bigorna de componente. No @Stage1@-@Round1@, ganha uma bigorna de item de suporte ",
+            "short": "Ganha um item de suporte durante o jogo",
+            "region_subtitle": "Freljord",
+            "region": "Freljord",
+            "apiName": "TFT9_RegionPortals_ValarsHollow",
+            "color": [
+                153,
+                98,
+                34,
+                255
+            ],
+            "effectAmounts": [
+                {
+                    "name": "Stage1",
+                    "value": 3,
+                    "match": "Stage1"
+                },
+                {
+                    "name": "Round1",
+                    "value": 3,
+                    "match": "Round1"
+                },
+                {
+                    "name": "ItemStage1",
+                    "value": 2,
+                    "match": "ItemStage1"
+                },
+                {
+                    "name": "ItemRound1",
+                    "value": 3,
+                    "match": "ItemRound1"
+                }
+            ]
+  },
+  {
     "name": "Targon Primordial",
     "description": "Ao atingir @TooltipHealthThreshold@ de Vida, receba uma bênção dos deuses targonenses.",
     "short": "Ao ficar com Vida baixa, recebe uma bênção dos deuses targonenses.",
