@@ -1,7 +1,7 @@
-import { currentPatch } from 'server/api/helper'
+import { currentPatch } from '../../../../helper'
 
 export default eventHandler(async (event) => {
-  const { search } : { search?: string} = getQuery(event)
+  const { search }: { search?: string } = getQuery(event)
 
   console.info('search', search)
 
