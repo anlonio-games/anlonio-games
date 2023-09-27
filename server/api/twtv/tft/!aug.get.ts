@@ -24,5 +24,5 @@ export default eventHandler(async (event) => {
   // build name
   const { name, rank, description } = await getAugText(augment) || {}
 
-  return `${name} (${rank}) ⋮-> ${description} Para estatísticas, espere o set 9.5` // !stats ${name}
+  return `${name} (${rank}) ⋮-> ${description} Para estatísticas, digite !stats ${name}` // !stats ${name}
 })
