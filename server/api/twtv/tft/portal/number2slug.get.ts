@@ -1,6 +1,6 @@
 import portals from '@/assets/portals.json'
 export default eventHandler((event) => {
-  const { search } : { search?: string} = getQuery(event)
+  const { search }: { search?: string } = getQuery(event)
 
   if (search === undefined) {
     setResponseStatus(event, 400, 'Wrong params')
@@ -12,8 +12,8 @@ export default eventHandler((event) => {
   if (isNaN(searchId)) {
     setResponseStatus(event, 400, 'Wrong params')
   }
-
-  const portal = portals[searchId]
+  const entries = Object.entries(portals)
+  const portal = entries[searchId]?.[1]
 
   if (portal) {
     return `/me (${portal.region}) ${portal.name} ⋮-> ${portal.description}`
