@@ -15,7 +15,7 @@ interface Portal {
 }
 
 export function getPortalDescription (portal: Portal) {
-  let description = portal.description.replaceAll('<br>', '')
+  let description = portal.description.replaceAll('<br><br>', ' ')
   if (!portal.effectAmounts) { return description }
 
   portal.effectAmounts.forEach((effectAmount) => {
