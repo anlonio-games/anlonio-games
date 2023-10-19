@@ -1,10 +1,6 @@
 export default eventHandler(async (event) => {
   const { search, channel, proLegends }: { search?: string, channel?: string, proLegends?: string } = getQuery(event)
 
-  if (!channel) {
-    return 'Canal não encontrado.'
-  }
-
   console.info('search', search)
 
   const prisma = event.context.prisma
