@@ -12,8 +12,8 @@ export default eventHandler((event) => {
   if (isNaN(searchId)) {
     setResponseStatus(event, 400, 'Wrong params')
   }
-
-  const portal = portals[searchId]
+  const entries = Object.entries(portals)
+  const portal = entries[searchId]?.[1]
 
   if (portal) {
     return `/me (${portal.region}) ${portal.name} -> ${portal.description}`
