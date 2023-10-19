@@ -6,12 +6,7 @@
     "region_subtitle": "Shurima",
     "region": "Shurima",
     "apiName": "TFT9_RegionPortals_WarlordsPalace",
-    "color": [
-      29,
-      66,
-      89,
-      255
-    ],
+    "color": [29, 66, 89, 255],
     "effectAmounts": [
       {
         "name": "Stage",
@@ -45,12 +40,7 @@
     "region_subtitle": "Ilhas das Sombras",
     "region": "ShadowIsles",
     "apiName": "TFT9_RegionPortals_YoricksGraveyard",
-    "color": [
-      64,
-      53,
-      15,
-      255
-    ],
+    "color": [64, 53, 15, 255],
     "effectAmounts": [
       {
         "name": "{cd7c01a9}",
@@ -66,12 +56,7 @@
     "region_subtitle": "Zaun",
     "region": "Zaun",
     "apiName": "TFT9_RegionPortals_TheSump",
-    "color": [
-      14,
-      63,
-      11,
-      255
-    ],
+    "color": [14, 63, 11, 255],
     "effectAmounts": [
       {
         "name": "{664da10b}",
@@ -97,12 +82,7 @@
     "region_subtitle": "Noxus",
     "region": "Noxus",
     "apiName": "TFT9_RegionPortals_ImmortalBastion",
-    "color": [
-      26,
-      20,
-      89,
-      255
-    ],
+    "color": [26, 20, 89, 255],
     "effectAmounts": [
       {
         "name": "{664da10b}",
@@ -133,12 +113,7 @@
     "region_subtitle": "Ilhas das Sombras",
     "region": "ShadowIsles",
     "apiName": "TFT9_RegionPortals_ThreshsSanctum",
-    "color": [
-      64,
-      53,
-      15,
-      255
-    ],
+    "color": [64, 53, 15, 255],
     "effectAmounts": [
       {
         "name": "{3389a500}",
@@ -162,12 +137,7 @@
     "region_subtitle": "Ionia",
     "region": "Ionia",
     "apiName": "TFT9_RegionPortals_PlacidiumLibrary",
-    "color": [
-      83,
-      38,
-      111,
-      255
-    ],
+    "color": [83, 38, 111, 255],
     "effectAmounts": [
       {
         "name": "Stage",
@@ -188,12 +158,7 @@
     "region_subtitle": "Freljord",
     "region": "Freljord",
     "apiName": "TFT9_RegionPortals_HearthHome",
-    "color": [
-      153,
-      98,
-      34,
-      255
-    ],
+    "color": [153, 98, 34, 255],
     "effectAmounts": [
       {
         "name": "Stage",
@@ -209,39 +174,34 @@
   },
   {
     "name": "Depressão de Valar",
-            "description": "No estágio @ItemStage1@-@ItemRound1@ recebe uma bigorna de componente. No @Stage1@-@Round1@, ganha uma bigorna de item de suporte ",
-            "short": "Ganha um item de suporte durante o jogo",
-            "region_subtitle": "Freljord",
-            "region": "Freljord",
-            "apiName": "TFT9_RegionPortals_ValarsHollow",
-            "color": [
-                153,
-                98,
-                34,
-                255
-            ],
-            "effectAmounts": [
-                {
-                    "name": "Stage1",
-                    "value": 3,
-                    "match": "Stage1"
-                },
-                {
-                    "name": "Round1",
-                    "value": 3,
-                    "match": "Round1"
-                },
-                {
-                    "name": "ItemStage1",
-                    "value": 2,
-                    "match": "ItemStage1"
-                },
-                {
-                    "name": "ItemRound1",
-                    "value": 3,
-                    "match": "ItemRound1"
-                }
-            ]
+    "description": "No estágio @ItemStage1@-@ItemRound1@ recebe uma bigorna de componente. No @Stage1@-@Round1@, ganha uma bigorna de item de suporte ",
+    "short": "Ganha um item de suporte durante o jogo",
+    "region_subtitle": "Freljord",
+    "region": "Freljord",
+    "apiName": "TFT9_RegionPortals_ValarsHollow",
+    "color": [153, 98, 34, 255],
+    "effectAmounts": [
+      {
+        "name": "Stage1",
+        "value": 3,
+        "match": "Stage1"
+      },
+      {
+        "name": "Round1",
+        "value": 3,
+        "match": "Round1"
+      },
+      {
+        "name": "ItemStage1",
+        "value": 2,
+        "match": "ItemStage1"
+      },
+      {
+        "name": "ItemRound1",
+        "value": 3,
+        "match": "ItemRound1"
+      }
+    ]
   },
   {
     "name": "Targon Primordial",
@@ -250,12 +210,7 @@
     "region_subtitle": "Targon",
     "region": "Targon",
     "apiName": "TFT9_RegionPortals_TargonPrime",
-    "color": [
-      127,
-      37,
-      40,
-      255
-    ],
+    "color": [127, 37, 40, 255],
     "effectAmounts": [
       {
         "name": "{bd707e51}",
@@ -271,12 +226,7 @@
     "region_subtitle": "Demacia",
     "region": "Demacia",
     "apiName": "TFT9_RegionPortals_HouseLightshield",
-    "color": [
-      72,
-      58,
-      1,
-      255
-    ],
+    "color": [72, 58, 1, 255],
     "effectAmounts": [
       {
         "name": "{664da10b}",
@@ -297,12 +247,7 @@
     "region_subtitle": "Freljord",
     "region": "Freljord",
     "apiName": "TFT9_RegionPortals_OrnnsForge",
-    "color": [
-      153,
-      98,
-      34,
-      255
-    ],
+    "color": [153, 98, 34, 255],
     "effectAmounts": [
       {
         "name": "{c2a09a14}",
@@ -333,12 +278,7 @@
     "region_subtitle": "Shurima",
     "region": "Shurima",
     "apiName": "TFT9_RegionPortals_ShurimanBazaar",
-    "color": [
-      29,
-      66,
-      89,
-      255
-    ],
+    "color": [29, 66, 89, 255],
     "effectAmounts": [
       {
         "name": "{85bfaca4}",
@@ -354,12 +294,7 @@
     "region_subtitle": "Zaun",
     "region": "Zaun",
     "apiName": "TFT9_RegionPortals_EclipticVaults",
-    "color": [
-      14,
-      63,
-      11,
-      255
-    ],
+    "color": [14, 63, 11, 255],
     "effectAmounts": [
       {
         "name": "{0e32cc71}",
@@ -375,12 +310,7 @@
     "region_subtitle": "Targon",
     "region": "Targon",
     "apiName": "TFT9_RegionPortals_MarusOmegnum",
-    "color": [
-      127,
-      37,
-      40,
-      255
-    ],
+    "color": [127, 37, 40, 255],
     "effectAmounts": [
       {
         "name": "{c2a09a14}",
@@ -411,12 +341,7 @@
     "region_subtitle": "Shurima",
     "region": "Shurima",
     "apiName": "TFT9_RegionPortals_ShiftingSands",
-    "color": [
-      29,
-      66,
-      89,
-      255
-    ],
+    "color": [29, 66, 89, 255],
     "effectAmounts": [
       {
         "name": "{396fb56a}",
@@ -436,12 +361,7 @@
     "region_subtitle": "O Vazio",
     "region": "Void",
     "apiName": "TFT9_RegionPortals_TheHallOfTheNine",
-    "color": [
-      115,
-      36,
-      91,
-      255
-    ]
+    "color": [115, 36, 91, 255]
   },
   {
     "name": "Rift Instável",
@@ -450,12 +370,7 @@
     "region_subtitle": "O Vazio",
     "region": "Void",
     "apiName": "TFT9_RegionPortals_UnstableRift",
-    "color": [
-      115,
-      36,
-      91,
-      255
-    ]
+    "color": [115, 36, 91, 255]
   },
   {
     "name": "Arvoredo do Salgueiro Divino",
@@ -464,12 +379,7 @@
     "region_subtitle": "Ionia",
     "region": "Ionia",
     "apiName": "TFT9_RegionPortals_GodWillowsGrove",
-    "color": [
-      83,
-      38,
-      111,
-      255
-    ],
+    "color": [83, 38, 111, 255],
     "effectAmounts": [
       {
         "name": "{664da10b}",
@@ -488,12 +398,7 @@
     "region_subtitle": "Piltover",
     "region": "Piltover",
     "apiName": "TFT9_RegionPortals_StillwaterHold",
-    "color": [
-      148,
-      55,
-      2,
-      255
-    ]
+    "color": [148, 55, 2, 255]
   },
   {
     "name": "A Poça dos Sonhos",
@@ -502,12 +407,7 @@
     "region_subtitle": "Ionia",
     "region": "Ionia",
     "apiName": "TFT9_RegionPortals_TheDreamingPool",
-    "color": [
-      83,
-      38,
-      111,
-      255
-    ]
+    "color": [83, 38, 111, 255]
   },
   {
     "name": "Arena da Carnificina",
@@ -516,12 +416,7 @@
     "region_subtitle": "Noxus",
     "region": "Noxus",
     "apiName": "TFT9_RegionPortals_YordlePordles",
-    "color": [
-      71,
-      82,
-      7,
-      255
-    ],
+    "color": [71, 82, 7, 255],
     "effectAmounts": [
       {
         "name": "{672387c8}",
@@ -556,12 +451,7 @@
     "region_subtitle": "Zaun",
     "region": "Zaun",
     "apiName": "TFT9_RegionPortals_GlascIndustries",
-    "color": [
-      14,
-      63,
-      11,
-      255
-    ],
+    "color": [14, 63, 11, 255],
     "effectAmounts": [
       {
         "name": "{b9b4d8d7}",
@@ -577,12 +467,7 @@
     "region_subtitle": "Bandópolis",
     "region": "BandleCity",
     "apiName": "TFT9_RegionPortals_YuumisZoomZone",
-    "color": [
-      71,
-      82,
-      7,
-      255
-    ],
+    "color": [71, 82, 7, 255],
     "effectAmounts": [
       {
         "name": "{bed4e54c}",
@@ -598,12 +483,7 @@
     "region_subtitle": "Targon",
     "region": "Targon",
     "apiName": "TFT9_RegionPortals_TheSummit",
-    "color": [
-      127,
-      37,
-      40,
-      255
-    ],
+    "color": [127, 37, 40, 255],
     "effectAmounts": [
       {
         "name": "{664da10b}",
@@ -624,12 +504,7 @@
     "region_subtitle": "Demacia",
     "region": "Demacia",
     "apiName": "TFT9_RegionPortals_PetriciteForest",
-    "color": [
-      72,
-      58,
-      1,
-      255
-    ],
+    "color": [72, 58, 1, 255],
     "effectAmounts": [
       {
         "name": "{bd897c04}",
@@ -654,12 +529,7 @@
     "region_subtitle": "Bandópolis",
     "region": "BandleCity",
     "apiName": "TFT9_RegionPortals_ScuttlePuddle",
-    "color": [
-      71,
-      82,
-      7,
-      255
-    ],
+    "color": [71, 82, 7, 255],
     "effectAmounts": [
       {
         "name": "{1fdb9eb0}",
@@ -678,12 +548,7 @@
     "region_subtitle": "Noxus",
     "region": "Noxus",
     "apiName": "TFT9_RegionPortals_Noxkraya",
-    "color": [
-      26,
-      20,
-      89,
-      255
-    ]
+    "color": [26, 20, 89, 255]
   },
   {
     "name": "A Universidade",
@@ -692,12 +557,7 @@
     "region_subtitle": "Piltover",
     "region": "Piltover",
     "apiName": "TFT9_RegionPortals_TheUniversity",
-    "color": [
-      148,
-      55,
-      2,
-      255
-    ]
+    "color": [148, 55, 2, 255]
   },
   {
     "name": "Oficina do Jayce",
@@ -706,12 +566,7 @@
     "region_subtitle": "Piltover",
     "region": "Piltover",
     "apiName": "TFT9_RegionPortals_JaycesWorkshop",
-    "color": [
-      148,
-      55,
-      2,
-      255
-    ]
+    "color": [148, 55, 2, 255]
   },
   {
     "name": "A Ruptura",
@@ -720,12 +575,7 @@
     "region_subtitle": "O Vazio",
     "region": "Void",
     "apiName": "TFT9_RegionPortals_TheRupture",
-    "color": [
-      115,
-      36,
-      91,
-      255
-    ]
+    "color": [115, 36, 91, 255]
   },
   {
     "name": "Lanchonete de Bandópolis",
@@ -734,12 +584,7 @@
     "region_subtitle": "Bandópolis",
     "region": "BandleCity",
     "apiName": "TFT9_RegionPortals_BandleCafeteria",
-    "color": [
-      71,
-      82,
-      7,
-      255
-    ],
+    "color": [71, 82, 7, 255],
     "effectAmounts": [
       {
         "name": "{664da10b}",
@@ -765,12 +610,7 @@
     "region_subtitle": "Targon",
     "region": "Targon",
     "apiName": "TFT9_RegionPortals_MarusOmegnum_SF",
-    "color": [
-      127,
-      37,
-      40,
-      255
-    ],
+    "color": [127, 37, 40, 255],
     "effectAmounts": [
       {
         "name": "{c2a09a14}",
@@ -801,12 +641,7 @@
     "region_subtitle": "Águas de Sentina",
     "region": "Águas de Sentina",
     "apiName": "TFT9_RegionPortals_FinnsMarket",
-    "color": [
-      135,
-      114,
-      14,
-      255
-    ]
+    "color": [135, 114, 14, 255]
   },
   {
     "name": "Cidade dos Ratos",
@@ -815,12 +650,7 @@
     "region_subtitle": "Águas de Sentina",
     "region": "Águas de Sentina",
     "apiName": "TFT9_RegionPortals_RatTown",
-    "color": [
-      135,
-      114,
-      14,
-      255
-    ]
+    "color": [135, 114, 14, 255]
   },
   {
     "name": "Docas da Matança",
@@ -829,12 +659,7 @@
     "region_subtitle": "Águas de Sentina",
     "region": "Águas de Sentina",
     "apiName": "TFT9_RegionPortals_SlaughterDocks",
-    "color": [
-      135,
-      114,
-      14,
-      255
-    ],
+    "color": [135, 114, 14, 255],
     "effectAmounts": [
       {
         "name": "BaseRerolls",
@@ -850,12 +675,7 @@
     "region_subtitle": "Ixtal",
     "region": "Ixtal",
     "apiName": "TFT9_RegionPortals_Ixaocan",
-    "color": [
-      73,
-      133,
-      34,
-      255
-    ],
+    "color": [73, 133, 34, 255],
     "effectAmounts": [
       {
         "name": "NumberOfUpgradedUnits",
@@ -871,12 +691,7 @@
     "region_subtitle": "Ixtal",
     "region": "Ixtal",
     "apiName": "TFT9_RegionPortals_CardinalArcology",
-    "color": [
-      73,
-      133,
-      34,
-      255
-    ]
+    "color": [73, 133, 34, 255]
   },
   {
     "name": "Rio Serpentino",
@@ -885,11 +700,6 @@
     "region_subtitle": "Ixtal",
     "region": "Ixtal",
     "apiName": "TFT9_RegionPortals_SerpentineRiver",
-    "color": [
-      33,
-      32,
-      20,
-      255
-    ]
+    "color": [33, 32, 20, 255]
   }
 ]

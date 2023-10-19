@@ -4,7 +4,7 @@ import CommonJSON from '~~/assets/pt/common.json'
 import UnitsJSON from '~~/assets/pt/units.json'
 
 export default cachedEventHandler(async (event) => {
-  const { search } : { search?: string} = getQuery(event)
+  const { search }: { search?: string } = getQuery(event)
 
   console.info('search', search)
 
@@ -103,7 +103,7 @@ export default cachedEventHandler(async (event) => {
   })
   const description = Mustache.render(desc, effects, {}, ['@', '@'])
 
-  return `${augment.name} (${rank}) ⋮-> ${description}`
+  return `${augment.name} (${rank}) -> ${description}`
 }, {
   maxAge: 60 * 60 * 24 * 7
 })
