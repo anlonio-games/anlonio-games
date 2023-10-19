@@ -95,3 +95,26 @@ model tftPlayers {
 
   @@map("tft_players")
 }
+
+model tftIxtal {
+  id           BigInt         @id @default(autoincrement())
+  createdAt    DateTime?      @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt    DateTime?      @default(now()) @map("updated_at") @db.Timestamptz(6)
+  name         String
+  description  String
+  tftMatchData tftMatchData[]
+
+  @@map("tft_ixtal")
+}
+
+model tftMatchData {
+  id         BigInt    @id @default(autoincrement())
+  channel    String    @unique
+  createdAt  DateTime? @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt  DateTime? @default(now()) @map("updated_at") @db.Timestamptz(6)
+  portal     String?
+  ixtal      tftIxtal? @relation(fields: [tftIxtalId], references: [id])
+  tftIxtalId BigInt?
+
+  @@map("tft_match_data")
+}
