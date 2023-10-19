@@ -54,5 +54,6 @@ export default eventHandler(async (event) => {
     ageText = '| Idade: Segredo'
   }
 
-  return `${nick} ${ageText} | CAMPEÃO FAVORITO: ${favChamp} | CURIOSIDADES: ${funFacts} | XP: ${experience}`
+  return `${nick} ${ageText} ${favChamp ? '| CAMPEÃO FAVORITO: ' + favChamp : ''}
+   ${funFacts ? '| CURIOSIDADES: ' + funFacts : ''} ${experience ? '| XP: ' + experience : ''}`
 })

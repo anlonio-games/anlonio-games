@@ -11,7 +11,8 @@ export default eventHandler(async (event) => {
 
   const entries = Object.entries(portals)
 
-  const index = entries.findIndex(p => getSlug(p[1].name) === search || p[1].name === search)
+  const searchUC = search?.toUpperCase()
+  const index = entries.findIndex(p => getSlug(p[1].name) === searchUC || p[1].name.toUpperCase() === searchUC)
 
   if (index === -1) {
     setResponseStatus(event, 404, 'Not Found')
