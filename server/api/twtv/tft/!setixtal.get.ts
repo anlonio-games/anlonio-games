@@ -9,14 +9,27 @@ export default eventHandler(async (event) => {
 
   const prisma = event.context.prisma
 
-  const ixtal = await prisma.tftIxtal.findFirst({
-    where: {
-      name: {
-        contains: search?.trim(),
-        mode: 'insensitive'
+  let ixtal
+
+  if (search?.length === 1) {
+    ixtal = await prisma.tftIxtal.findFirst({
+      where: {
+        name: {
+          startsWith: search?.trim(),
+          mode: 'insensitive'
+        }
       }
-    }
-  })
+    })
+  } else {
+    ixtal = await prisma.tftIxtal.findFirst({
+      where: {
+        name: {
+          equals: search?.trim(),
+          mode: 'insensitive'
+        }
+      }
+    })
+  }
 
   if (!ixtal) {
     return 'Nenhum Ixtal Encontrado.'
@@ -39,5 +52,5 @@ export default eventHandler(async (event) => {
     }
   })
 
-  return `Ixtal da partida alterado para: ${ixtal.name}: `
+  return `Ixtal da partida alterado para: ${ixtal.name}`
 })

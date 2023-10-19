@@ -112,7 +112,7 @@ model tftMatchData {
   channel    String    @unique
   createdAt  DateTime? @default(now()) @map("created_at") @db.Timestamptz(6)
   updatedAt  DateTime? @default(now()) @map("updated_at") @db.Timestamptz(6)
-  portal     String?
+  portal     Int?
   ixtal      tftIxtal? @relation(fields: [tftIxtalId], references: [id])
   tftIxtalId BigInt?
 
