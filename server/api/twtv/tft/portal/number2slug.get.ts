@@ -16,7 +16,7 @@ export default eventHandler((event) => {
   const portal = entries[searchId]?.[1]
 
   if (portal) {
-    return `/me (${portal.region}) ${portal.name} ⋮-> ${portal.description}`
+    return `/me (${portal.region}) ${portal.name} -> ${portal.description}`
   } else {
     setResponseStatus(event, 404, 'Not Found')
   }

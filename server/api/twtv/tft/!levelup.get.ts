@@ -1,8 +1,8 @@
 export default eventHandler((event) => {
-  const { search } : { search?: string} = getQuery(event)
+  const { search }: { search?: string } = getQuery(event)
 
-  const help = `Saiba quanto de EXP você vai receber usando o Aprimoramento NOVO NÍVEl ⋮->
-  Digite o custo em ouro para subir para o próximo nível. Exemplo: !levelup 8`
+  const help = `Saiba quanto de EXP você vai receber usando o Aprimoramento NOVO NÍVEl ->
+  Digite o custo em ouro para subir para o próximo nível. Exemplo: !novonivel 8`
 
   if (!search || search === 'help') {
     return help
