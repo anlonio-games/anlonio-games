@@ -6,11 +6,11 @@ export default eventHandler(async (event) => {
   console.info('search', search)
 
   if (!search || search === 'help') {
-    return `Patch atual: ${currentPatch} | Digite !aug [nome do aprimoramento] para obter informações sobre o aprimoramento. Exemplo: !aug jinx carry | Essa api é mantida pelo Anlonio, para mais informações acesse: https://anlonio.games`
+    return `Patch atual: ${currentPatch} | Digite !aprimoramento [nome do aprimoramento] para obter informações sobre o aprimoramento. Exemplo: !aprimoramento Itens de Pandora | Essa api é mantida pelo Anlonio Games.`
   }
 
   if (search.length < 3) {
-    return 'Texto muito curto. Digite !aug [nome do aprimoramento] para obter informações sobre o aprimoramento.'
+    return 'Texto muito curto. Digite !aprimoramento [nome do aprimoramento] para obter informações sobre o aprimoramento.'
   }
 
   const prisma = event.context.prisma
@@ -24,5 +24,5 @@ export default eventHandler(async (event) => {
   // build name
   const { name, rank, description } = await getAugText(augment) || {}
 
-  return `${name} (${rank}) ⋮-> ${description} Para estatísticas, digite !stats ${name}` // !stats ${name}
+  return `${name} (${rank}) -> ${description}` // !stats ${name}
 })
