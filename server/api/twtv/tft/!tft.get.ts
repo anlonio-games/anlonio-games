@@ -11,5 +11,5 @@ export default eventHandler(async (event) => {
     return 'Essa live não possui comandos do anlonio.games disponíveis'
   }
 
-  return `Essa live possui os seguintes comandos do anlonio.games: ${aliases.join(', ')}`
+  return `Essa live possui os seguintes comandos da Anlonio Games: ${aliases.join(', ')}`
 })
