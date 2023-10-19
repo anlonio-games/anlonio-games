@@ -23,7 +23,8 @@
 <script setup lang="ts">
 definePageMeta({
   layout: 'landing',
-  title: 'Quem Somos'
+  alias: '/equipe',
+  title: 'Equipe'
 })
 </script>
 
