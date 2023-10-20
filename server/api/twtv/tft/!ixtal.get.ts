@@ -20,7 +20,7 @@ export default eventHandler(async (event) => {
     })
 
     if (!matchData) {
-      return 'Digite !ixtal seguido de um dos elementos para ver sua descrição. Os elementos são: Pedra, Vento, Gelo, Eletricidade, Fogo e Madeira. | Essa api é mantida pela Anlonio Games.'
+      return 'Carregando Ixtal da partida... Bip Bop Bip, Sou um robô um pouco lento às vezes 🤖'
     }
 
     ixtal = matchData.ixtal
