@@ -19,7 +19,7 @@ export default eventHandler(async (event) => {
       }
     })
 
-    if (!matchData) {
+    if (!matchData || !matchData.ixtal) {
       return 'Carregando Ixtal da partida... Bip Bop Bip, Sou um robô um pouco lento às vezes 🤖'
     }
 
