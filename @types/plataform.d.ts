@@ -1,0 +1,1 @@
+type Plataform = 'twitch' | 'youtube'
