@@ -1,3 +1,3 @@
 export function removeTwitchChatOptions (message: string) {
-  return message.replace('/me', '').replace('/annouce', '')
+  return message.replace('/me', '').replace('/announce', '')
 }
