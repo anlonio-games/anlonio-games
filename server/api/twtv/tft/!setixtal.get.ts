@@ -32,6 +32,25 @@ export default eventHandler(async (event) => {
   }
 
   if (!ixtal) {
+    if (!search || search === 'help') {
+      if (!ixtal) {
+        await prisma.tftMatchData.upsert({
+          where: {
+            channel: channelSearch
+          },
+          create: {
+            channel: channelSearch,
+            tftIxtalId: null
+          },
+          update: {
+            tftIxtalId: null
+          }
+        })
+
+        return 'Ixtal da partida removido.'
+      }
+    }
+
     return 'Nenhum Ixtal Encontrado.'
   }
 
