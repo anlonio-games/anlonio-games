@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  nitro: {
+    preset: 'vercel',
+    plugins: ['~/server/plugins/0.response.ts']
+  },
   app: {
     head: {
       title: 'Anlonio Games',
@@ -10,7 +14,7 @@ export default defineNuxtConfig({
       ]
     }
   },
-  plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }, { src: 'server/plugins/0.response.ts', mode: 'server' }],
+  plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
   modules: [
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt'
