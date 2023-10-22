@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       ]
     }
   },
-  plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
+  plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }, { src: 'server/plugins/0.response.ts', mode: 'server' }],
   modules: [
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt'
