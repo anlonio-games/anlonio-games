@@ -1,9 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  nitro: {
-    preset: 'vercel',
-    plugins: ['~/server/plugins/0.response.ts']
-  },
   app: {
     head: {
       title: 'Anlonio Games',
