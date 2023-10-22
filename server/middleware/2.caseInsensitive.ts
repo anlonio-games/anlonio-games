@@ -1,5 +1,6 @@
 export default eventHandler((event) => {
-  if (event.path !== event.path.toLocaleLowerCase()) {
-    sendRedirect(event, event.path.toLocaleLowerCase())
+  const commandCI = event.path.replace(/(![a-z0-9]+\?)/i, match => match.toLocaleLowerCase())
+  if (event.path !== commandCI) {
+    sendRedirect(event, commandCI)
   }
 })
