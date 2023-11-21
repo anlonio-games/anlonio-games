@@ -20,5 +20,5 @@ export default eventHandler((event) => {
   }
 
   // Eu dedico esse comentário ao Mourice. Como todo o meu ódio matinal
-  return `/me ${gold} de ouro = ${gold / 4 * 7} de EXP com Novo Nível`
+  return `/me ${gold} de ouro = ${gold / 4 * 6} de EXP com Novo Nível`
 })

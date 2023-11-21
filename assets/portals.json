@@ -1,1141 +1,24 @@
 {
-  "TFT9_RegionPortals_SerpentineRiver_Spatula": {
-    "name": "Espátula",
-    "description": "",
-    "short": "Todos ganham uma espátula!",
+  "TFT_Portals_Augments_GoldThird": {
+    "name": "Último Aprimoramento de Ouro",
+    "description": "O último Aprimoramento oferecido nesta partida será de Ouro. ",
+    "short": "O último Aprimoramento oferecido nesta partida será de Ouro. ",
     "region_subtitle": "",
-    "region": "Spatula",
-    "apiName": "TFT9_RegionPortals_SerpentineRiver_Spatula",
+    "region": "Augments",
+    "apiName": "TFT_Portals_Augments_GoldThird",
     "color": [33, 32, 20, 255],
+    "icon": "AugmentCards_Icon",
     "corrected_color": "(20,32,33)"
   },
-  "TFT9_RegionPortals_Ixaocan": {
-    "name": "Ixaocan",
-    "description": "Sempre que alguém subir as estrelas de 20 unidades, todo mundo na partida ganhará espólios cada vez mais valiosos.",
-    "short": "Recebe itens quando o saguão aumenta o número de estrelas das unidades.",
-    "region_subtitle": "Ixtal",
-    "region": "Ixtal",
-    "apiName": "TFT9_RegionPortals_Ixaocan",
-    "color": [73, 133, 34, 255],
-    "effectAmounts": [
-      {
-        "name": "NumberOfUpgradedUnits",
-        "value": 20,
-        "match": "NumberOfUpgradedUnits"
-      }
-    ],
-    "corrected_color": "(34,133,73)"
-  },
-  "TFT9_RegionPortals_SerpentineRiver_Gold": {
-    "name": "Ouro",
-    "description": "",
-    "short": "Todos recebem @GoldAmount@ de ouro.",
+  "TFT_Portals_Champions_RandomChampion": {
+    "name": "Campeões gratuitos",
+    "description": "Duas vezes por Estágio, receba um Campeão grátis de custo alto. O custo aumenta com o tempo de partida.",
+    "short": "Duas vezes por Estágio, receba um Campeão grátis de custo alto. O custo aumenta com o tempo de partida.",
     "region_subtitle": "",
-    "region": "Gold",
-    "apiName": "TFT9_RegionPortals_SerpentineRiver_Gold",
+    "region": "Champions",
+    "apiName": "TFT_Portals_Champions_RandomChampion",
     "color": [33, 32, 20, 255],
-    "effectAmounts": [
-      {
-        "name": "GoldAmount",
-        "value": 8
-      }
-    ],
-    "corrected_color": "(20,32,33)"
-  },
-  "TFT9_RegionPortals_VIPLounge": {
-    "name": "Sala VIP",
-    "description": "Duas vezes por jogo, Finn, o comerciante de Águas de Sentina, aparecerá aleatoriamente para oferecer itens Completos, Radiantes, de Artefato ou de Suporte. Você pode escolher um de graça!<br><br>O Estágio 4-7 é substituído por uma rodada de Arsenal de tesouros. Cada atualização de loja custa 1. ",
-    "short": "Obtenha uma seleção de itens poderosos do comerciante Finn. A última rodada do Estágio @Stage@ é substituída por um Arsenal de tesouros. ",
-    "region_subtitle": "Águas de Sentina",
-    "region": "Bilgewater",
-    "apiName": "TFT9_RegionPortals_VIPLounge",
-    "color": [135, 114, 14, 255],
-    "effectAmounts": [
-      {
-        "name": "Stage",
-        "value": 4,
-        "match": "Stage"
-      },
-      {
-        "name": "Round",
-        "value": 7,
-        "match": "Round"
-      },
-      {
-        "name": "TooltipRerollCost",
-        "value": 1,
-        "match": "TooltipRerollCost"
-      },
-      {
-        "name": "{ad7fcebc}",
-        "value": 0.2
-      },
-      {
-        "name": "{642f9304}",
-        "value": 0.3
-      },
-      {
-        "name": "{15ac68eb}",
-        "value": 1
-      },
-      {
-        "name": "{a7caf841}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(14,114,135)"
-  },
-  "TFT9_RegionPortals_RollingStone": {
-    "name": "Roda a Roleta",
-    "description": "Sempre que alguém subir as estrelas de 20 unidades, todo mundo na partida ganhará espólios cada vez mais valiosos. <br><br>Recebe atualizações grátis equivalentes ao número do Estágio, e depois mais 1 no início de cada estágio. Dura apenas na rodada em que as receber.",
-    "short": "Recebe itens quando o saguão aumenta o número de estrelas das unidades e atualizações grátis no início de cada estágio.",
-    "region_subtitle": "Ixtal",
-    "region": "Ixtal",
-    "apiName": "TFT9_RegionPortals_RollingStone",
-    "color": [73, 133, 34, 255],
-    "effectAmounts": [
-      {
-        "name": "NumberOfUpgradedUnits",
-        "value": 20,
-        "match": "NumberOfUpgradedUnits"
-      },
-      {
-        "name": "BaseRerolls",
-        "value": 1,
-        "match": "BaseRerolls"
-      },
-      {
-        "name": "{6a0e84ba}",
-        "value": 1
-      },
-      {
-        "name": "{e2489cbe}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(34,133,73)"
-  },
-  "TFT9_RegionPortals_FinnsMarket": {
-    "name": "Mercado do Finn",
-    "description": "Duas vezes por jogo, Finn, o comerciante de Águas de Sentina, aparecerá aleatoriamente para oferecer itens Completos, Radiantes, de Artefato ou de Suporte. Você pode escolher um de graça!",
-    "short": "Obtenha uma seleção de itens poderosos!",
-    "region_subtitle": "Águas de Sentina",
-    "region": "Bilgewater",
-    "apiName": "TFT9_RegionPortals_FinnsMarket",
-    "color": [135, 114, 14, 255],
-    "corrected_color": "(14,114,135)"
-  },
-  "TFT9_RegionPortals_TheGoldenEra": {
-    "name": "Era de Ouro",
-    "description": "Todas os Campeões no Carrossel terão 2 componentes em vez de apenas 1. <br><br>Toda vez que construir um item, recebe 3 de ouro. ",
-    "short": "Os Carrosséis de componentes têm componentes adicionais para cada Campeão. Ao construir itens, recebe ouro.",
-    "region_subtitle": "Shurima",
-    "region": "Shurima",
-    "apiName": "TFT9_RegionPortals_TheGoldenEra",
-    "color": [29, 66, 89, 255],
-    "effectAmounts": [
-      {
-        "name": "TooltipNumComponents",
-        "value": 2,
-        "match": "TooltipNumComponents"
-      },
-      {
-        "name": "GoldAmount",
-        "value": 3,
-        "match": "GoldAmount"
-      },
-      {
-        "name": "{e137d61d}",
-        "value": 1
-      },
-      {
-        "name": "{0ccda3a3}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(89,66,29)"
-  },
-  "TFT9_RegionPortals_BeatsByScuttle": {
-    "name": "Batidão do Aronguejo",
-    "description": "Todos os Aprimoramentos oferecidos nesta partida serão Prismáticos. <br><br>Todos os monstros PvE são substituídos por Aronguejos que concedem espólios adicionais.",
-    "short": "Todos os Aprimoramentos oferecidos nesta partida serão Prismáticos. Todos os monstros PvE são substituídos por Aronguejos que concedem espólios adicionais.",
-    "region_subtitle": "Piltover",
-    "region": "Piltover",
-    "apiName": "TFT9_RegionPortals_BeatsByScuttle",
-    "color": [148, 55, 2, 255],
-    "effectAmounts": [
-      {
-        "name": "{52d86f59}",
-        "value": 1
-      },
-      {
-        "name": "{b54b3b21}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(2,55,148)"
-  },
-  "TFT9_RegionPortals_SerpentineRiver_Tome": {
-    "name": "Tomo das Características",
-    "description": "",
-    "short": "Todos recebem um Tomo das Características. ",
-    "region_subtitle": "",
-    "region": "Tome",
-    "apiName": "TFT9_RegionPortals_SerpentineRiver_Tome",
-    "color": [33, 32, 20, 255],
-    "corrected_color": "(20,32,33)"
-  },
-  "TFT9_RegionPortals_ChillBeats": {
-    "name": "Batidas Relaxantes",
-    "description": "No Estágio 2-3, recebe uma Bigorna de Item Componente e, no Estágio 3-3, recebe uma Bigorna de Item de Suporte. <br><br>De forma aleatória, no Estágio 2-5 ou 3-5, recebe uma Bigorna de Artefato. <br><br>No Estágio 4-5, você recebe uma Melhoria do Mestre-Artesão que permite aprimorar um item equipado para sua versão Radiante.",
-    "short": "Aprimore um dos itens para sua versão Radiante. Recebe um Item de Suporte e um Artefato durante a partida.",
-    "region_subtitle": "Freljord",
-    "region": "Freljord",
-    "apiName": "TFT9_RegionPortals_ChillBeats",
-    "color": [153, 98, 34, 255],
-    "effectAmounts": [
-      {
-        "name": "Stage1",
-        "value": 3,
-        "match": "Stage1"
-      },
-      {
-        "name": "Round1",
-        "value": 3,
-        "match": "Round1"
-      },
-      {
-        "name": "ItemStage1",
-        "value": 2,
-        "match": "ItemStage1"
-      },
-      {
-        "name": "ItemRound1",
-        "value": 3,
-        "match": "ItemRound1"
-      },
-      {
-        "name": "{a3ccb8f3}",
-        "value": 4,
-        "match": "HStage"
-      },
-      {
-        "name": "{62cdbdc5}",
-        "value": 5,
-        "match": "HRound"
-      },
-      {
-        "name": "{4b6fe7db}",
-        "value": 2,
-        "match": "OStage1"
-      },
-      {
-        "name": "{4c6fe96e}",
-        "value": 3,
-        "match": "OStage2"
-      },
-      {
-        "name": "{75dd2155}",
-        "value": 5,
-        "match": "ORound1"
-      },
-      {
-        "name": "{72dd1c9c}",
-        "value": 5,
-        "match": "ORound2"
-      },
-      {
-        "name": "{b2bfc67a}",
-        "value": 1
-      },
-      {
-        "name": "{d0ed1dff}",
-        "value": 1
-      },
-      {
-        "name": "{5f9e70e4}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(34,98,153)"
-  },
-  "TFT9_RegionPortals_SerpentineRiver_LootOrb": {
-    "name": "Caixa Misteriosa",
-    "description": "",
-    "short": "Todos recebem um orbe de espólio de valor misterioso. ",
-    "region_subtitle": "",
-    "region": "LootOrb",
-    "apiName": "TFT9_RegionPortals_SerpentineRiver_LootOrb",
-    "color": [33, 32, 20, 255],
-    "corrected_color": "(20,32,33)"
-  },
-  "TFT9_RegionPortals_SerpentineRiver_Health": {
-    "name": "Vida",
-    "description": "",
-    "short": "Todos recebem @HealthAmount@ de Vida do Estrategista.",
-    "region_subtitle": "",
-    "region": "Health",
-    "apiName": "TFT9_RegionPortals_SerpentineRiver_Health",
-    "color": [33, 32, 20, 255],
-    "effectAmounts": [
-      {
-        "name": "HealthAmount",
-        "value": 8
-      }
-    ],
-    "corrected_color": "(20,32,33)"
-  },
-  "TFT9_RegionPortals_CardinalArcology": {
-    "name": "Arcologia Cardinal",
-    "description": "Sempre serão oferecidos, nesta ordem, um Aprimoramento de Prata, de Ouro ou Prismático.",
-    "short": "Recebe sempre um Aprimoramento de Prata, um de Ouro e um Prismático.",
-    "region_subtitle": "Ixtal",
-    "region": "Ixtal",
-    "apiName": "TFT9_RegionPortals_CardinalArcology",
-    "color": [73, 133, 34, 255],
-    "corrected_color": "(34,133,73)"
-  },
-  "TFT9_RegionPortals_IonianDuet": {
-    "name": "Dueto Ioniano",
-    "description": "Um espaço na sua reserva se torna o bosque. Um Campeão dentro dele contribui com características não únicas como se estivessem em seu exército.<br><br>Recebe um Pergaminho do Conhecimento no Estágio 3-5. Utilize em um Campeão para abrir um Arsenal que oferece emblemas relacionados às características da unidade. ",
-    "short": "Uma unidade na sua reserva pode contribuir com características para o tabuleiro. Escolha um emblema de Característica de uma das suas unidades.",
-    "region_subtitle": "Ionia",
-    "region": "Ionia",
-    "apiName": "TFT9_RegionPortals_IonianDuet",
-    "color": [83, 38, 111, 255],
-    "effectAmounts": [
-      {
-        "name": "Stage",
-        "value": 3,
-        "match": "Stage"
-      },
-      {
-        "name": "Round",
-        "value": 5,
-        "match": "Round"
-      },
-      {
-        "name": "StartStage",
-        "value": 2,
-        "match": "StartStage"
-      },
-      {
-        "name": "StartRound",
-        "value": 1,
-        "match": "StartRound"
-      },
-      {
-        "name": "{1c6e6137}",
-        "value": 1
-      },
-      {
-        "name": "{9f0df9a4}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(111,38,83)"
-  },
-  "TFT9_RegionPortals_RatTown": {
-    "name": "Cidade dos Ratos",
-    "description": "A partir do Estágio 2, Lojas da Sorte aparecem aleatoriamente uma vez por Estágio. Essas lojas têm unidades personalizadas de acordo com as características ativas do seu exército.",
-    "short": "As Lojas da Sorte podem surgir aleatoriamente, com unidades perfeitas para o seu exército.",
-    "region_subtitle": "Águas de Sentina",
-    "region": "Bilgewater",
-    "apiName": "TFT9_RegionPortals_RatTown",
-    "color": [135, 114, 14, 255],
-    "corrected_color": "(14,114,135)"
-  },
-  "TFT9_RegionPortals_Crescendo": {
-    "name": "Crescendo",
-    "description": "Cada vez que você seleciona um Aprimoramento, recebe 4 de ouro por Aprimoramento obtido.<br><br>Sempre serão oferecidos, nesta ordem, um Aprimoramento de Prata, de Ouro e Prismático.",
-    "short": "Recebe ouro toda vez que selecionar um Aprimoramento. Recebe sempre um Aprimoramento de Prata, um de Ouro e um Prismático.",
-    "region_subtitle": "Zaun",
-    "region": "Zaun",
-    "apiName": "TFT9_RegionPortals_Crescendo",
-    "color": [14, 63, 11, 255],
-    "effectAmounts": [
-      {
-        "name": "GoldPerAugment",
-        "value": 4,
-        "match": "GoldPerAugment"
-      },
-      {
-        "name": "{c8d61711}",
-        "value": 1
-      },
-      {
-        "name": "{4b5092f7}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(11,63,14)"
-  },
-  "TFT9_RegionPortals_OpeningAct": {
-    "name": "Ato de Abertura",
-    "description": "Recebe 3 Bigornas de Componentes no início da partida. <br><br>O primeiro Aprimoramento oferecido nesta partida será Prismático. ",
-    "short": "Comece com Bigornas de Componentes. O primeiro Aprimoramento oferecido nesta partida será Prismático. ",
-    "region_subtitle": "Demacia",
-    "region": "Demacia",
-    "apiName": "TFT9_RegionPortals_OpeningAct",
-    "color": [72, 58, 1, 255],
-    "effectAmounts": [
-      {
-        "name": "NumAnvils",
-        "value": 3,
-        "match": "NumAnvils"
-      },
-      {
-        "name": "Stage",
-        "value": 1,
-        "match": "Stage"
-      },
-      {
-        "name": "Round",
-        "value": 2,
-        "match": "Round"
-      },
-      {
-        "name": "{3d4b4c5d}",
-        "value": 1
-      },
-      {
-        "name": "{29f82aac}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(1,58,72)"
-  },
-  "TFT9_RegionPortals_SerpentineRiver": {
-    "name": "Rio Serpentino",
-    "description": "Os carrosséis dos estágios 2 e 4 são substituídos por rodadas de votação. Todos recebem uma Bigorna de Componente e a recompensa vencedora! ",
-    "short": "Converte alguns carrosséis em rodadas de votação adicionais para obter espólio!",
-    "region_subtitle": "Ixtal",
-    "region": "Ixtal",
-    "apiName": "TFT9_RegionPortals_SerpentineRiver",
-    "color": [73, 133, 34, 255],
-    "corrected_color": "(34,133,73)"
-  },
-  "TFT9_RegionPortals_CenterStage": {
-    "name": "Palco Central",
-    "description": "Recebe uma Coroa de Demacia no Estágio 2-1. Se o usuário for abatido, você perde a luta instantaneamente. <br><br>Recebe um Pergaminho do Conhecimento no Estágio 3-5. Utilize em um Campeão para abrir um Arsenal que oferece emblemas relacionados às características da unidade. <br><br>No Estágio 4-5, você recebe uma Melhoria do Mestre-Artesão que permite aprimorar um item equipado para sua versão Radiante.",
-    "short": "Coroa um de seus Campeões e tenta protegê-lo. Aprimore um dos itens para sua versão Radiante. Escolha um emblema de Característica de uma das suas unidades.",
-    "region_subtitle": "Demacia",
-    "region": "Demacia",
-    "apiName": "TFT9_RegionPortals_CenterStage",
-    "color": [72, 58, 1, 255],
-    "effectAmounts": [
-      {
-        "name": "StartStage",
-        "value": 2,
-        "match": "StartStage"
-      },
-      {
-        "name": "StartRound",
-        "value": 1,
-        "match": "StartRound"
-      },
-      {
-        "name": "Stage",
-        "value": 4,
-        "match": "Stage"
-      },
-      {
-        "name": "Round",
-        "value": 5,
-        "match": "Round"
-      },
-      {
-        "name": "{fd6e8fbb}",
-        "value": 3,
-        "match": "PStage"
-      },
-      {
-        "name": "{8d2cef8d}",
-        "value": 5,
-        "match": "PRound"
-      },
-      {
-        "name": "{8718fb48}",
-        "value": 1
-      },
-      {
-        "name": "{b2bfc67a}",
-        "value": 1
-      },
-      {
-        "name": "{9f0df9a4}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(1,58,72)"
-  },
-  "TFT9_RegionPortals_TheRudeSandstorm": {
-    "name": "Batalha das Areias",
-    "description": "No início de cada rodada, Campeões nos seus 3 espaços da reserva mais à direita se transformam em Campeões aleatórios com o mesmo custo. <br><br>Duas vezes por Estágio, recebe um Campeão grátis de tier alto. O tier do Campeão aumenta durante a partida.",
-    "short": "A cada rodada, Campeões nos seus espaços da reserva mais à direita se transformam em Campeões aleatórios com o mesmo custo. Duas vezes por Estágio, receba um Campeão grátis de tier alto.",
-    "region_subtitle": "Noxus",
-    "region": "Noxus",
-    "apiName": "TFT9_RegionPortals_TheRudeSandstorm",
-    "color": [26, 20, 89, 255],
-    "effectAmounts": [
-      {
-        "name": "BenchSlots",
-        "value": 3,
-        "match": "BenchSlots"
-      },
-      {
-        "name": "Gold",
-        "match": "Gold"
-      },
-      {
-        "name": "{965e296c}",
-        "value": 1
-      },
-      {
-        "name": "{5bbeb0a5}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(89,20,26)"
-  },
-  "TFT9_RegionPortals_RupturedHarmony": {
-    "name": "Harmonia em Ruptura",
-    "description": "Viaja para um Portal Reformulado aleatório não exibido anteriormente.",
-    "short": "Viaja para um Portal Reformulado aleatório não exibido anteriormente.",
-    "region_subtitle": "O Vazio",
-    "region": "Void",
-    "apiName": "TFT9_RegionPortals_RupturedHarmony",
-    "color": [115, 36, 91, 255],
-    "corrected_color": "(91,36,115)"
-  },
-  "TFT9_RegionPortals_SerpentineRiver_Component": {
-    "name": "Bigorna de Componentes",
-    "description": "",
-    "short": "Todos recebem uma Bigorna de Componente.",
-    "region_subtitle": "",
-    "region": "Component",
-    "apiName": "TFT9_RegionPortals_SerpentineRiver_Component",
-    "color": [33, 32, 20, 255],
-    "corrected_color": "(20,32,33)"
-  },
-  "TFT9_RegionPortals_ValarsHollow": {
-    "name": "Depressão de Valar",
-    "description": "No Estágio 2-3, recebe uma Bigorna de Item Componente e, no Estágio 3-3, recebe uma Bigorna de Item de Suporte. ",
-    "short": "Recebe um Item de Suporte durante a partida.",
-    "region_subtitle": "Freljord",
-    "region": "Freljord",
-    "apiName": "TFT9_RegionPortals_ValarsHollow",
-    "color": [153, 98, 34, 255],
-    "effectAmounts": [
-      {
-        "name": "Stage1",
-        "value": 3,
-        "match": "Stage1"
-      },
-      {
-        "name": "Round1",
-        "value": 3,
-        "match": "Round1"
-      },
-      {
-        "name": "ItemStage1",
-        "value": 2,
-        "match": "ItemStage1"
-      },
-      {
-        "name": "ItemRound1",
-        "value": 3,
-        "match": "ItemRound1"
-      }
-    ],
-    "corrected_color": "(34,98,153)"
-  },
-  "TFT9_RegionPortals_HighNotes": {
-    "name": "Notas Agudas",
-    "description": "A partir do Estágio 2, Lojas da Sorte aparecem aleatoriamente uma vez por Estágio. Essas lojas têm unidades personalizadas de acordo com as características ativas do seu exército. <br><br>Ao comprar pontos de EXP, você recebe mais 2.",
-    "short": "As Lojas da Sorte podem surgir aleatoriamente, com unidades perfeitas para o seu exército. Ao comprar EXP, você recebe EXP adicional.",
-    "region_subtitle": "Águas de Sentina",
-    "region": "Bilgewater",
-    "apiName": "TFT9_RegionPortals_HighNotes",
-    "color": [135, 114, 14, 255],
-    "effectAmounts": [
-      {
-        "name": "BonusXP",
-        "value": 2,
-        "match": "BonusXP"
-      }
-    ],
-    "corrected_color": "(14,114,135)"
-  },
-  "TFT9_RegionPortals_SerpentineRiver_Rerolls": {
-    "name": "Trocas",
-    "description": "",
-    "short": "Todos recebem @NumRerolls@ trocas grátis que duram para sempre.",
-    "region_subtitle": "",
-    "region": "Rerolls",
-    "apiName": "TFT9_RegionPortals_SerpentineRiver_Rerolls",
-    "color": [33, 32, 20, 255],
-    "effectAmounts": [
-      {
-        "name": "NumRerolls",
-        "value": 5
-      }
-    ],
-    "corrected_color": "(20,32,33)"
-  },
-  "TFT9_RegionPortals_SlaughterDocks": {
-    "name": "Docas da Matança",
-    "description": "Recebe atualizações grátis equivalentes ao número do Estágio, e depois mais 1 no início de cada estágio! Dura apenas na rodada em que as recebe. ",
-    "short": "Recebe atualizações grátis no início de cada estágio!",
-    "region_subtitle": "Águas de Sentina",
-    "region": "Bilgewater",
-    "apiName": "TFT9_RegionPortals_SlaughterDocks",
-    "color": [135, 114, 14, 255],
-    "effectAmounts": [
-      {
-        "name": "BaseRerolls",
-        "value": 1,
-        "match": "BaseRerolls"
-      }
-    ],
-    "corrected_color": "(14,114,135)"
-  },
-  "TFT9_RegionPortals_SerpentineRiver_SupportItem": {
-    "name": "Item de Suporte",
-    "description": "",
-    "short": "Todos ganham uma Bigorna de Item de Suporte!",
-    "region_subtitle": "",
-    "region": "SupportItem",
-    "apiName": "TFT9_RegionPortals_SerpentineRiver_SupportItem",
-    "color": [33, 32, 20, 255],
-    "corrected_color": "(20,32,33)"
-  },
-  "TFT9_RegionPortals_FoodfightTactics": {
-    "name": "Tática de Guerra de Comida",
-    "description": "Recebe uma Espátula no Estágio 2-1. A cada rodada, Campeões com Espátulas alimentam seu aliado mais próximo com Poritos e concedem a ele 20 de Vida permanentemente para cada componente de Espátula que tiverem.<br><br>No Estágio 2-5 e 4-5, recebe uma Coroa do Estrategista.",
-    "short": "Recebe uma Espátula. Espátulas alimentam seus Campeões, concedendo Vida permanentemente a eles. Recebe duas Coroas do Estrategista ao longo da partida. ",
-    "region_subtitle": "Bandópolis",
-    "region": "BandleCity",
-    "apiName": "TFT9_RegionPortals_FoodfightTactics",
-    "color": [71, 82, 7, 255],
-    "effectAmounts": [
-      {
-        "name": "StartStage",
-        "value": 2,
-        "match": "StartStage"
-      },
-      {
-        "name": "StartRound",
-        "value": 1,
-        "match": "StartRound"
-      },
-      {
-        "name": "Health",
-        "value": 20,
-        "match": "Health"
-      },
-      {
-        "name": "Stage1",
-        "value": 2,
-        "match": "Stage1"
-      },
-      {
-        "name": "Round1",
-        "value": 5,
-        "match": "Round1"
-      },
-      {
-        "name": "Stage2",
-        "value": 4,
-        "match": "Stage2"
-      },
-      {
-        "name": "Round2",
-        "value": 5,
-        "match": "Round2"
-      },
-      {
-        "name": "{d7752699}",
-        "value": 1
-      },
-      {
-        "name": "{82bab025}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(7,82,71)"
-  },
-  "TFT9_RegionPortals_ProcessionalDirge": {
-    "name": "Canto Lutuoso",
-    "description": "Ao atingir 40 de Vida, recebe uma bênção dos deuses targonenses. <br><br>Sempre que um jogador morre, um Arsenal é aberto para todos os jogadores com 4 dos itens dos jogadores eliminados. ",
-    "short": "Ao ficar com Vida baixa, recebe uma bênção dos deuses targonenses. Sempre que um jogador morrer, escolha um dos itens dele para você.",
-    "region_subtitle": "Ilhas das Sombras",
-    "region": "ShadowIsles",
-    "apiName": "TFT9_RegionPortals_ProcessionalDirge",
-    "color": [64, 53, 15, 255],
-    "effectAmounts": [
-      {
-        "name": "NumChoices",
-        "value": 4,
-        "match": "NumChoices"
-      },
-      {
-        "name": "TooltipHealthThreshold",
-        "value": 40,
-        "match": "TooltipHealthThreshold"
-      }
-    ],
-    "corrected_color": "(15,53,64)"
-  },
-  "TFT9_RegionPortals_BasementShow": {
-    "name": "Show do Porão",
-    "description": "Não há juros na partida. Em vez disso, a partir do Estágio 2-1, receba 3 de ouro a cada rodada.<br><br>Se você receberia um Aprimoramento, em vez disso receba uma Bigorna de Item Completo.",
-    "short": "Não há juros na partida. Em vez disso, receba @GoldPerTurn@ de ouro a cada rodada. Se você receberia um Aprimoramento, em vez disso receba uma Bigorna de Item Completo.",
-    "region_subtitle": "Zaun",
-    "region": "Zaun",
-    "apiName": "TFT9_RegionPortals_BasementShow",
-    "color": [14, 63, 11, 255],
-    "effectAmounts": [
-      {
-        "name": "StartStage",
-        "value": 2,
-        "match": "StartStage"
-      },
-      {
-        "name": "StartRound",
-        "value": 1,
-        "match": "StartRound"
-      },
-      {
-        "name": "GoldPerTurn",
-        "value": 3,
-        "match": "GoldPerTurn"
-      },
-      {
-        "name": "{d136ce95}",
-        "value": 1
-      },
-      {
-        "name": "{6897a479}"
-      }
-    ],
-    "corrected_color": "(11,63,14)"
-  },
-  "TFT9_RegionPortals_WarlordsPalace": {
-    "name": "Palácio do Senhor da Guerra",
-    "description": "O Estágio 4-7 é substituído por uma rodada de Arsenal de tesouros. Cada atualização de loja custa 1 de ouro. ",
-    "short": "A última rodada do Estágio @Stage@ é substituída por um Arsenal de tesouros. ",
-    "region_subtitle": "Shurima",
-    "region": "Shurima",
-    "apiName": "TFT9_RegionPortals_WarlordsPalace",
-    "color": [29, 66, 89, 255],
-    "effectAmounts": [
-      {
-        "name": "Stage",
-        "value": 4,
-        "match": "Stage"
-      },
-      {
-        "name": "Round",
-        "value": 7,
-        "match": "Round"
-      },
-      {
-        "name": "TooltipRerollCost",
-        "value": 1,
-        "match": "TooltipRerollCost"
-      },
-      {
-        "name": "{ad7fcebc}",
-        "value": 0.2
-      },
-      {
-        "name": "{642f9304}",
-        "value": 0.3
-      }
-    ],
-    "corrected_color": "(89,66,29)"
-  },
-  "TFT9_RegionPortals_YoricksGraveyard": {
-    "name": "Cemitério do Yorick",
-    "description": "Sempre que um jogador morre, um Arsenal é aberto para todos os jogadores com 4 dos itens dos jogadores eliminados. ",
-    "short": "Sempre que um jogador morrer, escolha um dos itens dele para você.",
-    "region_subtitle": "Ilhas das Sombras",
-    "region": "ShadowIsles",
-    "apiName": "TFT9_RegionPortals_YoricksGraveyard",
-    "color": [64, 53, 15, 255],
-    "effectAmounts": [
-      {
-        "name": "NumChoices",
-        "value": 4,
-        "match": "NumChoices"
-      }
-    ],
-    "corrected_color": "(15,53,64)"
-  },
-  "TFT9_RegionPortals_TheSump": {
-    "name": "O Sumidouro",
-    "description": "Não há juros na partida. Em vez disso, a partir do Estágio 2-1, receba 3 de ouro a cada rodada.",
-    "short": "Não há juros na partida. Em vez disso, receba @GoldPerTurn@ de ouro a cada rodada.",
-    "region_subtitle": "Zaun",
-    "region": "Zaun",
-    "apiName": "TFT9_RegionPortals_TheSump",
-    "color": [14, 63, 11, 255],
-    "effectAmounts": [
-      {
-        "name": "StartStage",
-        "value": 2,
-        "match": "StartStage"
-      },
-      {
-        "name": "StartRound",
-        "value": 1,
-        "match": "StartRound"
-      },
-      {
-        "name": "GoldPerTurn",
-        "value": 3,
-        "match": "GoldPerTurn"
-      }
-    ],
-    "corrected_color": "(11,63,14)"
-  },
-  "TFT9_RegionPortals_ImmortalBastion": {
-    "name": "Bastião Imortal",
-    "description": "Jogadores começam com 115 de Vida.",
-    "short": "Jogadores começam com @TooltipTotalHealth@ de Vida.",
-    "region_subtitle": "Noxus",
-    "region": "Noxus",
-    "apiName": "TFT9_RegionPortals_ImmortalBastion",
-    "color": [26, 20, 89, 255],
-    "effectAmounts": [
-      {
-        "name": "{e86973e2}",
-        "value": 15
-      },
-      {
-        "name": "StartStage",
-        "value": 2,
-        "match": "StartStage"
-      },
-      {
-        "name": "StartRound",
-        "value": 1,
-        "match": "StartRound"
-      },
-      {
-        "name": "AttackSpeed",
-        "value": 0.2,
-        "match": "AttackSpeed"
-      },
-      {
-        "name": "HealthRatio",
-        "value": 0.2,
-        "match": "HealthRatio"
-      },
-      {
-        "name": "TooltipTotalHealth",
-        "value": 115,
-        "match": "TooltipTotalHealth"
-      }
-    ],
-    "corrected_color": "(89,20,26)"
-  },
-  "TFT9_RegionPortals_ThreshsSanctum": {
-    "name": "Santuário do Thresh",
-    "description": "Quando QUALQUER unidade for abatida, coleta a alma dela. A cada 40 almas coletadas, recebe um orbe de espólio. ",
-    "short": "Quando unidades são abatidas, ele coleta as almas. Receba espólio a cada @SoulsPerLoot@ almas coletadas.",
-    "region_subtitle": "Ilhas das Sombras",
-    "region": "ShadowIsles",
-    "apiName": "TFT9_RegionPortals_ThreshsSanctum",
-    "color": [64, 53, 15, 255],
-    "effectAmounts": [
-      {
-        "name": "SoulsPerLoot",
-        "value": 40,
-        "match": "SoulsPerLoot"
-      },
-      {
-        "name": "{689322e6}",
-        "value": 4
-      },
-      {
-        "name": "{cc31c4e0}",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(15,53,64)"
-  },
-  "TFT9_RegionPortals_PlacidiumLibrary": {
-    "name": "Biblioteca do Placídio",
-    "description": "Recebe um Pergaminho do Conhecimento no Estágio 3-5. Utilize em um Campeão para abrir um Arsenal que oferece emblemas relacionados às Características da unidade. ",
-    "short": "Escolha um emblema de Característica de uma das suas unidades!",
-    "region_subtitle": "Ionia",
-    "region": "Ionia",
-    "apiName": "TFT9_RegionPortals_PlacidiumLibrary",
-    "color": [83, 38, 111, 255],
-    "effectAmounts": [
-      {
-        "name": "Stage",
-        "value": 3,
-        "match": "Stage"
-      },
-      {
-        "name": "Round",
-        "value": 5,
-        "match": "Round"
-      }
-    ],
-    "corrected_color": "(111,38,83)"
-  },
-  "TFT9_RegionPortals_HearthHome": {
-    "name": "Pedra-Lar",
-    "description": "No Estágio 4-5, você recebe uma Melhoria do Mestre-Artesão que permite aprimorar um item equipado para sua versão Radiante.",
-    "short": "Aprimore um dos itens para sua versão Radiante.",
-    "region_subtitle": "Freljord",
-    "region": "Freljord",
-    "apiName": "TFT9_RegionPortals_HearthHome",
-    "color": [153, 98, 34, 255],
-    "effectAmounts": [
-      {
-        "name": "Stage",
-        "value": 4,
-        "match": "Stage"
-      },
-      {
-        "name": "Round",
-        "value": 5,
-        "match": "Round"
-      }
-    ],
-    "corrected_color": "(34,98,153)"
-  },
-  "TFT9_RegionPortals_TargonPrime": {
-    "name": "Targon Primordial",
-    "description": "Ao atingir 40 de Vida, receba uma bênção dos deuses targonenses.",
-    "short": "Ao ficar com Vida baixa, recebe uma bênção dos deuses targonenses.",
-    "region_subtitle": "Targon",
-    "region": "Targon",
-    "apiName": "TFT9_RegionPortals_TargonPrime",
-    "color": [127, 37, 40, 255],
-    "effectAmounts": [
-      {
-        "name": "TooltipHealthThreshold",
-        "value": 40,
-        "match": "TooltipHealthThreshold"
-      }
-    ],
-    "corrected_color": "(40,37,127)"
-  },
-  "TFT9_RegionPortals_HouseLightshield": {
-    "name": "Casa Lumescudo",
-    "description": "Recebe uma Coroa de Demacia no Estágio 2-1. Se o usuário for abatido, você perde a luta instantaneamente. ",
-    "short": "Coroa um de seus Campeões e tenta protegê-lo. ",
-    "region_subtitle": "Demacia",
-    "region": "Demacia",
-    "apiName": "TFT9_RegionPortals_HouseLightshield",
-    "color": [72, 58, 1, 255],
-    "effectAmounts": [
-      {
-        "name": "StartStage",
-        "value": 2,
-        "match": "StartStage"
-      },
-      {
-        "name": "StartRound",
-        "value": 1,
-        "match": "StartRound"
-      }
-    ],
-    "corrected_color": "(1,58,72)"
-  },
-  "TFT9_RegionPortals_OrnnsForge": {
-    "name": "Forja do Ornn",
-    "description": "De forma aleatória, no Estágio 2-5 ou 3-5, recebe uma Bigorna de Artefato. ",
-    "short": "Recebe um Artefato durante a partida. ",
-    "region_subtitle": "Freljord",
-    "region": "Freljord",
-    "apiName": "TFT9_RegionPortals_OrnnsForge",
-    "color": [153, 98, 34, 255],
-    "effectAmounts": [
-      {
-        "name": "Stage1",
-        "value": 2,
-        "match": "Stage1"
-      },
-      {
-        "name": "Round1",
-        "value": 5,
-        "match": "Round1"
-      },
-      {
-        "name": "Stage2",
-        "value": 3,
-        "match": "Stage2"
-      },
-      {
-        "name": "Round2",
-        "value": 5,
-        "match": "Round2"
-      }
-    ],
-    "corrected_color": "(34,98,153)"
-  },
-  "TFT9_RegionPortals_ShurimanBazaar": {
-    "name": "Mercado Shurimane",
-    "description": "Todas os Campeões no Carrossel terão 2 componentes em vez de apenas 1.",
-    "short": "Os Carrosséis de componentes têm componentes adicionais para cada Campeão.",
-    "region_subtitle": "Shurima",
-    "region": "Shurima",
-    "apiName": "TFT9_RegionPortals_ShurimanBazaar",
-    "color": [29, 66, 89, 255],
-    "effectAmounts": [
-      {
-        "name": "TooltipNumComponents",
-        "value": 2,
-        "match": "TooltipNumComponents"
-      }
-    ],
-    "corrected_color": "(89,66,29)"
-  },
-  "TFT9_RegionPortals_EclipticVaults": {
-    "name": "Cofres Eclípticos",
-    "description": "Cada vez que você selecionar um Aprimoramento, recebe 4 de ouro por Aprimoramento obtido.",
-    "short": "Recebe ouro toda vez que selecionar um Aprimoramento.",
-    "region_subtitle": "Zaun",
-    "region": "Zaun",
-    "apiName": "TFT9_RegionPortals_EclipticVaults",
-    "color": [14, 63, 11, 255],
-    "effectAmounts": [
-      {
-        "name": "GoldPerAugment",
-        "value": 4,
-        "match": "GoldPerAugment"
-      }
-    ],
-    "corrected_color": "(11,63,14)"
-  },
-  "TFT9_RegionPortals_MarusOmegnum": {
-    "name": "Marus Omegnum",
-    "description": "Nos Estágios 2-5 e 4-5, recebe uma Coroa do Estrategista.",
-    "short": "Recebe duas Coroas do Estrategista ao longo da partida. ",
-    "region_subtitle": "Targon",
-    "region": "Targon",
-    "apiName": "TFT9_RegionPortals_MarusOmegnum",
-    "color": [127, 37, 40, 255],
-    "effectAmounts": [
-      {
-        "name": "Stage1",
-        "value": 2,
-        "match": "Stage1"
-      },
-      {
-        "name": "Round1",
-        "value": 5,
-        "match": "Round1"
-      },
-      {
-        "name": "Stage2",
-        "value": 4,
-        "match": "Stage2"
-      },
-      {
-        "name": "Round2",
-        "value": 5,
-        "match": "Round2"
-      }
-    ],
-    "corrected_color": "(40,37,127)"
-  },
-  "TFT9_RegionPortals_ShiftingSands": {
-    "name": "Areias Oscilantes",
-    "description": "No início de cada rodada, Campeões nos seus 3 espaços da reserva mais à direita se transformam em Campeões aleatórios com o mesmo custo.",
-    "short": "A cada rodada, Campeões nos seus espaços da reserva mais à direita se transformam em Campeões aleatórios com o mesmo custo.",
-    "region_subtitle": "Shurima",
-    "region": "Shurima",
-    "apiName": "TFT9_RegionPortals_ShiftingSands",
-    "color": [29, 66, 89, 255],
-    "effectAmounts": [
-      {
-        "name": "BenchSlots",
-        "value": 3,
-        "match": "BenchSlots"
-      },
-      {
-        "name": "Gold",
-        "match": "Gold"
-      }
-    ],
-    "corrected_color": "(89,66,29)"
-  },
-  "TFT9_RegionPortals_TheHallOfTheNine": {
-    "name": "Salão dos Nove",
-    "description": "No início de cada Estágio, todos recebem o mesmo espólio de uma lista altamente variada.",
-    "short": "No início de cada Estágio, todos recebem o mesmo espólio aleatório.",
-    "region_subtitle": "O Vazio",
-    "region": "Void",
-    "apiName": "TFT9_RegionPortals_TheHallOfTheNine",
-    "color": [115, 36, 91, 255],
-    "corrected_color": "(91,36,115)"
-  },
-  "TFT9_RegionPortals_UnstableRift": {
-    "name": "Rift Instável",
-    "description": "Recebe um item completo instável que se transforma em um item aleatório a cada rodada. ",
-    "short": "Recebe um item instável que se transforma em um novo item aleatório a cada rodada. ",
-    "region_subtitle": "O Vazio",
-    "region": "Void",
-    "apiName": "TFT9_RegionPortals_UnstableRift",
-    "color": [115, 36, 91, 255],
-    "corrected_color": "(91,36,115)"
-  },
-  "TFT9_RegionPortals_GodWillowsGrove": {
-    "name": "Arvoredo do Salgueiro Divino",
-    "description": "Um espaço na sua reserva se torna o bosque. Um Campeão dentro dele contribui com características não únicas como se estivessem em seu exército.",
-    "short": "Uma unidade na sua reserva pode contribuir com características para o tabuleiro.",
-    "region_subtitle": "Ionia",
-    "region": "Ionia",
-    "apiName": "TFT9_RegionPortals_GodWillowsGrove",
-    "color": [83, 38, 111, 255],
-    "effectAmounts": [
-      {
-        "name": "StartStage",
-        "value": 2
-      },
-      {
-        "name": "StartRound",
-        "value": 1
-      }
-    ],
-    "corrected_color": "(111,38,83)"
-  },
-  "TFT9_RegionPortals_StillwaterHold": {
-    "name": "Prisão de Aguamansa",
-    "description": "Se você receberia um Aprimoramento, em vez disso receba uma Bigorna de Item completa.",
-    "short": "Se você receberia um Aprimoramento, em vez disso receba uma Bigorna de Item completa.",
-    "region_subtitle": "Piltover",
-    "region": "Piltover",
-    "apiName": "TFT9_RegionPortals_StillwaterHold",
-    "color": [148, 55, 2, 255],
-    "corrected_color": "(2,55,148)"
-  },
-  "TFT9_RegionPortals_TheDreamingPool": {
-    "name": "A Poça dos Sonhos",
-    "description": "No início de cada Estágio, você recebe um Campeão que se encaixa em sua equipe.",
-    "short": "No início de cada Estágio, você recebe um Campeão que se encaixa em sua equipe.",
-    "region_subtitle": "Ionia",
-    "region": "Ionia",
-    "apiName": "TFT9_RegionPortals_TheDreamingPool",
-    "color": [83, 38, 111, 255],
-    "corrected_color": "(111,38,83)"
-  },
-  "TFT9_RegionPortals_YordlePordles": {
-    "name": "Arena da Carnificina",
-    "description": "Duas vezes por Estágio, receba um Campeão grátis de tier alto. O tier do Campeão aumenta durante a partida.",
-    "short": "Duas vezes por Estágio, receba um Campeão grátis de tier alto.",
-    "region_subtitle": "Noxus",
-    "region": "Noxus",
-    "apiName": "TFT9_RegionPortals_YordlePordles",
-    "color": [26, 20, 89, 255],
+    "icon": "Champ_Icon",
     "effectAmounts": [
       {
         "name": "{672387c8}",
@@ -1162,77 +45,22 @@
         "value": 1
       }
     ],
-    "corrected_color": "(89,20,26)"
+    "corrected_color": "(20,32,33)"
   },
-  "TFT9_RegionPortals_GlascIndustries": {
-    "name": "Indústrias Glasc",
-    "description": "Toda vez que construir um item, recebe 3 de ouro. ",
-    "short": "Ao construir itens, recebe ouro.",
-    "region_subtitle": "Zaun",
-    "region": "Zaun",
-    "apiName": "TFT9_RegionPortals_GlascIndustries",
-    "color": [14, 63, 11, 255],
+  "TFT_Portals_Items_CompletedAnvil": {
+    "name": "Bigorna de Item Completo",
+    "description": "Começa com 1 Bigorna(s) de Item Completo.",
+    "short": "Começa com @NumItems@ Bigorna(s) de Item Completo.",
+    "region_subtitle": "",
+    "region": "Items",
+    "apiName": "TFT_Portals_Items_CompletedAnvil",
+    "color": [33, 32, 20, 255],
+    "icon": "Item_Icon",
     "effectAmounts": [
       {
-        "name": "GoldAmount",
-        "value": 3,
-        "match": "GoldAmount"
-      }
-    ],
-    "corrected_color": "(11,63,14)"
-  },
-  "TFT9_RegionPortals_YuumisZoomZone": {
-    "name": "Zona Frenética da Yuumi",
-    "description": "Ao comprar pontos de EXP, você recebe mais 2.",
-    "short": "Ao comprar EXP, você recebe EXP adicional.",
-    "region_subtitle": "Bandópolis",
-    "region": "BandleCity",
-    "apiName": "TFT9_RegionPortals_YuumisZoomZone",
-    "color": [71, 82, 7, 255],
-    "effectAmounts": [
-      {
-        "name": "BonusXP",
-        "value": 2,
-        "match": "BonusXP"
-      }
-    ],
-    "corrected_color": "(7,82,71)"
-  },
-  "TFT9_RegionPortals_TheSummit": {
-    "name": "O Topo",
-    "description": "A partir do Estágio 3, recebe um Duplicador de Campeão Inferior no início de cada Estágio. A partir do Estágio 5, recebe um Duplicador de Campeão. ",
-    "short": "Recebe um Duplicador de Campeão Inferior ou normal no início de cada Estágio. ",
-    "region_subtitle": "Targon",
-    "region": "Targon",
-    "apiName": "TFT9_RegionPortals_TheSummit",
-    "color": [127, 37, 40, 255],
-    "effectAmounts": [
-      {
-        "name": "StartStage",
-        "value": 3,
-        "match": "StartStage"
-      },
-      {
-        "name": "StageSwitch",
-        "value": 5,
-        "match": "StageSwitch"
-      }
-    ],
-    "corrected_color": "(40,37,127)"
-  },
-  "TFT9_RegionPortals_PetriciteForest": {
-    "name": "Ehrenmount",
-    "description": "Recebe 3 Bigornas de Componentes no início da partida.",
-    "short": "Comece com Bigornas de Componentes.",
-    "region_subtitle": "Demacia",
-    "region": "Demacia",
-    "apiName": "TFT9_RegionPortals_PetriciteForest",
-    "color": [72, 58, 1, 255],
-    "effectAmounts": [
-      {
-        "name": "NumAnvils",
-        "value": 3,
-        "match": "NumAnvils"
+        "name": "NumItems",
+        "value": 1,
+        "match": "NumItems"
       },
       {
         "name": "Stage",
@@ -1245,16 +73,503 @@
         "match": "Round"
       }
     ],
-    "corrected_color": "(1,58,72)"
+    "corrected_color": "(20,32,33)"
   },
-  "TFT9_RegionPortals_ScuttlePuddle": {
+  "TFT_Portals_Augments_TripleGold": {
+    "name": "Todos os Aprimoramentos de Ouro",
+    "description": "Todos os Aprimoramentos oferecidos nesta partida serão de Ouro. ",
+    "short": "Todos os Aprimoramentos oferecidos nesta partida serão de Ouro. ",
+    "region_subtitle": "",
+    "region": "Augments",
+    "apiName": "TFT_Portals_Augments_TripleGold",
+    "color": [33, 32, 20, 255],
+    "icon": "AugmentCards_Icon",
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Unique_DoubleItemCarousel": {
+    "name": "Carrossel de componentes duplos",
+    "description": "Todos os Campeões no Carrossel terão 2 componentes em vez de apenas 1.",
+    "short": "Os Carrosséis de componentes têm componentes adicionais para cada Campeão.",
+    "region_subtitle": "",
+    "region": "Unique",
+    "apiName": "TFT_Portals_Unique_DoubleItemCarousel",
+    "color": [33, 32, 20, 255],
+    "icon": "Spatula_Icon",
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Unique_MaxHealthDecrease": {
+    "name": "Redução da Vida de jogador",
+    "description": "Começa com 85  de Vida de jogador.",
+    "short": "Começa com @TooltipTotalHealth@  de Vida de jogador.",
+    "region_subtitle": "",
+    "region": "Unique",
+    "apiName": "TFT_Portals_Unique_MaxHealthDecrease",
+    "color": [33, 32, 20, 255],
+    "icon": "Spatula_Icon",
+    "effectAmounts": [
+      {
+        "name": "MaxHealth",
+        "value": 15,
+        "match": "MaxHealth"
+      },
+      {
+        "name": "TooltipTotalHealth",
+        "value": 85,
+        "match": "TooltipTotalHealth"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Augments_TripleSilver": {
+    "name": "Todos os Aprimoramentos de Prata",
+    "description": "Todos os Aprimoramentos oferecidos nesta partida serão de Prata.",
+    "short": "Todos os Aprimoramentos oferecidos nesta partida serão de Prata.",
+    "region_subtitle": "",
+    "region": "Augments",
+    "apiName": "TFT_Portals_Augments_TripleSilver",
+    "color": [33, 32, 20, 255],
+    "icon": "AugmentCards_Icon",
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Champions_UpgradedChampions": {
+    "name": "Campeão aprimorado",
+    "description": "Começa com um Campeão 2 estrelas de custo 1.",
+    "short": "Começa com um Campeão 2 estrelas de custo @Tier@.",
+    "region_subtitle": "",
+    "region": "Champions",
+    "apiName": "TFT_Portals_Champions_UpgradedChampions",
+    "color": [33, 32, 20, 255],
+    "icon": "Champ_Icon",
+    "effectAmounts": [
+      {
+        "name": "Tier",
+        "value": 1,
+        "match": "Tier"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Augments_PrismaticFirst": {
+    "name": "1º Aprimoramento Prismático",
+    "description": "O primeiro Aprimoramento oferecido nesta partida será Prismático.",
+    "short": "O primeiro Aprimoramento oferecido nesta partida será Prismático.",
+    "region_subtitle": "",
+    "region": "Augments",
+    "apiName": "TFT_Portals_Augments_PrismaticFirst",
+    "color": [33, 32, 20, 255],
+    "icon": "AugmentCards_Icon",
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Combat_KillCounter": {
+    "name": "Contagem de abates",
+    "description": "Todas as unidades exibem a própria contagem de abates.",
+    "short": "Todas as unidades exibem a própria contagem de abates.",
+    "region_subtitle": "",
+    "region": "Combat",
+    "apiName": "TFT_Portals_Combat_KillCounter",
+    "color": [33, 32, 20, 255],
+    "icon": "Combat_Icon",
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Gold_Cashout": {
+    "name": "Pote de Ouro",
+    "description": "No Estágio 6-1, todos os jogadores restantes dividem um pote com 120 de ouro.",
+    "short": "No Estágio @Stage@-@Round@, todos os jogadores restantes dividem um pote com @Gold@ de ouro.",
+    "region_subtitle": "",
+    "region": "Gold",
+    "apiName": "TFT_Portals_Gold_Cashout",
+    "color": [33, 32, 20, 255],
+    "icon": "Coins_Icon",
+    "effectAmounts": [
+      {
+        "name": "Stage",
+        "value": 6,
+        "match": "Stage"
+      },
+      {
+        "name": "Round",
+        "value": 1,
+        "match": "Round"
+      },
+      {
+        "name": "Gold",
+        "value": 120,
+        "match": "Gold"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Champions_DuplicatorStart": {
+    "name": "Duplicador de Campeão",
+    "description": "Começa a partida com um Duplicador de Campeão.",
+    "short": "Começa a partida com um Duplicador de Campeão.",
+    "region_subtitle": "",
+    "region": "Champions",
+    "apiName": "TFT_Portals_Champions_DuplicatorStart",
+    "color": [33, 32, 20, 255],
+    "icon": "Champ_Icon",
+    "effectAmounts": [
+      {
+        "name": "Stage",
+        "value": 1
+      },
+      {
+        "name": "Round",
+        "value": 2
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Gold_MaxInterest": {
+    "name": "Máximo de Juros",
+    "description": "O valor de juros máximo é aumentado para 7 de ouro.",
+    "short": "O valor de juros máximo é aumentado para @MaxInterest@ de ouro.",
+    "region_subtitle": "",
+    "region": "Gold",
+    "apiName": "TFT_Portals_Gold_MaxInterest",
+    "color": [33, 32, 20, 255],
+    "icon": "Coins_Icon",
+    "effectAmounts": [
+      {
+        "name": "{fd1f540f}",
+        "value": 7,
+        "match": "MaxInterest"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Gold_GoldPerItem": {
+    "name": "Ouro por Item",
+    "description": "Toda vez que constrói um item, recebe 2 de ouro. ",
+    "short": "Ao construir itens, recebe ouro.",
+    "region_subtitle": "",
+    "region": "Gold",
+    "apiName": "TFT_Portals_Gold_GoldPerItem",
+    "color": [33, 32, 20, 255],
+    "icon": "Coins_Icon",
+    "effectAmounts": [
+      {
+        "name": "GoldAmount",
+        "value": 2,
+        "match": "GoldAmount"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Items_TomeOfTraits": {
+    "name": "Tomo das Características",
+    "description": "Recebe 1 Tomo(s) das Características no início da partida, permitindo que você escolha 1 de 4 Emblemas.",
+    "short": "Recebe @NumItems@ Tomo(s) das Características no início da partida, permitindo que você escolha 1 de 4 Emblemas.",
+    "region_subtitle": "",
+    "region": "Items",
+    "apiName": "TFT_Portals_Items_TomeOfTraits",
+    "color": [33, 32, 20, 255],
+    "icon": "Item_Icon",
+    "effectAmounts": [
+      {
+        "name": "NumItems",
+        "value": 1,
+        "match": "NumItems"
+      },
+      {
+        "name": "Stage",
+        "value": 1,
+        "match": "Stage"
+      },
+      {
+        "name": "Round",
+        "value": 2,
+        "match": "Round"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Combat_ZoomZone": {
+    "name": "Acelerador de unidade",
+    "description": "Sua equipe recebe 10% de Velocidade de Ataque e Velocidade de Movimento adicional.",
+    "short": "Sua equipe recebe Velocidade de Ataque e Velocidade de Movimento adicionais.",
+    "region_subtitle": "",
+    "region": "Combat",
+    "apiName": "TFT_Portals_Combat_ZoomZone",
+    "color": [33, 32, 20, 255],
+    "icon": "Combat_Icon",
+    "effectAmounts": [
+      {
+        "name": "AttackSpeed",
+        "value": 0.1,
+        "match": "AttackSpeed"
+      },
+      {
+        "name": "MovementSpeed",
+        "value": 350,
+        "match": "MovementSpeed"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Headliner_Entourage": {
+    "name": "Comitiva",
+    "description": "No início do combate, Headliners concedem 150 de Vida e 15% de Velocidade de Ataque para aliados adjacentes.",
+    "short": "Headliners concedem atributos adicionais para aliados adjacentes.",
+    "region_subtitle": "",
+    "region": "Headliner",
+    "apiName": "TFT_Portals_Headliner_Entourage",
+    "color": [33, 32, 20, 255],
+    "icon": "Headliner_Icon",
+    "effectAmounts": [
+      {
+        "name": "BonusHealth",
+        "value": 150,
+        "match": "BonusHealth"
+      },
+      {
+        "name": "BonusAS",
+        "value": 0.15,
+        "match": "BonusAS"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Items_ComponentAnvil": {
+    "name": "Bigornas de Componentes",
+    "description": "Começa com 2 Bigorna(s) de Componentes.",
+    "short": "Começa com @NumItems@ Bigorna(s) de Componentes.",
+    "region_subtitle": "",
+    "region": "Items",
+    "apiName": "TFT_Portals_Items_ComponentAnvil",
+    "color": [33, 32, 20, 255],
+    "icon": "Item_Icon",
+    "effectAmounts": [
+      {
+        "name": "NumItems",
+        "value": 2,
+        "match": "NumItems"
+      },
+      {
+        "name": "Stage",
+        "value": 1,
+        "match": "Stage"
+      },
+      {
+        "name": "Round",
+        "value": 2,
+        "match": "Round"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Items_SupportAnvil": {
+    "name": "Bigorna de Suporte",
+    "description": "Recebe 1 Bigorna(s) de Suporte no início da partida. Itens de Suporte concedem auras que fortalecem sua equipe.",
+    "short": "Começa com uma Bigorna de Suporte, permitindo que você escolha itens únicos que fortalecem sua equipe.",
+    "region_subtitle": "",
+    "region": "Items",
+    "apiName": "TFT_Portals_Items_SupportAnvil",
+    "color": [33, 32, 20, 255],
+    "icon": "Item_Icon",
+    "effectAmounts": [
+      {
+        "name": "NumItems",
+        "value": 1,
+        "match": "NumItems"
+      },
+      {
+        "name": "Stage",
+        "value": 1,
+        "match": "Stage"
+      },
+      {
+        "name": "Round",
+        "value": 2,
+        "match": "Round"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Items_ArtifactAnvil": {
+    "name": "Bigorna de Artefato",
+    "description": "Começa com 1 Bigorna(s) de Componentes. Artefatos são itens poderosos que oferecem efeitos únicos.",
+    "short": "Começa com @NumItems@ Bigorna(s) de Componentes (escolha um item poderoso).",
+    "region_subtitle": "",
+    "region": "Items",
+    "apiName": "TFT_Portals_Items_ArtifactAnvil",
+    "color": [33, 32, 20, 255],
+    "icon": "Item_Icon",
+    "effectAmounts": [
+      {
+        "name": "NumItems",
+        "value": 1,
+        "match": "NumItems"
+      },
+      {
+        "name": "Stage",
+        "value": 1,
+        "match": "Stage"
+      },
+      {
+        "name": "Round",
+        "value": 2,
+        "match": "Round"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Gold_GoldPerAugment": {
+    "name": "Ouro por Aprimoramento",
+    "description": "Cada vez que você seleciona um Aprimoramento, recebe 3 de ouro por Aprimoramento obtido.",
+    "short": "Recebe ouro toda vez que seleciona um Aprimoramento.",
+    "region_subtitle": "",
+    "region": "Gold",
+    "apiName": "TFT_Portals_Gold_GoldPerAugment",
+    "color": [33, 32, 20, 255],
+    "icon": "Coins_Icon",
+    "effectAmounts": [
+      {
+        "name": "GoldPerAugment",
+        "value": 3,
+        "match": "GoldPerAugment"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Champions_ChampionStart": {
+    "name": "Início de custo 3",
+    "description": "Começa com um Campeão aleatório de custo 3.",
+    "short": "Começa com um Campeão aleatório de custo @Tier@.",
+    "region_subtitle": "",
+    "region": "Champions",
+    "apiName": "TFT_Portals_Champions_ChampionStart",
+    "color": [33, 32, 20, 255],
+    "icon": "Champ_Icon",
+    "effectAmounts": [
+      {
+        "name": "Tier",
+        "value": 3,
+        "match": "Tier"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Augments_SilverGoldPrismatic": {
+    "name": "Prata, Ouro, Prismático",
+    "description": "Sempre serão oferecidos, nesta ordem, um Aprimoramento de Prata, de Ouro ou Prismático.",
+    "short": "Recebe sempre um Aprimoramento de Prata, um de Ouro e um Prismático.",
+    "region_subtitle": "",
+    "region": "Augments",
+    "apiName": "TFT_Portals_Augments_SilverGoldPrismatic",
+    "color": [33, 32, 20, 255],
+    "icon": "AugmentCards_Icon",
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Headliner_Superstar": {
+    "name": "Multitalentosos",
+    "description": "Headliners concedem +1 a alguma das características deles.",
+    "short": "Headliners concedem +1 a alguma das características deles.",
+    "region_subtitle": "",
+    "region": "Headliner",
+    "apiName": "TFT_Portals_Headliner_Superstar",
+    "color": [33, 32, 20, 255],
+    "icon": "Headliner_Icon",
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Augments_PrismaticThird": {
+    "name": "Último Aprimoramento Prismático",
+    "description": "O último Aprimoramento oferecido nesta partida será Prismático.",
+    "short": "O último Aprimoramento oferecido nesta partida será Prismático.",
+    "region_subtitle": "",
+    "region": "Augments",
+    "apiName": "TFT_Portals_Augments_PrismaticThird",
+    "color": [33, 32, 20, 255],
+    "icon": "AugmentCards_Icon",
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Unique_MaxHealthIncrease": {
+    "name": "Aumento da Vida de jogador",
+    "description": "Começa com 115  de Vida de jogador.",
+    "short": "Começa com @TooltipTotalHealth@  de Vida de jogador.",
+    "region_subtitle": "",
+    "region": "Unique",
+    "apiName": "TFT_Portals_Unique_MaxHealthIncrease",
+    "color": [33, 32, 20, 255],
+    "icon": "Spatula_Icon",
+    "effectAmounts": [
+      {
+        "name": "MaxHealth",
+        "value": 15,
+        "match": "MaxHealth"
+      },
+      {
+        "name": "TooltipTotalHealth",
+        "value": 115,
+        "match": "TooltipTotalHealth"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Augments_TriplePrismatic": {
+    "name": "Todos os Aprimoramentos Prismáticos",
+    "description": "Todos os Aprimoramentos oferecidos nesta partida serão Prismáticos. ",
+    "short": "Todos os Aprimoramentos oferecidos nesta partida serão Prismáticos. ",
+    "region_subtitle": "",
+    "region": "Augments",
+    "apiName": "TFT_Portals_Augments_TriplePrismatic",
+    "color": [33, 32, 20, 255],
+    "icon": "AugmentCards_Icon",
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Items_RadiantItem": {
+    "name": "Item Radiante",
+    "description": "No Estágio 3-7, recebe um Removedor Magnético e escolhe 1 de 5 Itens Radiantes (versões mais poderosas dos itens completos).",
+    "short": "Escolha 1 de 5 Itens Radiantes no fim de jogo (versões mais poderosas dos itens completos).",
+    "region_subtitle": "",
+    "region": "Items",
+    "apiName": "TFT_Portals_Items_RadiantItem",
+    "color": [33, 32, 20, 255],
+    "icon": "Item_Icon",
+    "effectAmounts": [
+      {
+        "name": "Stage",
+        "value": 3,
+        "match": "Stage"
+      },
+      {
+        "name": "Round",
+        "value": 7,
+        "match": "Round"
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Combat_TrainingDummy": {
+    "name": "Boneco de Treinamento",
+    "description": "Começa com um Boneco de Treinamento.",
+    "short": "Começa com um Boneco de Treinamento.",
+    "region_subtitle": "",
+    "region": "Combat",
+    "apiName": "TFT_Portals_Combat_TrainingDummy",
+    "color": [33, 32, 20, 255],
+    "icon": "Combat_Icon",
+    "effectAmounts": [
+      {
+        "name": "Stage",
+        "value": 1
+      },
+      {
+        "name": "Round",
+        "value": 2
+      }
+    ],
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Unique_ScuttlePuddle": {
     "name": "Poça do Aronguejo",
-    "description": "Todos os monstros PvE são substituídos por Aronguejos que concedem espólios adicionais.",
-    "short": "Todos os monstros PvE são substituídos por Aronguejos que concedem espólios adicionais.",
-    "region_subtitle": "Bandópolis",
-    "region": "BandleCity",
-    "apiName": "TFT9_RegionPortals_ScuttlePuddle",
-    "color": [71, 82, 7, 255],
+    "description": "Monstros são substituídos por Aronguejos que concedem espólios adicionais.",
+    "short": "Monstros são substituídos por Aronguejos que concedem espólios adicionais.",
+    "region_subtitle": "",
+    "region": "Unique",
+    "apiName": "TFT_Portals_Unique_ScuttlePuddle",
+    "color": [33, 32, 20, 255],
+    "icon": "Spatula_Icon",
     "effectAmounts": [
       {
         "name": "{1fdb9eb0}",
@@ -1265,73 +580,71 @@
         "value": 20
       }
     ],
-    "corrected_color": "(7,82,71)"
+    "corrected_color": "(20,32,33)"
   },
-  "TFT9_RegionPortals_Noxkraya": {
-    "name": "Noxkraya",
-    "description": "A cada vez que você pega um Aprimoramento, uma casa de arena aleatória aparece. Campeões posicionados na casa de arena recebem um item que pode ser usado. ",
-    "short": "Recebe casas que concedem itens aos seus Campeões. ",
-    "region_subtitle": "Noxus",
-    "region": "Noxus",
-    "apiName": "TFT9_RegionPortals_Noxkraya",
-    "color": [26, 20, 89, 255],
-    "corrected_color": "(89,20,26)"
-  },
-  "TFT9_RegionPortals_TheUniversity": {
-    "name": "A Universidade",
-    "description": "O primeiro Aprimoramento oferecido nesta partida será Prismático. ",
-    "short": "O primeiro Aprimoramento oferecido nesta partida será Prismático. ",
-    "region_subtitle": "Piltover",
-    "region": "Piltover",
-    "apiName": "TFT9_RegionPortals_TheUniversity",
-    "color": [148, 55, 2, 255],
-    "corrected_color": "(2,55,148)"
-  },
-  "TFT9_RegionPortals_JaycesWorkshop": {
-    "name": "Oficina do Jayce",
-    "description": "Todos os Aprimoramentos oferecidos nesta partida serão Prismáticos. ",
-    "short": "Todos os Aprimoramentos oferecidos nesta partida serão Prismáticos. ",
-    "region_subtitle": "Piltover",
-    "region": "Piltover",
-    "apiName": "TFT9_RegionPortals_JaycesWorkshop",
-    "color": [148, 55, 2, 255],
-    "corrected_color": "(2,55,148)"
-  },
-  "TFT9_RegionPortals_TheRupture": {
-    "name": "A Ruptura",
-    "description": "Viaja para um local aleatório não exibido anteriormente.",
-    "short": "Viaja para um local aleatório não exibido anteriormente.",
-    "region_subtitle": "O Vazio",
-    "region": "Void",
-    "apiName": "TFT9_RegionPortals_TheRupture",
-    "color": [115, 36, 91, 255],
-    "corrected_color": "(91,36,115)"
-  },
-  "TFT9_RegionPortals_BandleCafeteria": {
-    "name": "Lanchonete de Bandópolis",
-    "description": "Recebe uma Espátula no Estágio 2-1. A cada rodada, Campeões com Espátulas alimentam seu aliado mais próximo com Poritos e concedem a ele 20 de Vida permanentemente para cada componente de Espátula que tiverem.",
-    "short": "Recebe uma Espátula. Espátulas alimentam seus Campeões, concedendo Vida permanentemente a eles. ",
-    "region_subtitle": "Bandópolis",
-    "region": "BandleCity",
-    "apiName": "TFT9_RegionPortals_BandleCafeteria",
-    "color": [71, 82, 7, 255],
+  "TFT_Portals_Items_Spatula": {
+    "name": "Espátula",
+    "description": "Começa com uma Espátula.",
+    "short": "Começa com uma Espátula.",
+    "region_subtitle": "",
+    "region": "Items",
+    "apiName": "TFT_Portals_Items_Spatula",
+    "color": [33, 32, 20, 255],
+    "icon": "Item_Icon",
     "effectAmounts": [
       {
-        "name": "StartStage",
-        "value": 2,
-        "match": "StartStage"
+        "name": "Stage",
+        "value": 1
       },
       {
-        "name": "StartRound",
-        "value": 1,
-        "match": "StartRound"
-      },
-      {
-        "name": "Health",
-        "value": 20,
-        "match": "Health"
+        "name": "Round",
+        "value": 2
       }
     ],
-    "corrected_color": "(7,82,71)"
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Headliner_Showtime": {
+    "name": "Hora do Show",
+    "description": "Headliners aparecem na sua Loja como se você estivesse 1 nível acima.",
+    "short": "Headliners de custo mais alto aparecem mais cedo.",
+    "region_subtitle": "",
+    "region": "Headliner",
+    "apiName": "TFT_Portals_Headliner_Showtime",
+    "color": [33, 32, 20, 255],
+    "icon": "Headliner_Icon",
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Augments_GoldFirst": {
+    "name": "1º Aprimoramento de Ouro",
+    "description": "O primeiro Aprimoramento oferecido nesta partida será Ouro. ",
+    "short": "O primeiro Aprimoramento oferecido nesta partida será Ouro. ",
+    "region_subtitle": "",
+    "region": "Augments",
+    "apiName": "TFT_Portals_Augments_GoldFirst",
+    "color": [33, 32, 20, 255],
+    "icon": "AugmentCards_Icon",
+    "corrected_color": "(20,32,33)"
+  },
+  "TFT_Portals_Champions_TripleStart": {
+    "name": "Começar com três Campeões",
+    "description": "Começa com 3 Campeões aleatórios de custo 1.",
+    "short": "Começa com 3 Campeões aleatórios de custo @Tier@.",
+    "region_subtitle": "",
+    "region": "Champions",
+    "apiName": "TFT_Portals_Champions_TripleStart",
+    "color": [33, 32, 20, 255],
+    "icon": "Champ_Icon",
+    "effectAmounts": [
+      {
+        "name": "Tier",
+        "value": 1,
+        "match": "Tier"
+      },
+      {
+        "name": "{39b1ddf4}",
+        "value": 3
+      }
+    ],
+    "corrected_color": "(20,32,33)"
   }
 }
