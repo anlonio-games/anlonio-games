@@ -1,2 +1,2 @@
-export const currentPatch = '13.23'
-export const currentPatchLink = 'riot.com/3G97PxV'
+export const currentPatch = '13.24'
+export const currentPatchLink = 'bit.ly/3RtAFPY'
